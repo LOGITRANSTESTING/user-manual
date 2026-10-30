@@ -1,0 +1,104 @@
+Rebuilt mapping document (Version 4). ILISCyber screenshots replaced with cleaned user-manual images; Afsys sections unchanged.
+
+- Pages updated: 69
+- New pages (Afsys blank, under Import Activity): 89
+- Mapping-only pages marked "- Not found in user manual": 6
+
+### Marked (not in manual)
+- Import Activity / Static Update / Modify Transhipment BL
+- Import Activity / Collect Charge - TR / Collect Charge - Agreement
+- Vessel Name Query
+- Telex Receive / Cancel - Receive
+- Telex Receive / Cancel - Receive / Telex Receive / Cancel - Cancel
+- Drop Off / Drop Off - Invoice
+
+### New pages
+- Status Change - How to Revert Cancelled BL
+- Cargo Release - How to process Cargo Release
+- Cargo Release - How to process Cargo Release for a single BL
+- Cargo Release - How to transfer Cargo Release
+- Cargo Release - How to assign Depot
+- Cargo Release - How to download Free Days
+- Cargo Release - How to Release Container
+- Cargo Release - How to Hold Container
+- TSP Pre Arrangement - How to edit data
+- TSP Pre Arrangement - How to generate customs to customer
+- TSP Pre Arrangement - How to generate customs to UNIFEEDER
+- TSP Confirm - How to Confirm Discharge
+- TSP Confirmation - How to add feeder voyage and port
+- ECOR Number Update - How to Update ECOR Number
+- ECOR Number Regenerate - How to Regenerate ECOR Number
+- Discharge List - How to Trigger Discharge List
+- ECOR Number Generate - How to Generate ECOR Number
+- Free Letter[EG] (Agent Specific - Batch) - How to process and right fax Free Letter
+- ATM Marking[SG] - How to Process ATM B/L Marking
+- Front Sheet Printing[NL] - How to Print Front Sheet
+- IT Generation[YMA] - How to Apply Default
+- IT Generation[YMA] - How to Save Nomination
+- IT Generation[YMA] - How to Process Nomination
+- IT Generation[YMA] - How to Save
+- IT Generation[YMA] - How to Regenerate IT
+- IT Generation[YMA] - How to Generate AI
+- IT Generation[YMA] - How to Bulk Delete
+- IT Generation[YMA] - How to process IT Number Change
+- CNRU Synchronization[YMA] - How to process CNRU Synchronization
+- CRCCF & NYSA Request Reports [YMA] - How to Generate Tonnage
+- CRCCF & NYSA Request Reports [YMA] - How to Generate CRCC
+- CRCCF & NYSA Request Reports [YMA] - How to Generate Report
+- CRCCF & NYSA Request Reports [YMA] - How to Remove BL
+- Split BL Loading IN - How to Save Changes
+- Split BL Loading IN - How to Process
+- Split BL Loading IN - How to Delete
+- Split BL Loading IN - How to Distribute charges
+- Split BL Loading IN - How to Revert Charges
+- Split BL Loading Others - How to process Check List
+- Split BL Loading Others - How to Process
+- Split BL Loading Others - How to Delete
+- Split BL Loading Others - How to view BL Details
+- Door Address Change - How to Add door address
+- Door Address Change - How to edit door address
+- Door Address Change - How to qc check address
+- Door Address Change - How to Delink
+- Door Address Change - How to Process Nomination
+- Door Address Change - How to delete
+- MRN Number Update - How to update MRN Number
+- Cargo Release - How to edit data(batch)
+- Cargo Release - How to edit data (single record)
+- Cargo Release - Accessing Dem Det Calc screen via Cargo Release screen
+- Cargo Release - Invoicing via Cargo release screen
+- Cargo Release - How to process Cargo release
+- Cargo Release Revalidate - How to edit data(batch)
+- Cargo Release Revalidate - How to edit data(Single record)
+- Cargo Release Revalidate - Accessing Dem Det Calc screen via Cargo Release Revalidate screen
+- Cargo Release Revalidate - Invoicing via Cargo Release Revalidate screen
+- Cargo Release Revalidate - How to process Cargo Release Revalidate
+- Cargo Release Reprint - How to process Cargo Release Reprint
+- Cancel Cargo Release - How to Cancel Cargo Release
+- ERO Revalidate - How to Revalidate ERO
+- EDI References [ES] - How to update EDI References [ES]
+- ECOR Number Cancellation - How to cancel ECOR Number
+- Local Charge Calculation - How to calculate and transfer local charges
+- Local Charge Calculation - How to delete charges
+- Free Letter[EG] (Agent Specific) - Accessing DEM DET Via Free Letter
+- Free Letter[EG] (Agent Specific) - Accessing EMS Query screen Via Free Letter
+- Free Letter[EG] (Agent Specific) - How to process Free letter
+- Free Letter[EG] (Agent Specific) - How to process Free letter Right Fax
+- Full Container Admission Process [TR] - How to process Full Container Admission
+- Full Container Admission Process [TR] - How to preview Full Container Admission
+- Full Container Admission Process [TR] - How to cancel Work Order
+- Undo FROB[YMA] - How to Undo FROB
+- CSD Query[UK] - How to view Consignee details
+- CSD Query[UK] - Accessing Door Address screen via CSD Query screen
+- CSD Query[UK] - Accessing OBL Marking screen via CSD Query screen
+- CSD Query[UK] - Accessing BL Modification screen via CSD Query screen
+- Dashboard - Voyage Call Port Summary - Functionalities
+- Dashboard - How to access Voyage Port Pair Summary
+- Dashboard - Voyage Port Pair Summary - Functionalities
+- Loaded Files Query - How to process Loaded Files Query
+- ENS MRN Number Download - How to Download By Linked Booking
+- ENS MRN Number Download - How to Download By BL
+- ENS MRN Number Download - How to Download For Voyage
+- CSD Query - How to view Consignee details
+- CSD Query - Accessing Door Address screen via CSD Query screen
+- CSD Query - Accessing OBL Marking screen via CSD Query screen
+- CSD Query - Accessing BL Modification screen via CSD Query screen
