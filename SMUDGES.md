@@ -1,0 +1,107 @@
+# Images with smudges (Import.mapping.document-.Version.4.gui)
+
+Image number = position of the screenshot within the ILISCyber section of that page (1 = first). Paths are relative to Import Activity / Content Section.
+
+- Import Activity Group Functions / Local Declaration / How to process Local Declaration — image 2
+- Import Activity Group Functions / Get Missing BL Access / How to Get Missing BL Access — image 1
+- Import Activity Group Functions / Static Update / How to process Static Update — image 1, 2
+- Import Activity Group Functions / Non-Manifest Charge Download from HQ / How to Download Non Manifest Charges from HQ — image 1
+- Import Activity Group Functions / Status Change / How to Process BL Open — image 1, 2
+- Import Activity Group Functions / Status Change / How to Process BL Close — image 1, 2
+- Import Activity Group Functions / Status Change / How to Process BL Cancel — image 1, 3
+- Import Activity Group Functions / Status Change / How to Process Entry Complete — image 1
+- Import Activity Group Functions / Status Change / How to Process BL Customs Open — image 1
+- Import Activity Group Functions / Status Change / How to Process BL Customs Close — image 1, 2
+- Import Activity Group Functions / Status Change / How to Revert to Entered — image 1, 2
+- Import Activity Group Functions / Status Change / How to Revert to Pre Entry Completed — image 1
+- Import Activity Group Functions / Status Change / How to Revert Print BL — image 2
+- Import Activity Group Functions / Status Change / How to Revert Cancelled BL — image 1, 2
+- Import Activity Group Functions / Other Office Access / How to Add Other Office Access — image 1, 3
+- Import Activity Group Functions / Assign Valid Customer / How to Assign Valid Customer — image 3
+- Import Activity Group Functions / Assign Customer Details / How to Assign Customer Details — image 1, 2
+- Import Activity Group Functions / Transfer / Copy Access / How to Transfer Access — image 1
+- Import Activity Group Functions / Transfer / Copy Access / How to Copy Access — image 1
+- Import Activity Group Functions / Land Lock Access Type Change / How to update access type using Land Lock Access Type Change — image 3
+- Import Activity Group Functions / Land Lock Access Type Change / How to revert access using rollback — image 1
+- Import Activity Group Functions / Cargo Release / How to process Cargo Release — image 1, 2
+- Import Activity Group Functions / Cargo Release / How to process Cargo Release for a single BL — image 1
+- Import Activity Group Functions / Cargo Release / How to transfer Cargo Release — image 1, 3
+- Import Activity Group Functions / Cargo Release / How to assign Depot — image 1, 5, 6
+- Import Activity Group Functions / Cargo Release / How to download Free Days — image 1, 6
+- Import Activity Group Functions / Cargo Release / How to Release Container — image 1
+- Import Activity Group Functions / Cargo Release / How to Hold Container — image 1
+- Import Activity Group Functions / TSP Arrangement / Confirm / TSP Pre Arrangement / How to edit data — image 1
+- Import Activity Group Functions / TSP Arrangement / Confirm / TSP Pre Arrangement / How to generate customs to customer — image 1
+- Import Activity Group Functions / TSP Arrangement / Confirm / TSP Pre Arrangement / How to generate customs to UNIFEEDER — image 1, 3
+- Import Activity Group Functions / TSP Arrangement / Confirm / TSP Confirm / How to Confirm Discharge — image 1, 3
+- Import Activity Group Functions / TSP Arrangement / Confirm / TSP Confirmation / How to add feeder voyage and port — image 1, 3
+- Import Activity Group Functions / Local Charge Calculations / Local Charge / How to calculate and transfer Local charge — image 2
+- Import Activity Group Functions / Agent Specific - Batch / ECOR Number Update / How to Update ECOR Number — image 1, 2
+- Import Activity Group Functions / Agent Specific - Batch / ECOR Number Regenerate / How to Regenerate ECOR Number — image 1, 2
+- Import Activity Group Functions / Agent Specific - Batch / Discharge List / How to Trigger Discharge List — image 2
+- Import Activity Group Functions / Agent Specific - Batch / ECOR Number Generate / How to Generate ECOR Number — image 2
+- Import Activity Group Functions / Agent Specific - Batch / Grant Cross BL Access / How to Get Cross BL Access — image 1, 3
+- Import Activity Group Functions / Agent Specific - Batch / Free Letter[EG] / How to process and right fax Free Letter — image 5
+- Import Activity Group Functions / Agent Specific - Batch / ATM Marking[SG] / How to Process ATM B/L Marking — image 3
+- Import Activity Group Functions / Agent Specific - Batch / Front Sheet Printing[NL] / How to Print Front Sheet — image 1
+- Import Activity Group Functions / Agent Specific - Batch / CNRU Synchronization[YMA] / How to process CNRU Synchronization — image 1
+- Import Activity Group Functions / Agent Specific - Batch / CRCCF & NYSA Request Reports [YMA] / How to Generate Tonnage — image 1
+- Import Activity Group Functions / Agent Specific - Batch / CRCCF & NYSA Request Reports [YMA] / How to Generate CRCC — image 1
+- Import Activity Group Functions / Agent Specific - Batch / CRCCF & NYSA Request Reports [YMA] / How to Generate Report — image 1
+- Import Activity Group Functions / Agent Specific - Batch / CRCCF & NYSA Request Reports [YMA] / How to Remove BL — image 1, 2, 3
+- Import Activity Group Functions / Agent Specific - Batch / Split BL Loading IN / How to Process — image 3
+- Import Activity Group Functions / Agent Specific - Batch / Split BL Loading IN / How to Distribute charges — image 3
+- Import Activity Group Functions / Agent Specific - Batch / Split BL Loading IN / How to Revert Charges — image 3
+- Import Activity Group Functions / Agent Specific - Batch / Split BL Loading Others / How to view BL Details — image 3
+- Import Activity Group Functions / BL Print - Batch / BL Print / How to view BL Print Preview — image 1, 2
+- Import Activity Group Functions / BL Print - Batch / BL Print / How to Generate Direct Print — image 1, 2
+- Import Activity Group Functions / BL Print - Batch / BL Print / How to Generate Remote Print — image 1, 2
+- Import Activity Group Functions / BL Print - Batch / Broker BL Print / How to view Broker BL Print Preview — image 1, 2
+- Import Activity Group Functions / BL Print - Batch / Broker BL Print / How to Generate Direct Print — image 1, 2
+- Import Activity Group Functions / BL Print - Batch / Broker BL Print / How to Generate Remote Print — image 1, 2
+- Import Activity Single Functions / Door Address Change / How to delete — image 3
+- Import Activity Single Functions / Exchange Rate Revalidation / How to use "Exchange Rate Revalidation" — image 1
+- Import Activity Single Functions / Exchange Rate Revalidation(Voyage Level) / How to use "Exchange Rate Revalidation(Voyage Level)" — image 1
+- Import Activity Single Functions / Cargo Release / How to edit data(batch) — image 2
+- Import Activity Single Functions / Cargo Release / Accessing Dem Det Calc screen via Cargo Release screen — image 2
+- Import Activity Single Functions / Cargo Release / Invoicing via Cargo release screen — image 2
+- Import Activity Single Functions / Cargo Release / How to process Cargo release — image 2
+- Import Activity Single Functions / Cargo Release Revalidate / How to edit data(batch) — image 2
+- Import Activity Single Functions / Cargo Release Revalidate / Accessing Dem Det Calc screen via Cargo Release Revalidate screen — image 2
+- Import Activity Single Functions / Cargo Release Revalidate / Invoicing via Cargo Release Revalidate screen — image 2
+- Import Activity Single Functions / Cargo Release Revalidate / How to process Cargo Release Revalidate — image 2
+- Import Activity Single Functions / Cargo Release Reprint / How to process Cargo Release Reprint — image 2
+- Import Activity Single Functions / Cancel Cargo Release / How to Cancel Cargo Release — image 2
+- Import Activity Single Functions / BL Creation / Merge B/L(Local BL Creation) / How to Merge BL — image 2
+- Import Activity Single Functions / Agent Specific / EDI References [ES] / How to update EDI References [ES] — image 2
+- Import Activity Single Functions / Agent Specific / Local Charge Calculation / How to calculate and transfer local charges — image 2
+- Import Activity Single Functions / Agent Specific / Import Corrector Changes / How to use "Import Corrector Changes" — image 3, 6
+- Import Activity Single Functions / Agent Specific / Free Letter[EG] / Accessing DEM DET Via Free Letter — image 2
+- Import Activity Single Functions / Agent Specific / Free Letter[EG] / How to process Free letter — image 2
+- Import Activity Single Functions / Agent Specific / Free Letter[EG] / How to process Free letter Right Fax — image 2
+- Import Activity Single Functions / Agent Specific / CSD Query[UK] / Accessing Door Address screen via CSD Query screen — image 2, 3
+- Import Activity Single Functions / Agent Specific / CSD Query[UK] / Accessing OBL Marking screen via CSD Query screen — image 2
+- Import Activity Single Functions / Agent Specific / CSD Query[UK] / Accessing BL Modification screen via CSD Query screen — image 3
+- Import Activity Single Functions / eBL Surrender / eBL Surrender (Delivery) / How to approve eBL — image 2
+- Import Activity Single Functions / BL Print / BL Print / How to view BL Print Preview — image 1, 2
+- Import Activity Single Functions / BL Print / BL Print / How to Generate Direct Print — image 1, 2
+- Import Activity Single Functions / BL Print / BL Print / How to Generate Remote Print — image 2
+- Import Activity Single Functions / BL Print / Broker BL Print / How to view Broker BL Print Preview — image 2
+- Import Activity Single Functions / BL Print / Broker BL Print / How to Generate Direct Print — image 2
+- Import Activity Single Functions / BL Print / Broker BL Print / How to Generate Remote Print — image 2
+- Import Activity Side Functions / Dashboard / How to access and query data in dashboard — image 3
+- Import Activity Side Functions / Dashboard / Voyage Call Port Summary - Functionalities — image 2
+- Import Activity Side Functions / Full Container Idle Query / How to Process Full Container Idle Query — image 3
+- Import Activity Side Functions / Right Fax Query / How to process Right Fax Query — image 1
+- Import Activity Side Functions / Import Voyage Close / How to change Import Voyage status from open to close — image 1
+- Import Activity Side Functions / Import Voyage Close / How to change Import Voyage status from close to open — image 1
+- Import Activity Side Functions / Import Voyage Close / How to regenerate manifest — image 1
+- Import Activity Side Functions / Drop Off / How to Update Credit Customer — image 1, 3
+- Import Activity Side Functions / Drop Off / How to Generate Empty Return Advice — image 1, 3
+- Import Activity Side Functions / Drop Off / How to Pre Calculate and Calculate Drop Off — image 1
+- Import Activity Side Functions / Drop Off / How to Cancel Drop Off — image 1, 2
+- Import Activity Side Functions / Loaded Files Query / How to process Loaded Files Query — image 2
+- Import Activity Side Functions / ENS MRN Number Download / How to Download By Linked Booking — image 3
+- Import Activity Side Functions / ENS MRN Number Download / How to Download By BL — image 3
+- Import Activity Side Functions / CSD Query / Accessing OBL Marking screen via CSD Query screen — image 3
+- Import Activity Side Functions / CSD Query / Accessing BL Modification screen via CSD Query screen — image 3
