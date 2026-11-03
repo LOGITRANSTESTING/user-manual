@@ -59,7 +59,9 @@ def side_crop(img):
     if padR < 20: padR = 0
     seg = a[int(H * .25):int(H * .9)]
     col = seg.mean(0); std = seg.std(0)
-    grey = (col < 250) & (col > 150) & (std < 10)
+    # real grey only (shadow, grey strip, dimmed background). The app's own light page background
+    # (about 245-250) is content and is never cropped.
+    grey = (col < 238) & (col > 120) & (std < 10) & ~((col > 132) & (col < 146))  # ~140 = the light page background dimmed: content
     white = col >= 250
 
     def run(order):
