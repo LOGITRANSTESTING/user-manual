@@ -1,0 +1,21 @@
+{
+ "description": "Alert / success pop-up over a screen: clean screen + a dimmed screenshot that shows the same kind of pop-up + the new message. Learns the pop-up letters from the donor's own message.",
+ "inputs": {
+  "screen": "the screen the pop-up should appear on (may have red boxes - they are cleared)",
+  "donor": "a dimmed screenshot showing the pop-up to copy (same app, same pop-up style)",
+  "donor_message": "the exact message text shown in the donor pop-up",
+  "message": "the new message",
+  "out": "output file, e.g. work/<function>/alert.png"
+ },
+ "defaults": {"font": "popup_message"},
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "load", "file": "${donor}", "as": "d"},
+  {"op": "clear_marks", "img": "s"},
+  {"op": "dim", "img": "s"},
+  {"op": "copy_popup", "from": "d", "to": "s", "box_as": "popup"},
+  {"op": "text_blocks", "img": "s", "region": "${popup}", "pick": "widest", "as": "msg"},
+  {"op": "replace_text", "img": "s", "box": "${msg}", "old_text": "${donor_message}", "text": "${message}", "font": "${font}"},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "description": "Change a value on a screen (e.g. a grid cell after processing: BL Close Close -> Open). The old text's letters are learned first; add more letters with `learn` when needed.",
+ "inputs": {
+  "screen": "screenshot to change", "box": "x0,y0,x1,y1 around the old value (one cell / one field)",
+  "old_text": "the value shown now", "text": "the new value", "out": "output file"
+ },
+ "defaults": {"font": "grid", "align": "left"},
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "replace_text", "img": "s", "box": "${box}", "old_text": "${old_text}", "text": "${text}", "font": "${font}", "align": "${align}"},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}
