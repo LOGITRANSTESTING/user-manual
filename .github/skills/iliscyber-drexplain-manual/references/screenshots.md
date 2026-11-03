@@ -39,6 +39,7 @@
 
 ## Added rules (from the user, November 2026)
 1. BUILDING MISSING SCREENSHOTS: screenshots are mostly new, but when a flow is incomplete, build the missing image from neighbouring or matchable screenshots (same flow, or elsewhere in the manual). Example: given the Release Order screen and an alert like "Release Order Print done Successfully.", create the "Release Order Cancelled Successfully." alert over that screen with the message the user gives (recipe `alert_from_screen`). Same for pop-up texts (`popup_text`), success messages (`success_bar`), records changed after processing (`change_value`), and regions from a neighbour shot (`copy_from_neighbour`).
+   - When looking for a screenshot to build from, search in this order: (1) the same function's folder, (2) other function folders in the same section (Batch Function / Single Function / Side Functions), (3) any other folder in screenshots. Always say which file you used. If nothing matches, ask the user for the image and name the step.
 2. If there is no image to build from and the flow is not complete, ASK the user for the missing image, naming the step it is for.
 3. PREVIEW EVERY EDITED IMAGE: whenever an image is edited or built, show its preview right away so the user can correct it there, before it goes into a page.
 4. CROP BUTTONS BEFORE MARKING: inline button/icon crops are always cut from the unmarked screenshot, before any box or number is drawn.
