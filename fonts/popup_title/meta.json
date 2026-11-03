@@ -1,0 +1,123 @@
+{
+ "glyphs": {
+  "S": {
+   "file": "g_0053.png",
+   "top": -8,
+   "w": 7,
+   "h": 9,
+   "gap": 0,
+   "lpad": 0,
+   "core": 7,
+   "off": 0.0
+  },
+  "u": {
+   "file": "g_0075.png",
+   "top": -8,
+   "w": 7,
+   "h": 9,
+   "gap": 0,
+   "lpad": 0,
+   "core": 7,
+   "off": -0.84
+  },
+  "c": {
+   "file": "g_0063.png",
+   "top": -8,
+   "w": 6,
+   "h": 9,
+   "gap": 0,
+   "lpad": 0,
+   "core": 6,
+   "off": -1.02
+  },
+  "e": {
+   "file": "g_0065.png",
+   "top": -8,
+   "w": 7,
+   "h": 9,
+   "gap": 0,
+   "lpad": 0,
+   "core": 7,
+   "off": -1.08
+  },
+  "s": {
+   "file": "g_0073.png",
+   "top": -8,
+   "w": 7,
+   "h": 9,
+   "gap": 0,
+   "lpad": 0,
+   "core": 7,
+   "off": -0.61
+  },
+  "A": {
+   "file": "g_0041.png",
+   "top": -8,
+   "w": 10,
+   "h": 9,
+   "gap": 1,
+   "lpad": 0,
+   "core": 9,
+   "off": 0.0
+  },
+  "l": {
+   "file": "g_006c.png",
+   "top": -8,
+   "w": 3,
+   "h": 9,
+   "gap": 0,
+   "lpad": 1,
+   "core": 2,
+   "off": 0.97
+  },
+  "r": {
+   "file": "g_0072.png",
+   "top": -8,
+   "w": 5,
+   "h": 9,
+   "gap": 0,
+   "lpad": 1,
+   "core": 4,
+   "off": 0.55
+  },
+  "t": {
+   "file": "g_0074.png",
+   "top": -8,
+   "w": 5,
+   "h": 9,
+   "lpad": 0,
+   "core": 5,
+   "off": -0.31
+  }
+ },
+ "words": {
+  "Success": {
+   "file": "w_0053_0075_0063_0063_0065_0073_0073.png",
+   "top": -8,
+   "w": 48,
+   "h": 9,
+   "lpad": 0,
+   "core": 48
+  },
+  "Alert": {
+   "file": "w_0041_006c_0065_0072_0074.png",
+   "top": -8,
+   "w": 29,
+   "h": 9,
+   "lpad": 0,
+   "core": 29
+  }
+ },
+ "ink": [
+  255,
+  255,
+  255
+ ],
+ "gap": 0,
+ "space": 4,
+ "cap": null,
+ "xh": null,
+ "bold": true,
+ "ttf_size": 11.75,
+ "note": "white bold title on the blue pop-up bar"
+}

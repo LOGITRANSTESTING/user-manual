@@ -1,0 +1,70 @@
+{
+ "description": "Green success bar on a screen: copies the green bar from a screenshot that has one (aligned on the screen) and writes the new message in the bar's own letters.",
+ "inputs": {
+  "screen": "screen that should show the bar",
+  "donor": "screenshot with the green success bar (same screen = align auto; a different screen = --set align=bottom)",
+  "donor_message": "exact text in the donor's bar",
+  "message": "new message",
+  "out": "output file"
+ },
+ "defaults": {
+  "font": "success_bar",
+  "bar_color": [
+   233,
+   246,
+   210
+  ],
+  "align": "auto"
+ },
+ "steps": [
+  {
+   "op": "load",
+   "file": "${screen}",
+   "as": "s"
+  },
+  {
+   "op": "load",
+   "file": "${donor}",
+   "as": "d"
+  },
+  {
+   "op": "clear_marks",
+   "img": "s"
+  },
+  {
+   "op": "strip_border",
+   "img": "d"
+  },
+  {
+   "op": "copy_region",
+   "from": "d",
+   "to": "s",
+   "color": "${bar_color}",
+   "tol": 20,
+   "pad": 1,
+   "align": "${align}",
+   "box_as": "bar"
+  },
+  {
+   "op": "text_blocks",
+   "img": "s",
+   "region": "${bar}",
+   "pick": "widest",
+   "as": "msg"
+  },
+  {
+   "op": "replace_text",
+   "img": "s",
+   "box": "${msg}",
+   "old_text": "${donor_message}",
+   "text": "${message}",
+   "font": "${font}",
+   "bold": true
+  },
+  {
+   "op": "save",
+   "img": "s",
+   "file": "${out}"
+  }
+ ]
+}

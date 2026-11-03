@@ -1,0 +1,13 @@
+{
+  // Let Copilot run the toolkit without an approval click each time.
+  "chat.tools.terminal.autoApprove": {
+    "/^python3? tools[\\\\/]ilis\\.py\\b/": true,
+    "/^py tools[\\\\/]ilis\\.py\\b/": true
+  },
+  // Skills in .github/skills are loaded automatically (older VS Code versions need this switch).
+  "chat.useAgentSkills": true,
+  // Longer agent runs before Copilot stops to ask "Continue?".
+  "chat.agent.maxRequests": 100,
+  // Open the images the toolkit previews in the editor.
+  "workbench.editorAssociations": { "*.png": "imagePreview.previewEditor" }
+}
