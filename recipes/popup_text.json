@@ -1,0 +1,21 @@
+{
+ "description": "Pop-up with a different title and message: like alert_from_screen, but also replaces the pop-up title (white bold text on the blue bar).",
+ "inputs": {
+  "screen": "screen under the pop-up", "donor": "dimmed screenshot with the pop-up to copy",
+  "donor_title": "title text in the donor pop-up", "donor_message": "message text in the donor pop-up",
+  "title": "new title", "message": "new message", "out": "output file"
+ },
+ "defaults": {"font": "popup_message", "title_font": "popup_title"},
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "load", "file": "${donor}", "as": "d"},
+  {"op": "clear_marks", "img": "s"},
+  {"op": "dim", "img": "s"},
+  {"op": "copy_popup", "from": "d", "to": "s", "box_as": "popup"},
+  {"op": "text_blocks", "img": "s", "region": "${popup}", "pick": "first", "as": "ttl"},
+  {"op": "replace_text", "img": "s", "box": "${ttl}", "old_text": "${donor_title}", "text": "${title}", "font": "${title_font}", "bold": true, "align": "center", "center_in": "${popup}"},
+  {"op": "text_blocks", "img": "s", "region": "${popup}", "pick": "widest", "as": "msg"},
+  {"op": "replace_text", "img": "s", "box": "${msg}", "old_text": "${donor_message}", "text": "${message}", "font": "${font}"},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}
