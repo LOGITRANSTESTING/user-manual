@@ -1,0 +1,54 @@
+{
+ "source": "screenshots/set_store_place_single/07.png",
+ "crop_left": 3,
+ "crop_right": 5,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  984
+ ],
+ "marks": [
+  {
+   "box": [
+    233,
+    153,
+    358,
+    179
+   ],
+   "n": 3,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    24,
+    193,
+    102,
+    220
+   ],
+   "n": 4,
+   "pos": "right"
+  },
+  {
+   "box": [
+    103,
+    262,
+    1491,
+    296
+   ],
+   "n": 5,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1416,
+    151,
+    1500,
+    180
+   ],
+   "n": 6,
+   "pos": "bottomleft"
+  }
+ ]
+}
