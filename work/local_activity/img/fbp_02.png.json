@@ -1,5 +1,5 @@
 {
- "source": "/tmp/fbp03.png",
+ "source": "/tmp/f_fbp_02.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 21,
@@ -12,22 +12,22 @@
  "marks": [
   {
    "box": [
-    234,
-    61,
-    314,
-    88
+    255,
+    82,
+    335,
+    109
    ],
-   "n": 3,
+   "n": 5,
    "pos": "bottomleft"
   },
   {
    "box": [
-    1415,
-    59,
-    1508,
-    91
+    1436,
+    80,
+    1529,
+    112
    ],
-   "n": 4,
+   "n": 6,
    "pos": "right"
   }
  ]

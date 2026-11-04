@@ -1,5 +1,5 @@
 {
- "source": "/tmp/dbp04.png",
+ "source": "/tmp/f_dbp_02.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 21,
@@ -12,22 +12,22 @@
  "marks": [
   {
    "box": [
-    234,
-    61,
-    314,
-    88
+    255,
+    82,
+    335,
+    109
    ],
-   "n": 3,
+   "n": 5,
    "pos": "bottomleft"
   },
   {
    "box": [
-    1415,
-    58,
-    1508,
-    90
+    1436,
+    79,
+    1529,
+    111
    ],
-   "n": 4,
+   "n": 6,
    "pos": "right"
   }
  ]
