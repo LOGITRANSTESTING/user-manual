@@ -9,5 +9,6 @@ status: Waiting
 **Step 3** : Select the {img:../img/dbp_radio_preview.png} radio button.
 **Step 4** : Click on {img:../img/btn_submit.png}.
 ![](../img/dbp_02.png)
-If successfully submitted, an alert is shown as given below.
+If successfully submitted, an alert is shown as given below and pdf is displayed.
 ![](../img/dbp_03.png)
+![](../img/dbp_04.png)
