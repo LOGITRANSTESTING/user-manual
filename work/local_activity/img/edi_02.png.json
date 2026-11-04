@@ -1,0 +1,43 @@
+{
+ "source": "/tmp/edi04_clean.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1560,
+  992
+ ],
+ "marks": [
+  {
+   "box": [
+    10,
+    150,
+    80,
+    182
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    56,
+    230,
+    168,
+    262
+   ],
+   "n": 4,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1410,
+    111,
+    1500,
+    143
+   ],
+   "n": 5,
+   "pos": "left"
+  }
+ ]
+}
