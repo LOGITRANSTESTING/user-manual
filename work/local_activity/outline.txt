@@ -31,3 +31,5 @@ pages/local_activity.md
     pages/single_functions.md
       pages/delete_bl_single.md
         pages/how_to_delete_bl_single.md
+      pages/draft_bl_print.md
+        pages/how_to_generate_draft_bl_preview.md

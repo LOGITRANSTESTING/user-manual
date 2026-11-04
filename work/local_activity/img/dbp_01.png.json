@@ -1,0 +1,33 @@
+{
+ "source": "/tmp/dbp02.png",
+ "crop_left": 4,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1560,
+  925
+ ],
+ "marks": [
+  {
+   "box": [
+    279,
+    468,
+    497,
+    500
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    499,
+    469,
+    718,
+    500
+   ],
+   "n": 1,
+   "pos": "bottomright"
+  }
+ ]
+}
