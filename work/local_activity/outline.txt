@@ -38,6 +38,18 @@ pages/local_activity.md
       pages/final_bl_print.md
         pages/how_to_generate_final_bl_preview.md
       pages/local_bl_modification.md
+        pages/how_to_edit_local_bl_modification.md
+        pages/bl_modification_tabs.md
+          pages/lbm_tab_basic_information.md
+          pages/lbm_tab_addresses.md
+          pages/lbm_tab_cargo_containers.md
+          pages/lbm_tab_marks_description.md
+          pages/lbm_tab_instruction.md
+          pages/lbm_tab_sailing.md
+          pages/lbm_tab_charges.md
+          pages/lbm_tab_edi_text_reference.md
+          pages/lbm_tab_more_info.md
+          pages/lbm_tab_notes.md
       pages/local_declaration_single.md
         pages/how_to_local_declaration_single.md
       pages/merge_bl_single.md

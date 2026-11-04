@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/local_bl_modification/old_manual/12_sailing.png",
+ "crop_left": 11,
+ "crop_right": 9,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1531,
+  609
+ ]
+}

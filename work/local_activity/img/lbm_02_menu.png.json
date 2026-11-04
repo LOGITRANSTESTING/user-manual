@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/local_bl_modification/old_manual/02_menu.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1551,
+  885
+ ],
+ "marks": [
+  {
+   "box": [
+    274,
+    237,
+    493,
+    269
+   ],
+   "n": 3,
+   "pos": "bottomleft"
+  }
+ ]
+}
