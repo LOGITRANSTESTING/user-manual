@@ -1,0 +1,4 @@
+pages/local_activity.md
+  pages/content_section.md
+    pages/query_parameters.md
+    pages/result_grid.md
