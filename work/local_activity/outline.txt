@@ -6,3 +6,5 @@ pages/local_activity.md
     pages/group_functions.md
       pages/assign_customer_details.md
         pages/how_to_assign_customer_details.md
+      pages/delete_bl_batch.md
+        pages/how_to_delete_bl_batch.md

@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/delete_bl_batch/02_popup.png",
+ "crop_left": 4,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1567,
+  991
+ ],
+ "marks": [
+  {
+   "box": [
+    524,
+    374,
+    572,
+    479
+   ],
+   "n": 6,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    996,
+    683,
+    1080,
+    716
+   ],
+   "n": 7
+  }
+ ]
+}
