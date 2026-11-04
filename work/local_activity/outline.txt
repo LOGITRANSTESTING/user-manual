@@ -28,3 +28,6 @@ pages/local_activity.md
         pages/how_to_change_voyage_for_import_bl.md
         pages/how_to_change_voyage_for_transit_bl.md
         pages/how_to_change_voyage_for_transhipment_bl.md
+    pages/single_functions.md
+      pages/delete_bl_single.md
+        pages/how_to_delete_bl_single.md
