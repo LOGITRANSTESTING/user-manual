@@ -1,5 +1,5 @@
 {
- "source": "/tmp/f_edi_02.png",
+ "source": "screenshots/edi_reference_es/04_entry_clean.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 21,
@@ -12,30 +12,30 @@
  "marks": [
   {
    "box": [
-    31,
-    171,
-    101,
-    203
+    10,
+    150,
+    80,
+    182
    ],
    "n": 5,
    "pos": "left"
   },
   {
    "box": [
-    77,
-    251,
-    189,
-    283
+    56,
+    230,
+    168,
+    262
    ],
    "n": 6,
    "pos": "bottomleft"
   },
   {
    "box": [
-    1431,
-    132,
-    1521,
-    164
+    1412,
+    111,
+    1498,
+    142
    ],
    "n": 7,
    "pos": "left"

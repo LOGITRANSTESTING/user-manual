@@ -1,7 +1,7 @@
 {
- "source": "/tmp/c_sbl_02.png",
- "crop_left": 0,
- "crop_right": 0,
+ "source": "screenshots/split_bl_single/04.png",
+ "crop_left": 5,
+ "crop_right": 4,
  "border": 0,
  "dimmed": false,
  "marked": true,
@@ -12,37 +12,37 @@
  "marks": [
   {
    "box": [
-    44,
-    235,
-    758,
-    326
+    28,
+    214,
+    742,
+    305
    ],
    "n": null
   },
   {
    "box": [
-    808,
-    235,
-    1500,
-    326
+    792,
+    214,
+    1484,
+    305
    ],
    "n": null
   },
   {
    "box": [
-    34,
-    855,
-    253,
-    920
+    18,
+    834,
+    237,
+    899
    ],
    "n": null
   },
   {
    "box": [
-    1402,
-    133,
-    1521,
-    162
+    1388,
+    113,
+    1504,
+    140
    ],
    "n": null
   }

@@ -1,30 +1,30 @@
 {
- "source": "/tmp/f_fbp_02.png",
+ "source": "screenshots/final_bl_print/03.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 0,
  "dimmed": false,
  "marked": true,
  "size": [
-  1516,
-  881
+  1515,
+  929
  ],
  "marks": [
   {
    "box": [
-    255,
-    82,
-    335,
-    109
+    235,
+    108,
+    315,
+    139
    ],
    "n": null
   },
   {
    "box": [
-    1436,
-    80,
-    1529,
-    112
+    1418,
+    108,
+    1498,
+    139
    ],
    "n": null
   }

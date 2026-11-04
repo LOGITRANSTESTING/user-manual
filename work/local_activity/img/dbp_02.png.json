@@ -1,34 +1,34 @@
 {
- "source": "/tmp/f_dbp_02.png",
+ "source": "screenshots/draft_bl_print/04.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 21,
  "dimmed": false,
  "marked": true,
  "size": [
-  1563,
-  920
+  1562,
+  966
  ],
  "marks": [
   {
    "box": [
-    255,
-    82,
-    335,
-    109
+    235,
+    106,
+    315,
+    137
    ],
    "n": 5,
    "pos": "bottomleft"
   },
   {
    "box": [
-    1436,
-    79,
-    1529,
-    111
+    1418,
+    106,
+    1498,
+    137
    ],
    "n": 6,
-   "pos": "right"
+   "pos": "left"
   }
  ]
 }
