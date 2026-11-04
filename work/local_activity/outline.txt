@@ -38,3 +38,5 @@ pages/local_activity.md
       pages/final_bl_print.md
         pages/how_to_generate_final_bl_preview.md
       pages/local_bl_modification.md
+      pages/local_declaration_single.md
+        pages/how_to_local_declaration_single.md

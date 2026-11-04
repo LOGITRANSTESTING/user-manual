@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/local_declaration_single/03.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  995
+ ],
+ "marks": [
+  {
+   "box": [
+    280,
+    193,
+    366,
+    220
+   ],
+   "n": null
+  }
+ ]
+}
