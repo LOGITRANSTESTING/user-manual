@@ -1,0 +1,50 @@
+{
+ "source": "screenshots/voyage_change_tsp/02_entry.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1518,
+  946
+ ],
+ "marks": [
+  {
+   "box": [
+    166,
+    148,
+    226,
+    181
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    16,
+    222,
+    1494,
+    284
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    14,
+    840,
+    506,
+    895
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1308,
+    144,
+    1404,
+    180
+   ],
+   "n": null
+  }
+ ]
+}

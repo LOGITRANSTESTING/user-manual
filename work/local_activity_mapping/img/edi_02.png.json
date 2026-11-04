@@ -1,0 +1,41 @@
+{
+ "source": "/tmp/f_edi_02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1518,
+  950
+ ],
+ "marks": [
+  {
+   "box": [
+    31,
+    171,
+    101,
+    203
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    77,
+    251,
+    189,
+    283
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1431,
+    132,
+    1521,
+    164
+   ],
+   "n": null
+  }
+ ]
+}

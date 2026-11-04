@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/set_store_place/05.png",
+ "crop_left": 6,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1517,
+  944
+ ],
+ "marks": [
+  {
+   "box": [
+    456,
+    224,
+    608,
+    298
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1388,
+    156,
+    1474,
+    182
+   ],
+   "n": null
+  }
+ ]
+}

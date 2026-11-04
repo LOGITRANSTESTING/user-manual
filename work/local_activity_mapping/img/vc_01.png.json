@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/voyage_change/01_menu.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1520,
+  942
+ ],
+ "marks": [
+  {
+   "box": [
+    6,
+    182,
+    46,
+    378
+   ],
+   "n": null,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    124,
+    296,
+    376,
+    328
+   ],
+   "n": null
+  }
+ ]
+}

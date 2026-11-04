@@ -1,0 +1,32 @@
+{
+ "source": "/tmp/f_dbp_02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1521,
+  878
+ ],
+ "marks": [
+  {
+   "box": [
+    255,
+    82,
+    335,
+    109
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1436,
+    79,
+    1529,
+    111
+   ],
+   "n": null
+  }
+ ]
+}

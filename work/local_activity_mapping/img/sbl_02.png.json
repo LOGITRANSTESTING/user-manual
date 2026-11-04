@@ -1,0 +1,50 @@
+{
+ "source": "/tmp/c_sbl_02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  944
+ ],
+ "marks": [
+  {
+   "box": [
+    44,
+    235,
+    758,
+    326
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    808,
+    235,
+    1500,
+    326
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    34,
+    855,
+    253,
+    920
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1402,
+    133,
+    1521,
+    162
+   ],
+   "n": null
+  }
+ ]
+}

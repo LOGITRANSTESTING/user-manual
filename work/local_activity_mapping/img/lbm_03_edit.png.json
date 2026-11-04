@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/local_bl_modification/old_manual/03_edit.png",
+ "crop_left": 11,
+ "crop_right": 9,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1489,
+  843
+ ],
+ "marks": [
+  {
+   "box": [
+    1347,
+    48,
+    1420,
+    79
+   ],
+   "n": null
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "source": "screenshots/set_store_place/08.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1518,
+  948
+ ],
+ "marks": [
+  {
+   "box": [
+    216,
+    104,
+    414,
+    132
+   ],
+   "n": null
+  },
+  {
+   "pair": {
+    "big": [
+     12,
+     176,
+     1508,
+     310
+    ],
+    "btn": [
+     1354,
+     274,
+     1424,
+     302
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}

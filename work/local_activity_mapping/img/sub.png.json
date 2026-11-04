@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/local_activity/02_sub.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1913,
+  833
+ ],
+ "marks": [
+  {
+   "box": [
+    1196,
+    182,
+    1428,
+    414
+   ],
+   "n": null,
+   "width": 4
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "source": "screenshots/voyage_change_transit/02_entry.png",
+ "crop_left": 4,
+ "crop_right": 3,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  941
+ ],
+ "marks": [
+  {
+   "box": [
+    94,
+    145,
+    170,
+    178
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    19,
+    219,
+    1497,
+    339
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    515,
+    836,
+    1007,
+    891
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1310,
+    139,
+    1408,
+    177
+   ],
+   "n": null
+  }
+ ]
+}

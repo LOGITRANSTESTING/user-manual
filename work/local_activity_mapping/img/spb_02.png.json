@@ -1,0 +1,50 @@
+{
+ "source": "screenshots/set_store_place_bl_single/04.png",
+ "crop_left": 4,
+ "crop_right": 5,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  947
+ ],
+ "marks": [
+  {
+   "box": [
+    235,
+    159,
+    360,
+    186
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    25,
+    199,
+    103,
+    228
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    15,
+    269,
+    1494,
+    303
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1418,
+    157,
+    1502,
+    187
+   ],
+   "n": null
+  }
+ ]
+}
