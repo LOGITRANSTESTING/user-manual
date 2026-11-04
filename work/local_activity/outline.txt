@@ -8,3 +8,5 @@ pages/local_activity.md
         pages/how_to_assign_customer_details.md
       pages/delete_bl_batch.md
         pages/how_to_delete_bl_batch.md
+      pages/local_declaration_batch.md
+        pages/how_to_local_declaration.md
