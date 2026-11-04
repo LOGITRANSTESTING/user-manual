@@ -8,7 +8,7 @@ status: Waiting
 **Step 2** : Upon clicking "**Set Store Place**" User will be shown the Set Store Place screen.
 **Step 3** : Select the {img:../img/sps_radio_container_type.png} radio button.
 **Step 4** : Click on {img:../img/btn_add.png} to add a new row.
-**Step 5** : Enter all the required details as shown below. "**Container Type**" and "**Store Place**" fields are mandatory.
+**Step 5** : Enter all the necessary fields in the row. "**Container Type**" and "**Store Place**" fields are mandatory.
 **Step 6** : Click on {img:../img/btn_submit.png}.
 ![](../img/sps_02.png)
 If successfully submitted, a success message is shown as given below.
