@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/merge_bl/02.png",
+ "crop_left": 4,
+ "crop_right": 3,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  976
+ ],
+ "marks": [
+  {
+   "box": [
+    273,
+    442,
+    491,
+    473
+   ],
+   "n": 1,
+   "pos": "right"
+  }
+ ]
+}

@@ -40,3 +40,5 @@ pages/local_activity.md
       pages/local_bl_modification.md
       pages/local_declaration_single.md
         pages/how_to_local_declaration_single.md
+      pages/merge_bl_single.md
+        pages/how_to_merge_bl_single.md
