@@ -13,14 +13,14 @@ pages/local_activity.md
         pages/manifest_no_assignment.md
           pages/how_to_assign_manifest_template.md
           pages/how_to_reassign_manifest_template.md
-      pages/assign_customer_details.md
-        pages/how_to_assign_customer_details.md
-      pages/delete_bl_batch.md
-        pages/how_to_delete_bl_batch.md
       pages/local_declaration_batch.md
         pages/how_to_local_declaration.md
       pages/local_declaration_logistics.md
         pages/how_to_local_declaration_logistics.md
+      pages/delete_bl_batch.md
+        pages/how_to_delete_bl_batch.md
+      pages/assign_customer_details.md
+        pages/how_to_assign_customer_details.md
       pages/status_change_batch.md
         pages/how_to_process_status_change.md
         pages/how_to_reverse_status_change.md
@@ -31,12 +31,6 @@ pages/local_activity.md
     pages/single_functions.md
       pages/delete_bl_single.md
         pages/how_to_delete_bl_single.md
-      pages/draft_bl_print.md
-        pages/how_to_generate_draft_bl_preview.md
-      pages/edi_reference_es.md
-        pages/how_to_add_edi_references_es.md
-      pages/final_bl_print.md
-        pages/how_to_generate_final_bl_preview.md
       pages/local_bl_modification.md
         pages/how_to_edit_local_bl_modification.md
         pages/bl_modification_tabs.md
@@ -50,13 +44,19 @@ pages/local_activity.md
           pages/lbm_tab_edi_text_reference.md
           pages/lbm_tab_more_info.md
           pages/lbm_tab_notes.md
-      pages/local_declaration_single.md
-        pages/how_to_local_declaration_single.md
-      pages/merge_bl_single.md
-        pages/how_to_merge_bl_single.md
-      pages/set_store_place_single.md
-        pages/how_to_set_store_place_single.md
       pages/set_store_place_bl_single.md
         pages/how_to_set_store_place_bl_single.md
+      pages/local_declaration_single.md
+        pages/how_to_local_declaration_single.md
+      pages/set_store_place_single.md
+        pages/how_to_set_store_place_single.md
       pages/split_bl_single.md
         pages/how_to_split_bl_single.md
+      pages/merge_bl_single.md
+        pages/how_to_merge_bl_single.md
+      pages/edi_reference_es.md
+        pages/how_to_add_edi_references_es.md
+      pages/draft_bl_print.md
+        pages/how_to_generate_draft_bl_preview.md
+      pages/final_bl_print.md
+        pages/how_to_generate_final_bl_preview.md
