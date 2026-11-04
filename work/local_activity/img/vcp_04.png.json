@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/voyage_change_tsp/04_success.png",
+ "crop_left": 5,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1557,
+  983
+ ]
+}
