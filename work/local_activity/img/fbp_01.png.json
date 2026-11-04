@@ -1,0 +1,33 @@
+{
+ "source": "/tmp/fbp02.png",
+ "crop_left": 10,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1559,
+  919
+ ],
+ "marks": [
+  {
+   "box": [
+    277,
+    464,
+    496,
+    496
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    499,
+    497,
+    717,
+    528
+   ],
+   "n": 1,
+   "pos": "bottomright"
+  }
+ ]
+}

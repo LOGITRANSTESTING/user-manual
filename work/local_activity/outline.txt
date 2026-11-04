@@ -35,3 +35,5 @@ pages/local_activity.md
         pages/how_to_generate_draft_bl_preview.md
       pages/edi_reference_es.md
         pages/how_to_add_edi_references_es.md
+      pages/final_bl_print.md
+        pages/how_to_generate_final_bl_preview.md
