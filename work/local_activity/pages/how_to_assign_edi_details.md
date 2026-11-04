@@ -1,18 +1,17 @@
 ---
 title: How to Assign EDI Details
-status: Not Started
+status: Waiting
 ---
 ## Steps
-
-1. **Step 1** : Drag the cursor to the {img:../img/How_to_Assign_EDI_Details_01.png} icon, click on it, and then select "**Store Place / Manifest No / Assignment**" from the menu. This will open the Store Place / Manifest No / Assignment screen.
+**Step 1** : The user should drag the cursor to the batch function menu icon {icon:batch_menu}, click on it, and then select "**Store Place / Manifest No / Assignment**" from the menu.
 ![](../img/How_to_Assign_EDI_Details_02.png)
-1. **Step 2** : In Store Place / Manifest No / Assignment screen, select on the {img:../img/How_to_Assign_EDI_Details_03.png} radio button to display the query fields for Store Place Browse / Modify.
-1. **Step 3** : Enter data in query fields and click on {img:../img/How_to_Assign_EDI_Details_04.png}.
+**Step 2** : Upon clicking "**Store Place / Manifest No / Assignment**" User will be shown the Store Place / Manifest No / Assignment screen.
+**Step 3** : Select the {img:../img/How_to_Assign_EDI_Details_03.png} radio button.
+**Step 4** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
 ![](../img/How_to_Assign_EDI_Details_05.png)
-1. **Step 4** : If the data is queried, either select all BL records by clicking on {img:../img/How_to_Assign_EDI_Details_06.png}(select all checkbox) or select individual records by clicking on {img:../img/How_to_Assign_EDI_Details_07.png}(single select checkbox).
-1. **Step 6** : Click on {img:../img/How_to_Assign_EDI_Details_08.png}
+**Step 5** : Upon clicking {img:../img/btn_search.png}, BLs with matching information are returned.
+**Step 6** : Either select all BLs available by clicking on {img:../img/How_to_Assign_EDI_Details_06.png} or select individual BLs by clicking on {img:../img/How_to_Assign_EDI_Details_07.png}.
+**Step 7** : Click on {img:../img/How_to_Assign_EDI_Details_08.png}.
 ![](../img/How_to_Assign_EDI_Details_09.png)
->> 1.
-If processed successfully, a success message is shown as given below.
+If successfully assigned, a success message is shown as given below.
 ![](../img/How_to_Assign_EDI_Details_10.png)
->> 1.

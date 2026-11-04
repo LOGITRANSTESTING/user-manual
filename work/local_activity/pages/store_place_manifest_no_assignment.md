@@ -1,7 +1,6 @@
 ---
 title: Store Place / Manifest No / Assignment
-status: Not Started
+status: Waiting
 ---
-            1. Store Place / Manifest No / Assignment assignment allows the agency user to browse and modify Store Place, browse and modify Manifest number, assign and reassign Manifest number.
-            1.
+Store Place / Manifest No / Assignment allows the agency user to browse and modify Store Place, browse and modify Manifest number, assign and reassign Manifest number.
 ![](../img/Store_Place_Manifest_No_Assignment_01.png)

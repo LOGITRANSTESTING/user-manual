@@ -1,20 +1,18 @@
 ---
 title: How to Assign Manifest Template
-status: Not Started
+status: Waiting
 ---
 ## Steps
-
-1. **Step 1** : Drag the cursor to the {img:../img/How_to_Assign_Manifest_Template_01.png} icon, click on it, and then select "**Store Place / Manifest No / Assignment**" from the menu. This will open the Store Place / Manifest No / Assignment screen.
+**Step 1** : The user should drag the cursor to the batch function menu icon {icon:batch_menu}, click on it, and then select "**Store Place / Manifest No / Assignment**" from the menu.
 ![](../img/How_to_Assign_Manifest_Template_02.png)
-1. **Step 2** : In Store Place / Manifest No / Assignment screen, select on the {img:../img/How_to_Assign_Manifest_Template_03.png} radio button to display the query fields for Manifest No. Assignment.
-1. **Step 3** : Select an option for MF template.
-1. **Step 4** : Select {img:../img/How_to_Assign_Manifest_Template_04.png}radio button.
-1. **Step 5** : Click on {img:../img/How_to_Assign_Manifest_Template_05.png}
+**Step 2** : Upon clicking "**Store Place / Manifest No / Assignment**" User will be shown the Store Place / Manifest No / Assignment screen.
+**Step 3** : Select the {img:../img/How_to_Assign_Manifest_Template_03.png} radio button.
+**Step 4** : Select the required "**MF Template**".
+**Step 5** : Select the "**Assign**" radio button.
+**Step 6** : Click on {img:../img/btn_process.png}.
 ![](../img/How_to_Assign_Manifest_Template_06.png)
->> 1.
-1. **Step 6** : A confirmation pop up will be shown to confirm assignment of New Template. Click on Yes.
+**Step 7** : Upon clicking {img:../img/btn_process.png}, the user is shown Alert pop up screen to confirm assignment of the new MF Template.
+**Step 8** : Click on {img:../img/btn_yes.png}.
 ![](../img/How_to_Assign_Manifest_Template_07.png)
->> 1.
-If processed successfully, a success message is shown as given below.
+If successfully processed, a success message is shown as given below.
 ![](../img/How_to_Assign_Manifest_Template_08.png)
->> 1.

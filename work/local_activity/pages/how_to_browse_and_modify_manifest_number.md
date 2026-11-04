@@ -1,23 +1,21 @@
 ---
 title: How to Browse and Modify Manifest Number
-status: Not Started
+status: Waiting
 ---
 ## Steps
-
-1. **Step 1** : Drag the cursor to the {img:../img/How_to_Browse_and_Modify_Manifest_Number_01.png} icon, click on it, and then select "**Store Place / Manifest No / Assignment**" from the menu. This will open the Store Place / Manifest No / Assignment screen.
+**Step 1** : The user should drag the cursor to the batch function menu icon {icon:batch_menu}, click on it, and then select "**Store Place / Manifest No / Assignment**" from the menu.
 ![](../img/How_to_Browse_and_Modify_Manifest_Number_02.png)
-1. **Step 2** : In Store Place / Manifest No / Assignment screen, select on the {img:../img/How_to_Browse_and_Modify_Manifest_Number_03.png} radio button to display the query fields for Manifest No. Browse / Modify.
-1. **Step 3** : Enter data in query fields and click on {img:../img/How_to_Browse_and_Modify_Manifest_Number_04.png}.
+**Step 2** : Upon clicking "**Store Place / Manifest No / Assignment**" User will be shown the Store Place / Manifest No / Assignment screen.
+**Step 3** : Select the {img:../img/How_to_Browse_and_Modify_Manifest_Number_03.png} radio button.
+**Step 4** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
 ![](../img/How_to_Browse_and_Modify_Manifest_Number_05.png)
-1. **Step 4** : If the data is queried, enter details in the batch apply fields and select the fields using the checkboxes.
-1. **Step 5** : Either select all BL records by clicking on {img:../img/How_to_Browse_and_Modify_Manifest_Number_06.png}(select all checkbox) or select individual records by clicking on {img:../img/How_to_Browse_and_Modify_Manifest_Number_07.png}(single select checkbox).
-1. **Step 6** : Click on {img:../img/How_to_Browse_and_Modify_Manifest_Number_08.png}
+**Step 5** : Upon clicking {img:../img/btn_search.png}, BLs with matching information are returned.
+**Step 6** : Enter the details in the batch apply fields and tick the checkboxes of the fields to be applied.
+**Step 7** : Either select all BLs available by clicking on {img:../img/How_to_Browse_and_Modify_Manifest_Number_06.png} or select individual BLs by clicking on {img:../img/How_to_Browse_and_Modify_Manifest_Number_07.png}.
+**Step 8** : Click on {img:../img/btn_apply.png}.
 ![](../img/How_to_Browse_and_Modify_Manifest_Number_09.png)
->> 1.
-1. **Step 7** : On clicking {img:../img/How_to_Browse_and_Modify_Manifest_Number_10.png}, the changes are applied.
-1. **Step 8** : Click on {img:../img/How_to_Browse_and_Modify_Manifest_Number_11.png}
+**Step 9** : Upon clicking {img:../img/btn_apply.png}, the details are applied to the selected BLs as shown below.
+**Step 10** : Click on {img:../img/btn_process.png}.
 ![](../img/How_to_Browse_and_Modify_Manifest_Number_12.png)
->> 1.
-If processed successfully, saved changes are displayed.
+If successfully processed, the saved changes are displayed as given below.
 ![](../img/How_to_Browse_and_Modify_Manifest_Number_13.png)
->> 1.
