@@ -1,0 +1,54 @@
+{
+ "source": "/tmp/sbl04_clean.png",
+ "crop_left": 5,
+ "crop_right": 4,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  986
+ ],
+ "marks": [
+  {
+   "box": [
+    54,
+    273,
+    111,
+    304
+   ],
+   "n": 3,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    792,
+    214,
+    1484,
+    305
+   ],
+   "n": 4,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    18,
+    834,
+    237,
+    899
+   ],
+   "n": 5,
+   "pos": "right"
+  },
+  {
+   "box": [
+    1386,
+    112,
+    1505,
+    141
+   ],
+   "n": 6,
+   "pos": "left"
+  }
+ ]
+}

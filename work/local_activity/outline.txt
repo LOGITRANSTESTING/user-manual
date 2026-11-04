@@ -46,3 +46,5 @@ pages/local_activity.md
         pages/how_to_set_store_place_single.md
       pages/set_store_place_bl_single.md
         pages/how_to_set_store_place_bl_single.md
+      pages/split_bl_single.md
+        pages/how_to_split_bl_single.md
