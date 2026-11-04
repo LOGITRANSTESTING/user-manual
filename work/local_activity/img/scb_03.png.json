@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/status_change_batch/03_result.png",
+ "crop_left": 0,
+ "crop_right": 3,
+ "border": 21,
+ "dimmed": true,
+ "marked": false,
+ "size": [
+  1561,
+  988
+ ]
+}

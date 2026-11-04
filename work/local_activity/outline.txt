@@ -12,3 +12,5 @@ pages/local_activity.md
         pages/how_to_local_declaration.md
       pages/local_declaration_logistics.md
         pages/how_to_local_declaration_logistics.md
+      pages/status_change_batch.md
+        pages/how_to_process_status_change.md
