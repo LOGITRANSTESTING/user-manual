@@ -14,6 +14,7 @@ pages/local_activity.md
         pages/how_to_local_declaration_logistics.md
       pages/status_change_batch.md
         pages/how_to_process_status_change.md
+        pages/how_to_reverse_status_change.md
       pages/voyage_change.md
         pages/how_to_change_voyage_for_import_bl.md
         pages/how_to_change_voyage_for_transit_bl.md

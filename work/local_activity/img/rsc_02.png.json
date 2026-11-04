@@ -1,0 +1,52 @@
+{
+ "source": "screenshots/reverse_status_change/02_screen.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  984
+ ],
+ "marks": [
+  {
+   "box": [
+    16,
+    114,
+    172,
+    140
+   ],
+   "n": 6
+  },
+  {
+   "box": [
+    30,
+    211,
+    80,
+    352
+   ],
+   "n": 7,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    14,
+    805,
+    1497,
+    892
+   ],
+   "n": 8,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1406,
+    110,
+    1499,
+    144
+   ],
+   "n": 9
+  }
+ ]
+}
