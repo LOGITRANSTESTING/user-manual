@@ -7,7 +7,7 @@ status: Waiting
 ![](../img/edi_01.png)
 **Step 2** : Upon clicking "**EDI References [ES]**" User will be shown the EDI References [ES] screen.
 **Step 3** : Click on {img:../img/btn_add.png} to add a new row.
-**Step 4** : Enter the "**Item No**"; the rest of the fields are autopopulated. This field is mandatory.
+**Step 4** : Choose the Item number from the "**Item No.**" drop down; based on the Item No. chosen the rest of the fields are autopopulated. This field is mandatory.
 **Step 5** : Click on {img:../img/btn_process.png}.
 ![](../img/edi_02.png)
 If successfully processed, a success message is shown as given below.
