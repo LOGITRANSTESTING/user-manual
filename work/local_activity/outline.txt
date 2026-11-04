@@ -4,6 +4,16 @@ pages/local_activity.md
     pages/result_grid.md
     pages/icons.md
     pages/group_functions.md
+      pages/store_place_manifest_no_assignment.md
+        pages/store_place_browse_modify.md
+          pages/how_to_browse_and_modify_store_place.md
+          pages/how_to_assign_xml_details.md
+          pages/how_to_assign_edi_details.md
+        pages/manifest_no_browse_modify.md
+          pages/how_to_browse_and_modify_manifest_number.md
+        pages/manifest_no_assignment.md
+          pages/how_to_assign_manifest_template.md
+          pages/how_to_reassign_manifest_template.md
       pages/assign_customer_details.md
         pages/how_to_assign_customer_details.md
       pages/delete_bl_batch.md
