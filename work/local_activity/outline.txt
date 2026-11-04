@@ -8,7 +8,6 @@ pages/local_activity.md
         pages/store_place_browse_modify.md
           pages/how_to_browse_and_modify_store_place.md
           pages/how_to_assign_xml_details.md
-          pages/how_to_assign_edi_details.md
         pages/manifest_no_browse_modify.md
           pages/how_to_browse_and_modify_manifest_number.md
         pages/manifest_no_assignment.md
