@@ -43,3 +43,4 @@
 2. If there is no image to build from and the flow is not complete, ASK the user for the missing image, naming the step it is for.
 3. PREVIEW EVERY EDITED IMAGE: whenever an image is edited or built, show its preview right away so the user can correct it there, before it goes into a page.
 4. CROP BUTTONS BEFORE MARKING: inline button/icon crops are always cut from the unmarked screenshot, before any box or number is drawn.
+5. NEVER MARK SUCCESS MESSAGES: never draw a red box (or number) around a success message (green success bar, success alert). Leave it unmarked; other changed values on the result screen may still be boxed when the user asks.
