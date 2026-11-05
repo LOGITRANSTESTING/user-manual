@@ -1,5 +1,5 @@
 ---
-title: How to Batch Apply
+title: How to change email for multiple records using batch apply
 status: Waiting
 ---
 ## Pre defined conditions
@@ -12,7 +12,7 @@ status: Waiting
 **Step 4** : Enter the Email and Remarks as given below.
 **Step 5** : Click on {img:../img/btn_apply.png}.
 ![](../img/ba_02.png)
-If successfully applied, an alert is shown as given below and the email is changed for the selected records.
+If successfully applied, an alert is shown as given below and the email is changed for the selected records and the right fax will be generated and sent to the updated email.
 ![](../img/ba_03.png)
 The generated files are saved in the path as shown below.
 ![](../img/ba_04.png)
