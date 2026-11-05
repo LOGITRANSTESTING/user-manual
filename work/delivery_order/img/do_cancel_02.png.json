@@ -1,0 +1,54 @@
+{
+ "source": "work/delivery_order/build/02_select_records_remarks.png",
+ "crop_left": 0,
+ "crop_right": 3,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1556,
+  984
+ ],
+ "marks": [
+  {
+   "box": [
+    9,
+    187,
+    80,
+    255
+   ],
+   "n": 3,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    996,
+    109,
+    1150,
+    134
+   ],
+   "n": 4,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1227,
+    106,
+    1399,
+    137
+   ],
+   "n": 5,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1406,
+    106,
+    1503,
+    137
+   ],
+   "n": 6,
+   "pos": "right"
+  }
+ ]
+}

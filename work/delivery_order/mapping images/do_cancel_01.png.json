@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/do_cancel/01_query.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1515,
+  934
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     9,
+     176,
+     1505,
+     351
+    ],
+    "btn": [
+     1353,
+     315,
+     1419,
+     343
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}

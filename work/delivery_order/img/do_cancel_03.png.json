@@ -1,12 +1,12 @@
 {
- "source": "screenshots/overview/01_main.png",
+ "source": "work/delivery_order/build/03_alert.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 21,
- "dimmed": false,
+ "dimmed": true,
  "marked": false,
  "size": [
-  1956,
-  874
+  1567,
+  989
  ]
 }
