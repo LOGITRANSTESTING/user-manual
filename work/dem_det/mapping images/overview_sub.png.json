@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/overview/02_sub.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1914,
+  833
+ ],
+ "marks": [
+  {
+   "box": [
+    956,
+    183,
+    1188,
+    414
+   ],
+   "n": null,
+   "width": 4
+  }
+ ]
+}
