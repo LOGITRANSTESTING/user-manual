@@ -1,0 +1,12 @@
+{
+ "source": "work/delivery_order/build/dog_03.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": false,
+ "size": [
+  1563,
+  992
+ ]
+}

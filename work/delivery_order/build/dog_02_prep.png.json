@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/do_generation/02_select_records.png",
+ "crop_left": 6,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1558,
+  984
+ ]
+}

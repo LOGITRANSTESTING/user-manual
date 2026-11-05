@@ -5,3 +5,5 @@ pages/delivery_order.md
     pages/functions.md
       pages/do_cancel.md
         pages/how_to_cancel_do.md
+      pages/do_generation.md
+        pages/how_to_generate_do.md

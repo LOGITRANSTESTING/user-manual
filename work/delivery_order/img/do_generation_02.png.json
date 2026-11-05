@@ -1,0 +1,44 @@
+{
+ "source": "screenshots/do_generation/02_select_records.png",
+ "crop_left": 6,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  984
+ ],
+ "marks": [
+  {
+   "box": [
+    16,
+    186,
+    88,
+    253
+   ],
+   "n": 3,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1004,
+    109,
+    1158,
+    132
+   ],
+   "n": 4,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1415,
+    106,
+    1509,
+    134
+   ],
+   "n": 5,
+   "pos": "right"
+  }
+ ]
+}
