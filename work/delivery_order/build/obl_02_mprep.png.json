@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/obl_marking/04_obl_selected.png",
+ "crop_left": 3,
+ "crop_right": 4,
+ "border": 0,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1516,
+  941
+ ]
+}
