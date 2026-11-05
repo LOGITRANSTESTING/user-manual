@@ -1,30 +1,30 @@
 {
- "source": "screenshots/azdoc_request/02_screen.jpg",
+ "source": "work/email_notifications/build/azdoc_02.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 21,
  "dimmed": false,
  "marked": true,
  "size": [
-  1554,
-  988
+  1555,
+  897
  ],
  "marks": [
   {
    "box": [
     5,
-    180,
+    129,
     41,
-    244
+    193
    ],
    "n": 3
   },
   {
    "box": [
     1182,
-    109,
+    58,
     1274,
-    139
+    88
    ],
    "n": 4
   }

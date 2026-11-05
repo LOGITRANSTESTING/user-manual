@@ -1,28 +1,28 @@
 {
- "source": "screenshots/azdoc_request/01_query.jpg",
+ "source": "work/email_notifications/build/azdoc_01.png",
  "crop_left": 0,
- "crop_right": 4,
+ "crop_right": 0,
  "border": 0,
  "dimmed": false,
  "marked": true,
  "size": [
-  1513,
-  946
+  1518,
+  856
  ],
  "marks": [
   {
    "pair": {
     "big": [
      8,
-     139,
+     89,
      1503,
-     338
+     288
     ],
     "btn": [
      1351,
-     302,
+     252,
      1417,
-     330
+     280
     ]
    },
    "n": null,
@@ -31,18 +31,18 @@
   {
    "box": [
     11,
-    146,
+    96,
     502,
-    200
+    150
    ],
    "n": null
   },
   {
    "box": [
     1007,
-    148,
+    98,
     1249,
-    200
+    150
    ],
    "n": null
   }

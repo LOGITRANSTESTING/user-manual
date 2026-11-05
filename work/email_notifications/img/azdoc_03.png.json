@@ -1,12 +1,12 @@
 {
- "source": "screenshots/azdoc_request/03_success.jpg",
+ "source": "work/email_notifications/build/azdoc_03.png",
  "crop_left": 0,
- "crop_right": 3,
+ "crop_right": 0,
  "border": 21,
  "dimmed": false,
  "marked": false,
  "size": [
-  1547,
-  993
+  1551,
+  900
  ]
 }
