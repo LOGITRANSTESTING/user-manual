@@ -1,0 +1,16 @@
+{
+ "description": "Remove rows from an open drop-down list: move the rows below them up, then fill the freed strip at the bottom with blank screen copied from beside the list (same rows). Offsets are numbers, so edit them in a copy of this recipe per use (--set gives text only). Values here: Email & Notifications query, Notification Type list, rows 4-5 (duplicates) removed.",
+ "inputs": {
+  "screen": "screenshot with the open list",
+  "keep": "x0,y0,x1,y1 of the rows to move up (first kept row's top separator to the list's bottom shadow); moved by the first step's offset [0,-H], H = height of the removed rows",
+  "blank": "x0,y0,x1,y1 of blank screen beside the list covering the freed strip (same y); moved by [dx,0] onto the strip",
+  "out": "output file"
+ },
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "load", "file": "${screen}", "as": "d"},
+  {"op": "copy_region", "from": "d", "to": "s", "region": "${blank}", "align": "none", "offset": [-256, 0]},
+  {"op": "copy_region", "from": "d", "to": "s", "region": "${keep}", "align": "none", "offset": [0, -53]},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}
