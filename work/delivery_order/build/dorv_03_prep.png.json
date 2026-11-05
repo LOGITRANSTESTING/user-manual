@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/do_revalidation/04_popup_filled.png",
+ "crop_left": 0,
+ "crop_right": 4,
+ "border": 21,
+ "dimmed": true,
+ "marked": false,
+ "size": [
+  1561,
+  986
+ ]
+}

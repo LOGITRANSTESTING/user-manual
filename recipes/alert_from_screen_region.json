@@ -1,0 +1,61 @@
+{
+ "description": "Like alert_from_screen, but the donor pop-up box is given (use when the automatic pop-up detection cuts off part of the pop-up, e.g. its title bar).",
+ "inputs": {
+  "screen": "the screen the pop-up should appear on (may have red boxes - they are cleared)",
+  "donor": "a dimmed screenshot showing the pop-up to copy (same app, same pop-up style)",
+  "donor_message": "the exact message text shown in the donor pop-up",
+  "message": "the new message",
+  "out": "output file, e.g. work/<function>/alert.png",
+  "region": "x0,y0,x1,y1 of the pop-up in the DONOR (whole pop-up incl. title bar)"
+ },
+ "defaults": {
+  "font": "popup_message"
+ },
+ "steps": [
+  {
+   "op": "load",
+   "file": "${screen}",
+   "as": "s"
+  },
+  {
+   "op": "load",
+   "file": "${donor}",
+   "as": "d"
+  },
+  {
+   "op": "clear_marks",
+   "img": "s"
+  },
+  {
+   "op": "dim",
+   "img": "s"
+  },
+  {
+   "op": "copy_popup",
+   "from": "d",
+   "to": "s",
+   "box_as": "popup",
+   "region": "${region}"
+  },
+  {
+   "op": "text_blocks",
+   "img": "s",
+   "region": "${popup}",
+   "pick": "widest",
+   "as": "msg"
+  },
+  {
+   "op": "replace_text",
+   "img": "s",
+   "box": "${msg}",
+   "old_text": "${donor_message}",
+   "text": "${message}",
+   "font": "${font}"
+  },
+  {
+   "op": "save",
+   "img": "s",
+   "file": "${out}"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "source": "screenshots/do_revalidation/04_popup_filled.png",
+ "crop_left": 0,
+ "crop_right": 4,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1519,
+  944
+ ],
+ "marks": [
+  {
+   "box": [
+    551,
+    376,
+    603,
+    512
+   ],
+   "n": null,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    538,
+    309,
+    913,
+    361
+   ],
+   "n": null,
+   "pos": "left"
+  },
+  {
+   "box": [
+    918,
+    328,
+    997,
+    362
+   ],
+   "n": null,
+   "pos": "topright"
+  },
+  {
+   "box": [
+    859,
+    407,
+    996,
+    515
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    932,
+    687,
+    1033,
+    721
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

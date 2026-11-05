@@ -1,0 +1,44 @@
+{
+ "source": "work/delivery_order/build/dorv_02_ticked.png",
+ "crop_left": 3,
+ "crop_right": 4,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  984
+ ],
+ "marks": [
+  {
+   "box": [
+    260,
+    109,
+    366,
+    133
+   ],
+   "n": 3,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    14,
+    187,
+    84,
+    256
+   ],
+   "n": 4,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    976,
+    108,
+    1158,
+    136
+   ],
+   "n": 5,
+   "pos": "bottomleft"
+  }
+ ]
+}
