@@ -1,0 +1,50 @@
+{
+ "source": "work/email_notifications/build/gn_01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1508,
+  849
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     2,
+     86,
+     1496,
+     286
+    ],
+    "btn": [
+     1343,
+     248,
+     1411,
+     277
+    ]
+   },
+   "n": null,
+   "type": "query"
+  },
+  {
+   "box": [
+    5,
+    93,
+    245,
+    146
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    503,
+    94,
+    992,
+    146
+   ],
+   "n": null
+  }
+ ]
+}
