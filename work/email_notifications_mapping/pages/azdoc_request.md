@@ -11,7 +11,6 @@ status: Waiting
 >> {img:../img/afsys_azdoc_03_success.png}
 
 
-
 **ILISCyber**
 
 ![](../img/main.png)

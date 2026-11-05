@@ -5,7 +5,6 @@ status: Waiting
 **Afsys**
 
 
-
 **ILISCyber**
 
 ![](../img/main.png)
