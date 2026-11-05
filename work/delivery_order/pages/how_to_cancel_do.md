@@ -6,10 +6,10 @@ status: Waiting
 The BL should have an already existing DO.
 
 ## Steps
-**Step 1** : Click on "**Generated**".
-**Step 2** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
+**Step 1** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
 ![](../img/do_cancel_01.png)
-**Step 3** : Upon clicking {img:../img/btn_search.png}, BLs with matching information are returned.
+**Step 2** : Upon clicking {img:../img/btn_search.png}, BLs with matching information are returned.
+**Step 3** : Click on "**Generated**".
 **Step 4** : Either select all BLs available by clicking on {img:../img/cb_select_all.png} or select individual BLs by clicking on {img:../img/cb_single_select.png}.
 **Step 5** : Select "**DO Cancel**" from the "**Function**" drop-down.
 **Step 6** : Enter the data in **Remarks** field. This field is mandatory.
