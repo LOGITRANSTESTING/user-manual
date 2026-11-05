@@ -1,0 +1,50 @@
+{
+ "source": "work/email_notifications/build/cfmb_01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1511,
+  290
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     6,
+     87,
+     1500,
+     153
+    ],
+    "btn": [
+     1348,
+     117,
+     1415,
+     147
+    ]
+   },
+   "n": null,
+   "type": "query"
+  },
+  {
+   "box": [
+    10,
+    94,
+    252,
+    149
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    507,
+    95,
+    999,
+    149
+   ],
+   "n": null
+  }
+ ]
+}

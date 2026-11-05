@@ -6,3 +6,5 @@ pages/email_notifications.md
         pages/how_to_process_azdoc_request.md
       pages/cargo_freight_manifest.md
         pages/how_to_process_cargo_freight_manifest.md
+        pages/cargo_freight_manifest_batch.md
+          pages/how_to_process_cargo_freight_manifest_batch.md

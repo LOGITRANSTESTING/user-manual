@@ -1,0 +1,23 @@
+{
+ "source": "work/email_notifications/build/cfmb_02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1509,
+  853
+ ],
+ "marks": [
+  {
+   "box": [
+    1178,
+    54,
+    1273,
+    85
+   ],
+   "n": null
+  }
+ ]
+}
