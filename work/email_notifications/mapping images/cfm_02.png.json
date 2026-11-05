@@ -1,0 +1,34 @@
+{
+ "source": "work/email_notifications/build/cfm_02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1507,
+  852
+ ],
+ "marks": [
+  {
+   "box": [
+    0,
+    158,
+    36,
+    190
+   ],
+   "n": null,
+   "kind": "tall",
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1176,
+    55,
+    1269,
+    85
+   ],
+   "n": null
+  }
+ ]
+}

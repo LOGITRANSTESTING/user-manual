@@ -1,0 +1,50 @@
+{
+ "source": "work/email_notifications/build/cfm_01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1504,
+  289
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     3,
+     87,
+     1497,
+     287
+    ],
+    "btn": [
+     1346,
+     251,
+     1412,
+     279
+    ]
+   },
+   "n": null,
+   "type": "query"
+  },
+  {
+   "box": [
+    5,
+    96,
+    496,
+    149
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1002,
+    98,
+    1243,
+    149
+   ],
+   "n": null
+  }
+ ]
+}
