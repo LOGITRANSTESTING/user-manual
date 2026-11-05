@@ -15,3 +15,4 @@ pages/delivery_order.md
         pages/how_to_revalidate_do.md
       pages/obl_marking.md
         pages/how_to_mark_obl_if_do_is_generated.md
+        pages/how_to_mark_obl_if_do_is_not_generated.md

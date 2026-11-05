@@ -1,0 +1,64 @@
+{
+ "source": "screenshots/obl_marking_not_generated/03_select_records.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1561,
+  980
+ ],
+ "marks": [
+  {
+   "box": [
+    160,
+    107,
+    266,
+    131
+   ],
+   "n": 3,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    13,
+    185,
+    83,
+    252
+   ],
+   "n": 4,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    84,
+    185,
+    143,
+    252
+   ],
+   "n": 5,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    995,
+    104,
+    1158,
+    134
+   ],
+   "n": 6,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1410,
+    104,
+    1518,
+    134
+   ],
+   "n": 7,
+   "pos": "right"
+  }
+ ]
+}
