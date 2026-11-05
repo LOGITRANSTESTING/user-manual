@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/1.Add/4.Enter BL then click populatebutton.PNG",
+ "crop_left": 10,
+ "crop_right": 5,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1510,
+  911
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     562,
+     410,
+     992,
+     463
+    ],
+    "btn": [
+     915,
+     481,
+     999,
+     507
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}
