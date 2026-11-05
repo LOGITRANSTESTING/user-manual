@@ -1,5 +1,5 @@
 ---
-title: AMS Release Status
+title: AMS Release Status[YMA]
 status: Waiting
 ---
 
