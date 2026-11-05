@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/email_notifications/02_sub.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1911,
+  835
+ ],
+ "marks": [
+  {
+   "box": [
+    960,
+    422,
+    1188,
+    650
+   ],
+   "n": null,
+   "width": 4
+  }
+ ]
+}
