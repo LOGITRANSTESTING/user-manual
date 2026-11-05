@@ -1,11 +1,7 @@
 pages/delivery_order.md
-  pages/content_section.md
-    pages/query_parameters.md
-    pages/result_grid.md
-    pages/functions.md
-      pages/do_cancel.md
-      pages/do_generation.md
-      pages/do_issued_update.md
-      pages/do_reprint.md
-      pages/do_revalidation.md
-      pages/obl_marking.md
+  pages/do_cancel.md
+  pages/do_generation.md
+  pages/do_issued_update.md
+  pages/do_reprint.md
+  pages/do_revalidation.md
+  pages/obl_marking.md
