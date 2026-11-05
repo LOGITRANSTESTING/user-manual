@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/2.Batch Apply/0.Select records then click Batch Apply (built).png",
+ "crop_left": 0,
+ "crop_right": 5,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1565,
+  957
+ ],
+ "marks": [
+  {
+   "box": [
+    14,
+    137,
+    1501,
+    229
+   ],
+   "n": 1,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    138,
+    74,
+    223,
+    102
+   ],
+   "n": 2
+  }
+ ]
+}
