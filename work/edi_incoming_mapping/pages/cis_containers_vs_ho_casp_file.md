@@ -4,6 +4,10 @@ status: Waiting
 ---
 **Afsys**
 
+>> {img:../img/afsys_cis_01_menu.png}
+>> {img:../img/afsys_cis_02_query.png}
+>> {img:../img/afsys_cis_03_result.png}
+>> {img:../img/afsys_cis_04_right_fax.png}
 
 
 **ILISCyber**
