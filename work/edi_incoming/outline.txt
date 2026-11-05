@@ -5,3 +5,6 @@ pages/edi_incoming.md
     pages/ho_casp_file_vs_cis_containers.md
       pages/how_to_right_fax.md
       pages/how_to_write_text_file.md
+    pages/cis_containers_vs_ho_casp_file.md
+      pages/cis_how_to_right_fax.md
+      pages/cis_how_to_write_text_file.md

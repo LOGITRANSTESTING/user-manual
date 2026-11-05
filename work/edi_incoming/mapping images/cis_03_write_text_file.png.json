@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_incoming/cis_containers_vs_ho_casp_file/03_data.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1510,
+  856
+ ],
+ "marks": [
+  {
+   "box": [
+    1347,
+    55,
+    1467,
+    81
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}
