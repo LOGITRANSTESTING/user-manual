@@ -2,3 +2,6 @@ pages/edi_incoming.md
   pages/group_functions.md
     pages/ams_release_status.md
       pages/how_to_query_and_view_ams_release_status.md
+    pages/ho_casp_file_vs_cis_containers.md
+      pages/how_to_right_fax.md
+      pages/how_to_write_text_file.md
