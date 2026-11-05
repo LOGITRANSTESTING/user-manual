@@ -1,4 +1,2 @@
 pages/edi_incoming.md
-  pages/content_section.md
-    pages/query_parameters.md
-    pages/group_functions.md
+  pages/group_functions.md
