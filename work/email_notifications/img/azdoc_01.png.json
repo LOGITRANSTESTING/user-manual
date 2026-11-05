@@ -1,0 +1,50 @@
+{
+ "source": "screenshots/azdoc_request/01_query.jpg",
+ "crop_left": 0,
+ "crop_right": 4,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1555,
+  988
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     8,
+     139,
+     1503,
+     338
+    ],
+    "btn": [
+     1351,
+     302,
+     1417,
+     330
+    ]
+   },
+   "n": 1,
+   "type": "query"
+  },
+  {
+   "box": [
+    11,
+    146,
+    502,
+    200
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1007,
+    148,
+    1249,
+    200
+   ],
+   "n": null
+  }
+ ]
+}

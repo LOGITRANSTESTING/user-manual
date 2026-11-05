@@ -1,3 +1,6 @@
 pages/email_notifications.md
   pages/content_section.md
     pages/query_parameters.md
+    pages/group_functions.md
+      pages/azdoc_request.md
+        pages/how_to_process_azdoc_request.md
