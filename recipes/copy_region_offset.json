@@ -1,0 +1,13 @@
+{
+ "description": "Copy a region from a neighbouring screenshot at a fixed offset (use when auto alignment misses, e.g. small plain areas such as under a tooltip). Offsets are numbers, so edit them in a copy of this recipe per use (--set gives text only). Values here: AZDOC query <- Notification Email query, offset [7,3] measured from the Process/Search text blocks.",
+ "inputs": {
+  "screen": "screenshot to complete", "donor": "neighbouring screenshot",
+  "region": "x0,y0,x1,y1 of the area in the DONOR", "out": "output file"
+ },
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "load", "file": "${donor}", "as": "d"},
+  {"op": "copy_region", "from": "d", "to": "s", "region": "${region}", "align": "none", "offset": [7, 3]},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}
