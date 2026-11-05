@@ -3,6 +3,7 @@ title: How to update Issued DO
 status: Waiting
 ---
 ## Pre defined conditions
+The BL should have an already existing DO.
 
 ## Steps
 **Step 1** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
