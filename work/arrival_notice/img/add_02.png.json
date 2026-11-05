@@ -1,12 +1,12 @@
 {
- "source": "screenshots/1.Add/4.Enter BL then click populatebutton.PNG",
- "crop_left": 10,
- "crop_right": 5,
+ "source": "work/arrival_notice/build/add_02_src.png",
+ "crop_left": 0,
+ "crop_right": 0,
  "border": 21,
  "dimmed": true,
  "marked": true,
  "size": [
-  1552,
+  1567,
   953
  ],
  "marks": [
