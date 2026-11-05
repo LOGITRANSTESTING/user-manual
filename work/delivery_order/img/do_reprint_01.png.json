@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/do_reprint/01_query.png",
+ "crop_left": 8,
+ "crop_right": 3,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  986
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     18,
+     183,
+     1514,
+     358
+    ],
+    "btn": [
+     1361,
+     322,
+     1429,
+     351
+    ]
+   },
+   "n": 1,
+   "type": "query"
+  }
+ ]
+}

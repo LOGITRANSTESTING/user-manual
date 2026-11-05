@@ -1,0 +1,32 @@
+{
+ "source": "work/delivery_order/build/dor_04_clean.png",
+ "crop_left": 12,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1548,
+  989
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     546,
+     392,
+     1010,
+     576
+    ],
+    "btn": [
+     943,
+     592,
+     1021,
+     625
+    ]
+   },
+   "n": 8,
+   "type": "popup"
+  }
+ ]
+}

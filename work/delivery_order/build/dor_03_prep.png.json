@@ -1,0 +1,12 @@
+{
+ "source": "work/delivery_order/build/dor_04_clean.png",
+ "crop_left": 12,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": false,
+ "size": [
+  1548,
+  989
+ ]
+}

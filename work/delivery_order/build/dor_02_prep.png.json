@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/do_reprint/02_select_records.png",
+ "crop_left": 0,
+ "crop_right": 4,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1560,
+  991
+ ]
+}
