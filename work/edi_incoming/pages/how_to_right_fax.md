@@ -9,8 +9,7 @@ status: Waiting
 **Step 3** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search_ho.png}.
 ![](../img/ho_casp_02.png)
 **Step 4** : Upon clicking {img:../img/btn_search_ho.png}, containers with matching information are returned.
-**Step 5** : Select the required container.
-**Step 6** : Click on {img:../img/btn_right_fax.png}.
+**Step 5** : Click on {img:../img/btn_right_fax.png}.
 ![](../img/ho_casp_03_right_fax.png)
 If successfully generated, a success message is shown as given below.
 ![](../img/ho_casp_04_right_fax.png)
