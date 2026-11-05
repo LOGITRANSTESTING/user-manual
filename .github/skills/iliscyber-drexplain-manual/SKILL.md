@@ -33,6 +33,7 @@ The user writes ILISCyber help manuals in Dr.Explain. You turn their screenshots
    - `prep` (grey side crop + border + grey padding if dimmed; `--side` for side-function shots),
    - `mark` with a spec in ORIGINAL-screenshot coordinates (the sidecar converts them; numbers continue across screenshots),
    - look at the preview; fix and re-mark if anything covers text.
+   - **Mapping copy (always, for every marked image):** also save a mapping version in `work/<manual>/mapping images/` under the same file name - red boxes only, NO numbers, NO blue border: `prep SRC "work/<manual>/mapping images/<name>.png" --no-border`, then `mark` it with the same spec with every `"n"` set to `null` (pairs and tile boxes included). Re-make it whenever the manual image is re-marked. These are the ready ILISCyber images for a later mapping document.
 5. Write the page file (`references/page-format.md`) and add it to `outline.txt`. Pages the user confirmed are locked.
 6. On "generate": `gui build work/<manual> --out "output/<Main> - <Sub>.gui"`, then report the tree it prints. No Trouble shooting pages anywhere (build skips them; `gui remove ... --match "trouble ?shooting"` removes them from an existing file).
 
