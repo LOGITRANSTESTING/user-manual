@@ -1,0 +1,6 @@
+pages/email_notifications.md
+  pages/azdoc_request.md
+  pages/cargo_freight_manifest.md
+  pages/cargo_freight_manifest_batch.md
+  pages/general_notice.md
+  pages/notification_email.md
