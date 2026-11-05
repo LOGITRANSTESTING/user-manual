@@ -51,7 +51,7 @@ ILISCyber - <Main> - <Sub>                (cover: copied from template, title re
 - Result Grid icons: if the grid has icons, ASK if they want an icon page. If "already created" / "not required" -> skip. If yes -> add page "Icons - to be filled" with the result grid screenshot and blank space.
 - Function overview pages (new ones): description BLANK for the user, plain (unmarked) screenshot, topic status = `Waiting`. Never change overviews the user already confirmed.
 - NO Trouble shooting pages: never add a "Trouble shooting" page to any function. When finishing a manual that already contains Trouble shooting pages, remove them all.
-- "Pre defined conditions": ALWAYS add this bold-underlined 14pt heading on EVERY "How to" page, placed before the "Steps" heading, and leave it BLANK (needs SME input) unless the user gives the conditions or approves reusing them from an existing manual. Do not ask about it otherwise.
+- "Pre defined conditions" (PDC): do NOT add this heading to How to pages unless the user asks for it. When asked, add it as a bold-underlined 14pt heading placed before the "Steps" heading, with the conditions the user gives (or approves reusing from an existing manual). Never leave a blank PDC heading and do not ask about it.
 - Agent tags: agent-specific functions ALWAYS keep the agent tag in the page title, written exactly as it appears in the menu (same brackets, same spacing), e.g. "Free Letter[EG]", "Undo FROB[YMA]", "CSD Query[UK]", "EDI References [ES]", "Full Container Admission Process [TR]", "Debit Note (VN)", "Single Invoice (HK)". Never drop or reformat the tag.
 
 ## 4. Locking

@@ -26,8 +26,6 @@ pages/import_activity.md
 title: How to Process BL Open
 status: Waiting
 ---
-## Pre defined conditions
-
 ## Steps
 **Step 1** : The user should drag the cursor to the batch function menu icon {icon:batch_menu}, click on it, and then select "**Status Change**" from the menu.
 ![](../img/bl_open_01.png)
@@ -43,7 +41,7 @@ One line = one paragraph. An empty line = an empty paragraph (spacing).
 
 | Markup | Result |
 |---|---|
-| `## Steps` / `## Pre defined conditions` | heading: Calibri 14, bold, underlined |
+| `## Steps` / `## Pre defined conditions` (PDC only when the user asks) | heading: Calibri 14, bold, underlined |
 | `### Afsys` | bold Calibri 12 paragraph (sub-headings, mapping headings) |
 | `**Step 3** : text` (or `Step 3 : text`) | "Step 3 " bold, ": text" normal |
 | `**text**` | bold run (UI names: `"**Status Change**"` - quotes stay normal) |

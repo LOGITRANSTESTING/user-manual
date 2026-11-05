@@ -2,8 +2,6 @@
 title: How to query and view AMS release status
 status: Waiting
 ---
-## Pre defined conditions
-
 ## Steps
 **Step 1** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
 ![](../img/ams_release_status_02.png)
