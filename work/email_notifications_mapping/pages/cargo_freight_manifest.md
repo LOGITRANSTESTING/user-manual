@@ -4,6 +4,12 @@ status: Waiting
 ---
 **Afsys**
 
+>> {img:../img/afsys_main.png}
+>> {img:../img/afsys_cfm_01_special_functions.png}
+>> {img:../img/afsys_cfm_02_right_click.png}
+>> {img:../img/afsys_cfm_03_email_ok.png}
+>> {img:../img/afsys_cfm_04_success.png}
+
 
 **ILISCyber**
 
