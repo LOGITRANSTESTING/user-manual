@@ -1,13 +1,13 @@
 {
- "source": "work/email_notifications/build/azdoc_01.png",
+ "source": "work/email_notifications/build/azdoc_01_clean.png",
  "crop_left": 0,
- "crop_right": 0,
+ "crop_right": 3,
  "border": 0,
  "dimmed": false,
  "marked": true,
  "size": [
-  1518,
-  856
+  1513,
+  857
  ],
  "marks": [
   {
