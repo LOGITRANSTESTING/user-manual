@@ -1,2 +1,4 @@
 pages/edi_incoming.md
   pages/group_functions.md
+    pages/ams_release_status.md
+      pages/how_to_query_and_view_ams_release_status.md
