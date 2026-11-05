@@ -11,6 +11,16 @@
  ],
  "marks": [
   {
+   "box": [
+    257,
+    108,
+    361,
+    132
+   ],
+   "n": null,
+   "pos": "bottomleft"
+  },
+  {
    "pair": {
     "big": [
      9,
