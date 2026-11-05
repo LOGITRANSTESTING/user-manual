@@ -1,0 +1,50 @@
+{
+ "source": "work/email_notifications/build/ne_01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1508,
+  849
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     2,
+     86,
+     1496,
+     285
+    ],
+    "btn": [
+     1343,
+     248,
+     1411,
+     277
+    ]
+   },
+   "n": null,
+   "type": "query"
+  },
+  {
+   "box": [
+    5,
+    94,
+    245,
+    146
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1002,
+    95,
+    1241,
+    146
+   ],
+   "n": null
+  }
+ ]
+}

@@ -10,3 +10,5 @@ pages/email_notifications.md
         pages/how_to_process_cargo_freight_manifest_batch.md
       pages/general_notice.md
         pages/how_to_process_general_notice.md
+      pages/notification_email.md
+        pages/how_to_process_notification_email.md

@@ -1,0 +1,42 @@
+{
+ "source": "work/email_notifications/build/ne_02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1515,
+  851
+ ],
+ "marks": [
+  {
+   "box": [
+    9,
+    129,
+    39,
+    193
+   ],
+   "n": null,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    15,
+    500,
+    1493,
+    836
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1183,
+    57,
+    1276,
+    87
+   ],
+   "n": null
+  }
+ ]
+}
