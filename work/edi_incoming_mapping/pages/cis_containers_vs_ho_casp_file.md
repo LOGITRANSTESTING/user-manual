@@ -15,3 +15,4 @@ status: Waiting
 ![](../img/cis_03_right_fax.png)
 ![](../img/cis_04_right_fax.png)
 ![](../img/cis_03_write_text_file.png)
+![](../img/cis_04_write_text_file.png)
