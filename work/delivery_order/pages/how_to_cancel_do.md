@@ -3,6 +3,7 @@ title: How to Cancel DO
 status: Waiting
 ---
 ## Pre defined conditions
+The BL should have an already existing DO.
 
 ## Steps
 **Step 1** : Click on "**Generated**".
