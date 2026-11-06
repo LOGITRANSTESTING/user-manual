@@ -9,5 +9,7 @@ pages/release_order.md
         pages/how_to_ero_revalidate.md
       pages/cargo_release_revalidate.md
         pages/how_to_cargo_release_revalidate.md
+      pages/cargo_release_query.md
+        pages/how_to_cargo_release_query.md
     pages/not_generated_functions.md
     pages/side_functions.md
