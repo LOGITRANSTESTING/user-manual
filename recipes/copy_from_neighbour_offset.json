@@ -1,0 +1,13 @@
+{
+ "description": "Bring a region from a neighbouring screenshot of the same screen to a fixed position. Use when copy_from_neighbour's auto alignment picks the wrong spot: measure an anchor in both shots (find --text ... --button), then at = region top-left + (target anchor - donor anchor).",
+ "inputs": {
+  "screen": "screenshot to complete", "donor": "neighbouring screenshot that shows the wanted state",
+  "region": "x0,y0,x1,y1 of the area in the DONOR", "x": "target x of the region's top-left", "y": "target y of the region's top-left", "out": "output file"
+ },
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "load", "file": "${donor}", "as": "d"},
+  {"op": "paste", "img": "s", "from": "d", "region": "${region}", "at": ["${x}", "${y}"]},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}

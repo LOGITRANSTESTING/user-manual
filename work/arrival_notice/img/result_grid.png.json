@@ -1,0 +1,12 @@
+{
+ "source": "work/arrival_notice/build/result_grid_clean.png",
+ "crop_left": 0,
+ "crop_right": 61,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1566,
+  954
+ ]
+}
