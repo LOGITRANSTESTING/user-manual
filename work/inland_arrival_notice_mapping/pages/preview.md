@@ -2,6 +2,8 @@
 title: Preview
 status: Waiting
 ---
+Preview shows the Arrival Notice report before it is sent, so the user can review the details. The content can also be modified.
+
 **Afsys**
 
 >> {img:../img/afsys_fu_01_main.png}

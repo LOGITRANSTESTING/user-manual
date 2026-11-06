@@ -2,6 +2,8 @@
 title: Fax Update
 status: Waiting
 ---
+When Fax Update is clicked, the fax number and email address are fetched automatically from the system master setup. If they are not fetched or are blank, they can be entered manually and saved.
+
 **Afsys**
 
 >> {img:../img/afsys_fu_01_main.png}

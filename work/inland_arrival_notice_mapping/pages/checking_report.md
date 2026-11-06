@@ -2,6 +2,8 @@
 title: Checking Report
 status: Waiting
 ---
+Checking Report is used to cross-verify the details of the current search for data accuracy.
+
 **Afsys**
 
 >> {img:../img/afsys_fu_01_main.png}
