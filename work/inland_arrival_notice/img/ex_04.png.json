@@ -1,12 +1,12 @@
 {
- "source": "screenshots/fax_update_extract/04_success.jpg",
+ "source": "work/inland_arrival_notice/build/ex_04_raw.png",
  "crop_left": 0,
- "crop_right": 0,
+ "crop_right": 6,
  "border": 21,
  "dimmed": false,
  "marked": false,
  "size": [
-  1548,
-  989
+  1564,
+  945
  ]
 }
