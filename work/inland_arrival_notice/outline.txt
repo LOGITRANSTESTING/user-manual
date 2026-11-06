@@ -10,5 +10,7 @@ pages/inland_arrival_notice.md
         pages/how_to_edit_and_save_details.md
       pages/checking_report.md
         pages/how_to_generate_checking_report.md
+      pages/process.md
+        pages/how_to_process_an.md
       pages/preview.md
         pages/how_to_preview_an.md
