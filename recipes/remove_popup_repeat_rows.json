@@ -1,0 +1,15 @@
+{
+ "description": "Remove a pop-up from a dimmed grid screenshot: undim the screen, then cover the pop-up with a band of grid rows copied from the same screen (rows repeat at a fixed pitch, so the band is taken a whole number of rows above/below and pasted at the pop-up). Fix the cell texts of the rebuilt rows afterwards with change_value / replace_text. Used for: Arrival Notice Add (select record + Add) built from the Add pop-up shot.",
+ "inputs": {
+  "screen": "dimmed screenshot with the pop-up",
+  "band": "x0,y0,x1,y1 of the rows to copy (same x as the pop-up, height >= pop-up height, a whole number of rows away)",
+  "x": "pop-up left x", "y": "band top y at the pop-up (band y0 + n * row pitch)",
+  "out": "output file"
+ },
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "undim", "img": "s"},
+  {"op": "paste", "img": "s", "from": "s", "region": "${band}", "at": ["${x}", "${y}"]},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}

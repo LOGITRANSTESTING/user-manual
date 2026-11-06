@@ -1,0 +1,33 @@
+{
+ "source": "work/arrival_notice/build/add_step_b.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1524,
+  907
+ ],
+ "marks": [
+  {
+   "box": [
+    14,
+    152,
+    1497,
+    202
+   ],
+   "n": null,
+   "pos": "left"
+  },
+  {
+   "box": [
+    83,
+    90,
+    147,
+    118
+   ],
+   "n": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "source": "work/arrival_notice/build/04_enter_bl_then_click_populatebutton_g.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1525,
+  911
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     562,
+     408,
+     992,
+     465
+    ],
+    "btn": [
+     915,
+     481,
+     999,
+     507
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}
