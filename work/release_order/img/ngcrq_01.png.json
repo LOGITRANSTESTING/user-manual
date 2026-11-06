@@ -1,0 +1,32 @@
+{
+ "source": "work/release_order/build/ngcrq_t1.png",
+ "crop_left": 9,
+ "crop_right": 22,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  936
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     19,
+     128,
+     1516,
+     460
+    ],
+    "btn": [
+     1362,
+     423,
+     1429,
+     452
+    ]
+   },
+   "n": 1,
+   "type": "query"
+  }
+ ]
+}
