@@ -3,5 +3,7 @@ pages/inland_arrival_notice.md
     pages/query_parameters.md
     pages/result_grid.md
     pages/an_preparation.md
+      pages/fax_update.md
+        pages/how_to_generate_fax_update_checking_report.md
       pages/checking_report.md
         pages/how_to_generate_checking_report.md

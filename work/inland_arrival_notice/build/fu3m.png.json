@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/fax_update_checking_report/03_fax_update_screen.png",
+ "crop_left": 0,
+ "crop_right": 6,
+ "border": 0,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1522,
+  903
+ ]
+}
