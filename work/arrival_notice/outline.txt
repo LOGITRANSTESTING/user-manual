@@ -2,3 +2,5 @@ pages/arrival_notice.md
   pages/content_section.md
     pages/query_parameters.md
     pages/result_grid.md
+    pages/add.md
+      pages/how_to_add_bl.md
