@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/overview_release_order/02_sub.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1914,
+  834
+ ],
+ "marks": [
+  {
+   "box": [
+    713,
+    429,
+    958,
+    664
+   ],
+   "n": null,
+   "width": 4
+  }
+ ]
+}
