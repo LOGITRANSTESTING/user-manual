@@ -1,0 +1,43 @@
+{
+ "source": "work/release_order/build/t_03.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1512,
+  829
+ ],
+ "marks": [
+  {
+   "box": [
+    773,
+    265,
+    997,
+    321
+   ],
+   "n": null,
+   "pos": "bottomright"
+  },
+  {
+   "box": [
+    546,
+    373,
+    600,
+    405
+   ],
+   "n": null,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    929,
+    608,
+    1015,
+    637
+   ],
+   "n": null
+  }
+ ]
+}

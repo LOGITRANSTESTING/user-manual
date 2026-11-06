@@ -2,3 +2,6 @@ pages/release_order.md
   pages/content_section.md
     pages/query_parameters.md
     pages/result_grid.md
+    pages/single_functions.md
+      pages/cargo_release_transfer.md
+        pages/how_to_cargo_release_transfer.md

@@ -1,0 +1,41 @@
+{
+ "source": "work/release_order/build/t_01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1518,
+  860
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     10,
+     129,
+     1505,
+     460
+    ],
+    "btn": [
+     1353,
+     424,
+     1420,
+     453
+    ]
+   },
+   "n": null,
+   "type": "query"
+  },
+  {
+   "box": [
+    512,
+    140,
+    754,
+    192
+   ],
+   "n": null
+  }
+ ]
+}
