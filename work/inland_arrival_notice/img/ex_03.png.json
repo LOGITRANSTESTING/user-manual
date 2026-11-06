@@ -1,0 +1,36 @@
+{
+ "source": "screenshots/fax_update_checking_report/03_fax_update_screen.png",
+ "crop_left": 0,
+ "crop_right": 6,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1564,
+  945
+ ],
+ "marks": [
+  {
+   "box": [
+    15,
+    179,
+    47,
+    334
+   ],
+   "n": 6,
+   "kind": "tall",
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1343,
+    134,
+    1418,
+    163
+   ],
+   "n": 7,
+   "kind": "line",
+   "pos": "topleft"
+  }
+ ]
+}
