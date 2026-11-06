@@ -11,8 +11,8 @@ status: Waiting
 **Step 4** : Upon clicking "**ERO Revalidate**" the user is shown ERO Revalidate screen.
 **Step 5** : Enter the new ERO Date under the **ERO Date** column.
 **Step 6** : Click on {img:../img/btn_process.png}.
+**Note:** You can also change the ERO Date using the **ERO Date** field, click on {img:../img/btn_apply.png} and process the changed date to the selected row.
+>> {img:../img/ero_note_strip.png}
 ![](../img/ero_03.png)
 If successfully processed, an alert is shown as given below.
 ![](../img/ero_04.png)
-**Note:** You can also change the ERO Date using the **ERO Date** field, click on {img:../img/btn_apply.png} and process the changed date to the selected row.
->> {img:../img/ero_note_strip.png}
