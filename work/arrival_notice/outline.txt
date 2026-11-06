@@ -4,6 +4,8 @@ pages/arrival_notice.md
     pages/result_grid.md
     pages/add.md
       pages/how_to_add_bl.md
+    pages/batch_apply.md
+      pages/how_to_batch_apply.md
     pages/process.md
       pages/how_to_generate_only_right_fax.md
       pages/how_to_generate_only_print.md
