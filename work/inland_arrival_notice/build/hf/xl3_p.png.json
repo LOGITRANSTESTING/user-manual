@@ -1,0 +1,12 @@
+{
+ "source": "work/inland_arrival_notice/build/hf/xl3.png",
+ "crop_left": 11,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1698,
+  953
+ ]
+}

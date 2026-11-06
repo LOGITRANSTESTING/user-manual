@@ -14,3 +14,5 @@ pages/inland_arrival_notice.md
         pages/how_to_process_an.md
       pages/preview.md
         pages/how_to_preview_an.md
+      pages/excel_export.md
+        pages/how_to_generate_excel_report.md
