@@ -1,0 +1,45 @@
+{
+ "source": "work/release_order/build/crg_t2.png",
+ "crop_left": 18,
+ "crop_right": 15,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  934
+ ],
+ "marks": [
+  {
+   "box": [
+    29,
+    428,
+    60,
+    461
+   ],
+   "n": 3,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1172,
+    61,
+    1410,
+    91
+   ],
+   "n": 4,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1423,
+    59,
+    1531,
+    90
+   ],
+   "n": 5,
+   "kind": "line",
+   "pos": "right"
+  }
+ ]
+}

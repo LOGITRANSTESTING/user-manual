@@ -1,0 +1,12 @@
+{
+ "source": "work/release_order/build/crg_t1.png",
+ "crop_left": 9,
+ "crop_right": 22,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1558,
+  936
+ ]
+}
