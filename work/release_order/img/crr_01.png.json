@@ -1,0 +1,41 @@
+{
+ "source": "work/release_order/build/crr_t1.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1561,
+  902
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     10,
+     128,
+     1505,
+     459
+    ],
+    "btn": [
+     1353,
+     423,
+     1420,
+     452
+    ]
+   },
+   "n": 1,
+   "type": "query"
+  },
+  {
+   "box": [
+    512,
+    139,
+    754,
+    191
+   ],
+   "n": null
+  }
+ ]
+}

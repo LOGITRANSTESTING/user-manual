@@ -1,0 +1,13 @@
+{
+ "description": "CRR: Valid Till date from Records Queried into rebuilt screen",
+ "inputs": {
+  "screen": "screenshot to complete", "donor": "neighbouring screenshot",
+  "region": "x0,y0,x1,y1 of the area in the DONOR", "out": "output file"
+ },
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "load", "file": "${donor}", "as": "d"},
+  {"op": "copy_region", "from": "d", "to": "s", "region": "${region}", "align": "none", "offset": [-453, 302]},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}

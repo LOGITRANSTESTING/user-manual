@@ -1,0 +1,41 @@
+{
+ "source": "work/release_order/build/crr_t3.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1515,
+  862
+ ],
+ "marks": [
+  {
+   "box": [
+    8,
+    384,
+    46,
+    451
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    908,
+    341,
+    1148,
+    373
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1407,
+    58,
+    1497,
+    89
+   ],
+   "n": null
+  }
+ ]
+}
