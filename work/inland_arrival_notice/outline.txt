@@ -1,0 +1,7 @@
+pages/inland_arrival_notice.md
+  pages/content_section.md
+    pages/query_parameters.md
+    pages/result_grid.md
+    pages/an_preparation.md
+      pages/checking_report.md
+        pages/how_to_generate_checking_report.md

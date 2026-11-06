@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/checking_report/02_select.jpg",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1507,
+  946
+ ],
+ "marks": [
+  {
+   "box": [
+    3,
+    226,
+    39,
+    261
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1076,
+    106,
+    1213,
+    137
+   ],
+   "n": null,
+   "kind": "line"
+  }
+ ]
+}
