@@ -13,5 +13,7 @@ pages/release_order.md
         pages/how_to_cargo_release_query.md
       pages/cargo_release_reprint.md
         pages/how_to_cargo_release_reprint.md
+      pages/access_to_landlock_agent.md
+        pages/how_to_access_to_landlock_agent.md
     pages/not_generated_functions.md
     pages/side_functions.md
