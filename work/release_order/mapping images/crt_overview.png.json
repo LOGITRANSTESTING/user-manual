@@ -1,12 +1,12 @@
 {
- "source": "work/release_order/build/t_03.png",
+ "source": "work/release_order/build/t_02.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 0,
- "dimmed": true,
+ "dimmed": false,
  "marked": false,
  "size": [
-  1512,
+  1511,
   829
  ]
 }

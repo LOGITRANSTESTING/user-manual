@@ -15,3 +15,5 @@ status: Waiting
 ![](../img/crt_03.png)
 If successfully processed, a success message is shown as given below.
 ![](../img/crt_04.png)
+The transferred container is removed from the existing BL as shown below.
+![](../img/crt_05.png)
