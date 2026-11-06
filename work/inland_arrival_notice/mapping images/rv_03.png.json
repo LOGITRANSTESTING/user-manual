@@ -1,0 +1,36 @@
+{
+ "source": "work/inland_arrival_notice/build/hf/fu3.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1529,
+  863
+ ],
+ "marks": [
+  {
+   "box": [
+    15,
+    179,
+    47,
+    334
+   ],
+   "n": null,
+   "kind": "tall",
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1426,
+    134,
+    1507,
+    163
+   ],
+   "n": null,
+   "kind": "line",
+   "pos": "topleft"
+  }
+ ]
+}

@@ -1,12 +1,12 @@
 {
- "source": "screenshots/checking_report/02_select.jpg",
+ "source": "work/inland_arrival_notice/build/hf/sel.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 21,
  "dimmed": false,
  "marked": false,
  "size": [
-  1549,
-  988
+  1550,
+  893
  ]
 }

@@ -1,13 +1,13 @@
 {
- "source": "screenshots/fax_update_checking_report/03_fax_update_screen.png",
+ "source": "work/inland_arrival_notice/build/hf/fu3.png",
  "crop_left": 0,
- "crop_right": 6,
+ "crop_right": 0,
  "border": 0,
  "dimmed": false,
  "marked": true,
  "size": [
-  1522,
-  903
+  1529,
+  863
  ],
  "marks": [
   {
@@ -18,7 +18,8 @@
     334
    ],
    "n": null,
-   "kind": "tall"
+   "kind": "tall",
+   "pos": "bottomleft"
   },
   {
    "box": [

@@ -1,33 +1,35 @@
 {
- "source": "screenshots/checking_report/02_select.jpg",
+ "source": "work/inland_arrival_notice/build/hf/sel.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 0,
  "dimmed": false,
  "marked": true,
  "size": [
-  1507,
-  946
+  1508,
+  851
  ],
  "marks": [
   {
    "box": [
     3,
-    226,
+    176,
     39,
-    261
+    211
    ],
-   "n": null
+   "n": null,
+   "kind": "tall"
   },
   {
    "box": [
     1076,
-    106,
+    56,
     1213,
-    137
+    87
    ],
    "n": null,
-   "kind": "line"
+   "kind": "line",
+   "pos": "topright"
   }
  ]
 }
