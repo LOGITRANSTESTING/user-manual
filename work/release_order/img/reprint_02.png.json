@@ -1,0 +1,23 @@
+{
+ "source": "work/release_order/build/reprint_t2.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  895
+ ],
+ "marks": [
+  {
+   "box": [
+    168,
+    287,
+    391,
+    322
+   ],
+   "n": 3
+  }
+ ]
+}
