@@ -1,0 +1,8 @@
+pages/release_order.md
+  pages/cargo_release_transfer.md
+  pages/ero_revalidate.md
+  pages/cargo_release_revalidate.md
+  pages/cargo_release_query.md
+  pages/cargo_release_reprint.md
+  pages/access_to_landlock_agent.md
+  pages/cancel_cargo_release.md
