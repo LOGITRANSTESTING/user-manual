@@ -1,0 +1,44 @@
+{
+ "source": "work/inland_arrival_notice/build/hf/es3.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1555,
+  905
+ ],
+ "marks": [
+  {
+   "box": [
+    10,
+    229,
+    45,
+    262
+   ],
+   "n": 6,
+   "kind": "tall",
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    995,
+    229,
+    1174,
+    262
+   ],
+   "n": 7,
+   "pos": "topleft"
+  },
+  {
+   "box": [
+    1340,
+    56,
+    1411,
+    84
+   ],
+   "n": 8
+  }
+ ]
+}
