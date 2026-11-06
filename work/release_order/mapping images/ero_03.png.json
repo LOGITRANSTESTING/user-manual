@@ -1,0 +1,32 @@
+{
+ "source": "work/release_order/build/ero_t3.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1519,
+  861
+ ],
+ "marks": [
+  {
+   "box": [
+    934,
+    419,
+    1050,
+    443
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1407,
+    58,
+    1497,
+    89
+   ],
+   "n": null
+  }
+ ]
+}
