@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/an_add_bl/02_query_with_voayge.png",
+ "crop_left": 6,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1559,
+  944
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     16,
+     80,
+     1514,
+     420
+    ],
+    "btn": [
+     1377,
+     386,
+     1438,
+     412
+    ]
+   },
+   "n": 1,
+   "type": "query"
+  }
+ ]
+}
