@@ -1,0 +1,12 @@
+{
+ "source": "work/arrival_notice/build/ba_select_c.png",
+ "crop_left": 0,
+ "crop_right": 5,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1565,
+  957
+ ]
+}

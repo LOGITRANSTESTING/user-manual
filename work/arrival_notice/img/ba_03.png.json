@@ -1,0 +1,32 @@
+{
+ "source": "work/arrival_notice/build/ba2_g.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1566,
+  961
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     574,
+     397,
+     986,
+     491
+    ],
+    "btn": [
+     933,
+     506,
+     992,
+     530
+    ]
+   },
+   "n": 6,
+   "type": "popup"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "source": "work/arrival_notice/build/rf1_c.png",
+ "crop_left": 5,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1523,
+  916
+ ],
+ "marks": [
+  {
+   "box": [
+    16,
+    652,
+    1501,
+    747
+   ],
+   "n": null,
+   "pos": "left"
+  },
+  {
+   "box": [
+    1284,
+    45,
+    1384,
+    66
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1324,
+    110,
+    1383,
+    130
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1394,
+    42,
+    1463,
+    68
+   ],
+   "n": null
+  }
+ ]
+}

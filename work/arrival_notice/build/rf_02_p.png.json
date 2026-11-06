@@ -1,0 +1,12 @@
+{
+ "source": "work/arrival_notice/build/rf1_c.png",
+ "crop_left": 5,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1565,
+  958
+ ]
+}

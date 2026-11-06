@@ -1,0 +1,52 @@
+{
+ "source": "screenshots/an_print/01_select_record_then_choose_action_as_print_then_click_process.png",
+ "crop_left": 0,
+ "crop_right": 5,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1566,
+  961
+ ],
+ "marks": [
+  {
+   "box": [
+    15,
+    559,
+    1500,
+    654
+   ],
+   "n": 3,
+   "pos": "left"
+  },
+  {
+   "box": [
+    1298,
+    48,
+    1383,
+    68
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1339,
+    92,
+    1383,
+    111
+   ],
+   "n": 4
+  },
+  {
+   "box": [
+    1393,
+    45,
+    1462,
+    71
+   ],
+   "n": 5,
+   "pos": "topright"
+  }
+ ]
+}

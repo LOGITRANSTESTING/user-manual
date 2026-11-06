@@ -1,0 +1,12 @@
+{
+ "source": "screenshots/an_print/01_select_record_then_choose_action_as_print_then_click_process.png",
+ "crop_left": 0,
+ "crop_right": 5,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1566,
+  961
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "source": "work/arrival_notice/build/ba4_fixed_c.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1569,
+  961
+ ],
+ "marks": [
+  {
+   "box": [
+    1393,
+    47,
+    1462,
+    73
+   ],
+   "n": 8
+  }
+ ]
+}

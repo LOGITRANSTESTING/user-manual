@@ -1,0 +1,12 @@
+{
+ "source": "work/arrival_notice/build/pr2_g.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": false,
+ "size": [
+  1567,
+  956
+ ]
+}

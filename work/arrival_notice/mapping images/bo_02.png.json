@@ -1,0 +1,51 @@
+{
+ "source": "screenshots/an_both/01_select_record_then_choose_action_as_both_and_click_process.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1522,
+  874
+ ],
+ "marks": [
+  {
+   "box": [
+    11,
+    711,
+    1497,
+    806
+   ],
+   "n": null,
+   "pos": "left"
+  },
+  {
+   "box": [
+    1295,
+    7,
+    1380,
+    27
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1335,
+    30,
+    1379,
+    48
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1389,
+    4,
+    1458,
+    30
+   ],
+   "n": null
+  }
+ ]
+}

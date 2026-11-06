@@ -1,0 +1,34 @@
+{
+ "source": "work/arrival_notice/build/ba_select_c.png",
+ "crop_left": 0,
+ "crop_right": 5,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1565,
+  957
+ ],
+ "marks": [
+  {
+   "box": [
+    14,
+    131,
+    1499,
+    227
+   ],
+   "n": 3,
+   "pos": "left"
+  },
+  {
+   "box": [
+    138,
+    76,
+    223,
+    101
+   ],
+   "n": 4,
+   "pos": "topleft"
+  }
+ ]
+}
