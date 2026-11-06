@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/overview_inland_an/02_sub.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1956,
+  876
+ ],
+ "marks": [
+  {
+   "box": [
+    245,
+    422,
+    475,
+    653
+   ],
+   "n": null,
+   "width": 4
+  }
+ ]
+}
