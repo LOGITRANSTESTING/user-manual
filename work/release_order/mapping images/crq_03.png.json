@@ -1,0 +1,23 @@
+{
+ "source": "work/release_order/build/crq_t3.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1515,
+  854
+ ],
+ "marks": [
+  {
+   "box": [
+    169,
+    408,
+    390,
+    444
+   ],
+   "n": null
+  }
+ ]
+}
