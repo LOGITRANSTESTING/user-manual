@@ -1,0 +1,4 @@
+pages/arrival_notice.md
+  pages/add.md
+  pages/batch_apply.md
+  pages/process.md
