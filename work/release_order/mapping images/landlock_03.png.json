@@ -1,0 +1,32 @@
+{
+ "source": "work/release_order/build/landlock_t3.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1516,
+  854
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     603,
+     391,
+     940,
+     464
+    ],
+    "btn": [
+     867,
+     472,
+     948,
+     501
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}
