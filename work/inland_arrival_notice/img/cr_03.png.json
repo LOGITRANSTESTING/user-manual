@@ -1,12 +1,12 @@
 {
- "source": "screenshots/checking_report/03_pdf.jpg",
+ "source": "work/inland_arrival_notice/build/03_report.png",
  "crop_left": 0,
  "crop_right": 0,
  "border": 21,
  "dimmed": false,
  "marked": false,
  "size": [
-  1923,
-  1018
+  1181,
+  669
  ]
 }
