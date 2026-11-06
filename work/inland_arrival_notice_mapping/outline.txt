@@ -1,0 +1,5 @@
+pages/inland_arrival_notice.md
+  pages/fax_update.md
+  pages/checking_report.md
+  pages/preview.md
+  pages/process.md

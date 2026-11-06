@@ -1,0 +1,14 @@
+{
+ "description": "Success bar copied at fixed offsets (use when success_bar alignment misses because the donor has the app header). Left part of the bar (message) and right part (close X) are copied separately so the bar spans a wider screen. Offsets are numbers, so edit them in a copy of this recipe per use. Values here: Inland AN result grid <- Process success shot (same screen), offset [-2,0] for both parts.",
+ "inputs": {
+  "screen": "screenshot that should show the bar", "donor": "screenshot with the green success bar",
+  "left": "x0,y0,x1,y1 of the left part of the bar in the DONOR", "right": "x0,y0,x1,y1 of the right part of the bar in the DONOR", "out": "output file"
+ },
+ "steps": [
+  {"op": "load", "file": "${screen}", "as": "s"},
+  {"op": "load", "file": "${donor}", "as": "d"},
+  {"op": "copy_region", "from": "d", "to": "s", "region": "${left}", "align": "none", "offset": [-2, 0]},
+  {"op": "copy_region", "from": "d", "to": "s", "region": "${right}", "align": "none", "offset": [-2, 0]},
+  {"op": "save", "img": "s", "file": "${out}"}
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "source": "work/inland_arrival_notice/build/hf/xl2.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1621,
+  915
+ ],
+ "marks": [
+  {
+   "box": [
+    1455,
+    47,
+    1481,
+    72
+   ],
+   "n": 3,
+   "pos": "bottomleft"
+  }
+ ]
+}
