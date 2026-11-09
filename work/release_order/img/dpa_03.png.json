@@ -1,0 +1,44 @@
+{
+ "source": "work/release_order/build/dpa_t3.png",
+ "crop_left": 14,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  939
+ ],
+ "marks": [
+  {
+   "box": [
+    30,
+    316,
+    61,
+    388
+   ],
+   "n": 6,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    277,
+    230,
+    518,
+    260
+   ],
+   "n": 7
+  },
+  {
+   "box": [
+    1360,
+    98,
+    1431,
+    127
+   ],
+   "n": 8,
+   "kind": "button",
+   "pos": "topright"
+  }
+ ]
+}

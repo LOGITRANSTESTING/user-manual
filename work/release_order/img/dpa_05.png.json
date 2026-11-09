@@ -1,0 +1,12 @@
+{
+ "source": "work/release_order/build/dpa_t5.png",
+ "crop_left": 6,
+ "crop_right": 5,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1558,
+  934
+ ]
+}

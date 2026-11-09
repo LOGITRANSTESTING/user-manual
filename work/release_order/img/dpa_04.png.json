@@ -1,0 +1,25 @@
+{
+ "source": "work/release_order/build/dpa_t4.png",
+ "crop_left": 13,
+ "crop_right": 12,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  946
+ ],
+ "marks": [
+  {
+   "box": [
+    1441,
+    102,
+    1519,
+    131
+   ],
+   "n": 9,
+   "kind": "button",
+   "pos": "topright"
+  }
+ ]
+}
