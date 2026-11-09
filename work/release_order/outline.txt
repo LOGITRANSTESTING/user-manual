@@ -35,3 +35,6 @@ pages/release_order.md
       pages/obl_marking.md
         pages/how_to_obl_marking.md
         pages/how_to_ro_details_query.md
+      pages/side_cargo_release_query.md
+        pages/how_to_side_cargo_release_query.md
+        pages/how_to_nxtport_response_log_details.md

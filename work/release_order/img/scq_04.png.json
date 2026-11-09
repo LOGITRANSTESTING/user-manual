@@ -1,0 +1,24 @@
+{
+ "source": "work/release_order/build/scq_t4.png",
+ "crop_left": 6,
+ "crop_right": 37,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  935
+ ],
+ "marks": [
+  {
+   "box": [
+    160,
+    55,
+    362,
+    88
+   ],
+   "n": 3,
+   "pos": "bottomright"
+  }
+ ]
+}
