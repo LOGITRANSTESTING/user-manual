@@ -1,0 +1,12 @@
+{
+ "source": "work/release_order/build/gcr_t1.png",
+ "crop_left": 19,
+ "crop_right": 17,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1558,
+  938
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "source": "work/release_order/build/gll_t1.png",
+ "crop_left": 19,
+ "crop_right": 17,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  938
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     18,
+     128,
+     1530,
+     462
+    ],
+    "btn": [
+     1373,
+     427,
+     1439,
+     455
+    ]
+   },
+   "n": 1,
+   "type": "query"
+  }
+ ]
+}

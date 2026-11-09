@@ -1,0 +1,12 @@
+{
+ "source": "work/release_order/build/gcc_t2.png",
+ "crop_left": 4,
+ "crop_right": 22,
+ "border": 0,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1516,
+  894
+ ]
+}

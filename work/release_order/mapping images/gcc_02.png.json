@@ -1,0 +1,52 @@
+{
+ "source": "work/release_order/build/gcc_t2.png",
+ "crop_left": 4,
+ "crop_right": 22,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  894
+ ],
+ "marks": [
+  {
+   "box": [
+    19,
+    60,
+    226,
+    88
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    21,
+    182,
+    41,
+    200
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1246,
+    59,
+    1402,
+    89
+   ],
+   "n": null,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1414,
+    61,
+    1499,
+    87
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

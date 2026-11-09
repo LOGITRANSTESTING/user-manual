@@ -1,0 +1,52 @@
+{
+ "source": "work/release_order/build/gll_t2.png",
+ "crop_left": 15,
+ "crop_right": 40,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  935
+ ],
+ "marks": [
+  {
+   "box": [
+    29,
+    58,
+    237,
+    86
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    32,
+    180,
+    52,
+    198
+   ],
+   "n": 4
+  },
+  {
+   "box": [
+    1244,
+    57,
+    1414,
+    87
+   ],
+   "n": 5,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1426,
+    59,
+    1510,
+    85
+   ],
+   "n": 6,
+   "pos": "topright"
+  }
+ ]
+}

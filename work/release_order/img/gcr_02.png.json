@@ -1,0 +1,52 @@
+{
+ "source": "work/release_order/build/gcr_t2.png",
+ "crop_left": 14,
+ "crop_right": 61,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  937
+ ],
+ "marks": [
+  {
+   "box": [
+    28,
+    60,
+    236,
+    88
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    31,
+    181,
+    51,
+    199
+   ],
+   "n": 4
+  },
+  {
+   "box": [
+    1235,
+    59,
+    1412,
+    89
+   ],
+   "n": 5,
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1425,
+    61,
+    1509,
+    87
+   ],
+   "n": 6,
+   "pos": "topright"
+  }
+ ]
+}

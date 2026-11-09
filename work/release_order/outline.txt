@@ -3,34 +3,44 @@ pages/release_order.md
     pages/query_parameters.md
     pages/result_grid.md
     pages/generated_functions.md
-      pages/cargo_release_transfer.md
-        pages/how_to_cargo_release_transfer.md
-      pages/ero_revalidate.md
-        pages/how_to_ero_revalidate.md
-      pages/cargo_release_revalidate.md
-        pages/how_to_cargo_release_revalidate.md
-      pages/cargo_release_query.md
-        pages/how_to_cargo_release_query.md
-      pages/cargo_release_reprint.md
-        pages/how_to_cargo_release_reprint.md
-      pages/access_to_landlock_agent.md
-        pages/how_to_access_to_landlock_agent.md
-      pages/cancel_cargo_release.md
-        pages/how_to_cancel_cargo_release.md
+      pages/generated_menu.md
+        pages/cargo_release_transfer.md
+          pages/how_to_cargo_release_transfer.md
+        pages/ero_revalidate.md
+          pages/how_to_ero_revalidate.md
+        pages/cargo_release_revalidate.md
+          pages/how_to_cargo_release_revalidate.md
+        pages/cargo_release_query.md
+          pages/how_to_cargo_release_query.md
+        pages/cargo_release_reprint.md
+          pages/how_to_cargo_release_reprint.md
+        pages/access_to_landlock_agent.md
+          pages/how_to_access_to_landlock_agent.md
+        pages/cancel_cargo_release.md
+          pages/how_to_cancel_cargo_release.md
+      pages/generated_dropdown_functions.md
+        pages/gf_access_to_landlock_agent.md
+          pages/how_to_gf_access_to_landlock_agent.md
+        pages/gf_cancel_cargo_release.md
+          pages/how_to_gf_cancel_cargo_release.md
+        pages/gf_cargo_release_revalidate.md
+          pages/how_to_gf_cargo_release_revalidate.md
     pages/not_generated_functions.md
-      pages/cargo_release_generation.md
-        pages/how_to_cargo_release_generation.md
-      pages/ng_cargo_release_query.md
-        pages/how_to_ng_cargo_release_query.md
-      pages/depot_assignment.md
-        pages/how_to_depot_assignment.md
-      pages/forwarder_agent_update.md
-        pages/how_to_forwarder_agent_update.md
-      pages/free_days_download.md
-      pages/hold_container.md
-        pages/how_to_hold_container.md
-      pages/release_container.md
-        pages/how_to_release_container.md
+      pages/ng_menu.md
+        pages/ng_cargo_release_query.md
+          pages/how_to_ng_cargo_release_query.md
+        pages/depot_assignment.md
+          pages/how_to_depot_assignment.md
+        pages/forwarder_agent_update.md
+          pages/how_to_forwarder_agent_update.md
+        pages/free_days_download.md
+        pages/hold_container.md
+          pages/how_to_hold_container.md
+        pages/release_container.md
+          pages/how_to_release_container.md
+      pages/ng_dropdown_functions.md
+        pages/cargo_release_generation.md
+          pages/how_to_cargo_release_generation.md
     pages/side_functions.md
       pages/obl_marking.md
         pages/how_to_obl_marking.md
