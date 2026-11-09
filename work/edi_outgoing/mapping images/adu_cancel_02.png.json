@@ -1,12 +1,12 @@
 {
- "source": "screenshots/edi_outgoing/arrival_departure_date_update/13.Cancel Arrival success.png",
- "crop_left": 0,
- "crop_right": 0,
+ "source": "work/edi_outgoing/build/adu_c1.png",
+ "crop_left": 10,
+ "crop_right": 4,
  "border": 0,
  "dimmed": false,
  "marked": false,
  "size": [
-  1530,
+  1516,
   894
  ]
 }

@@ -1,12 +1,12 @@
 {
- "source": "screenshots/edi_outgoing/arrival_departure_date_update/23.Process Success.png",
- "crop_left": 0,
- "crop_right": 0,
+ "source": "work/edi_outgoing/build/adu_p2.png",
+ "crop_left": 9,
+ "crop_right": 10,
  "border": 0,
  "dimmed": false,
  "marked": false,
  "size": [
-  1535,
+  1516,
   893
  ]
 }
