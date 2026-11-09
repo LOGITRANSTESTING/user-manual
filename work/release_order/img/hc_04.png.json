@@ -1,0 +1,12 @@
+{
+ "source": "work/release_order/build/hc_t7.png",
+ "crop_left": 15,
+ "crop_right": 15,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1558,
+  940
+ ]
+}

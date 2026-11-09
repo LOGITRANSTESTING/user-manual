@@ -1,0 +1,33 @@
+{
+ "source": "work/release_order/build/hc_t3.png",
+ "crop_left": 21,
+ "crop_right": 27,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  923
+ ],
+ "marks": [
+  {
+   "box": [
+    38,
+    57,
+    239,
+    78
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    466,
+    379,
+    685,
+    411
+   ],
+   "n": 4,
+   "pos": "right"
+  }
+ ]
+}

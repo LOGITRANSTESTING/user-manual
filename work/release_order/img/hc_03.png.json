@@ -1,0 +1,43 @@
+{
+ "source": "work/release_order/build/hc_t5.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1602,
+  935
+ ],
+ "marks": [
+  {
+   "box": [
+    355,
+    308,
+    375,
+    327
+   ],
+   "n": 6
+  },
+  {
+   "box": [
+    343,
+    530,
+    1255,
+    614
+   ],
+   "n": 7,
+   "pos": "topright"
+  },
+  {
+   "box": [
+    1185,
+    633,
+    1264,
+    660
+   ],
+   "n": 8,
+   "pos": "topright"
+  }
+ ]
+}

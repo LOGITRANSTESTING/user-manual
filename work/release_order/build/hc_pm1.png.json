@@ -1,0 +1,12 @@
+{
+ "source": "work/release_order/build/hc_t1.png",
+ "crop_left": 21,
+ "crop_right": 5,
+ "border": 0,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1516,
+  896
+ ]
+}
