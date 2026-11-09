@@ -1,0 +1,24 @@
+{
+ "source": "work/release_order/build/obl_t1.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1722,
+  950
+ ],
+ "marks": [
+  {
+   "box": [
+    1602,
+    70,
+    1722,
+    108
+   ],
+   "n": null,
+   "pos": "left"
+  }
+ ]
+}

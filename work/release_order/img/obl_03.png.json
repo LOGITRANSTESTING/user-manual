@@ -1,0 +1,45 @@
+{
+ "source": "work/release_order/build/obl_t4.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1554,
+  988
+ ],
+ "marks": [
+  {
+   "box": [
+    16,
+    182,
+    46,
+    252
+   ],
+   "n": 5,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    104,
+    182,
+    134,
+    252
+   ],
+   "n": 6,
+   "kind": "tall",
+   "pos": "left"
+  },
+  {
+   "box": [
+    1350,
+    109,
+    1441,
+    135
+   ],
+   "n": 7,
+   "pos": "topright"
+  }
+ ]
+}

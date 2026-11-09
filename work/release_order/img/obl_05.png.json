@@ -1,0 +1,34 @@
+{
+ "source": "work/release_order/build/obl_t7.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1549,
+  976
+ ],
+ "marks": [
+  {
+   "box": [
+    12,
+    178,
+    42,
+    244
+   ],
+   "n": 5,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    900,
+    104,
+    1036,
+    130
+   ],
+   "n": 6,
+   "pos": "topright"
+  }
+ ]
+}

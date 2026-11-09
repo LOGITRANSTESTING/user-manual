@@ -32,3 +32,6 @@ pages/release_order.md
       pages/release_container.md
         pages/how_to_release_container.md
     pages/side_functions.md
+      pages/obl_marking.md
+        pages/how_to_obl_marking.md
+        pages/how_to_ro_details_query.md

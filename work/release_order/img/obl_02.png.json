@@ -1,0 +1,32 @@
+{
+ "source": "work/release_order/build/obl_t2.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1562,
+  993
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     11,
+     145,
+     1509,
+     323
+    ],
+    "btn": [
+     1356,
+     286,
+     1418,
+     314
+    ]
+   },
+   "n": 3,
+   "type": "query"
+  }
+ ]
+}
