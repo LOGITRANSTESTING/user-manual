@@ -22,8 +22,6 @@ pages/release_order.md
         pages/how_to_cargo_release_generation.md
       pages/ng_cargo_release_query.md
         pages/how_to_ng_cargo_release_query.md
-      pages/ng_cargo_release_revalidate.md
-        pages/how_to_ng_cargo_release_revalidate.md
       pages/depot_assignment.md
         pages/how_to_depot_assignment.md
       pages/forwarder_agent_update.md
