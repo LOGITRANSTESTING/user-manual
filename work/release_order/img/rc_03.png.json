@@ -1,0 +1,43 @@
+{
+ "source": "work/release_order/build/rc_t6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1589,
+  937
+ ],
+ "marks": [
+  {
+   "box": [
+    377,
+    309,
+    397,
+    331
+   ],
+   "n": 6
+  },
+  {
+   "box": [
+    362,
+    532,
+    1275,
+    616
+   ],
+   "n": 7,
+   "pos": "topright"
+  },
+  {
+   "box": [
+    1211,
+    637,
+    1284,
+    663
+   ],
+   "n": 8,
+   "pos": "topright"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "source": "work/release_order/build/rc_t8.png",
+ "crop_left": 25,
+ "crop_right": 22,
+ "border": 21,
+ "dimmed": false,
+ "marked": false,
+ "size": [
+  1558,
+  949
+ ]
+}

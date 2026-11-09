@@ -1,0 +1,33 @@
+{
+ "source": "work/release_order/build/rc_t3.png",
+ "crop_left": 7,
+ "crop_right": 6,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  896
+ ],
+ "marks": [
+  {
+   "box": [
+    25,
+    68,
+    226,
+    89
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    176,
+    423,
+    395,
+    455
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

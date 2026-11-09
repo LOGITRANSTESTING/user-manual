@@ -31,4 +31,6 @@ pages/release_order.md
       pages/free_days_download.md
       pages/hold_container.md
         pages/how_to_hold_container.md
+      pages/release_container.md
+        pages/how_to_release_container.md
     pages/side_functions.md
