@@ -1,0 +1,32 @@
+{
+ "source": "work/release_order/build/ngcrq_t2.png",
+ "crop_left": 10,
+ "crop_right": 25,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  938
+ ],
+ "marks": [
+  {
+   "box": [
+    28,
+    68,
+    229,
+    92
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    178,
+    729,
+    397,
+    761
+   ],
+   "n": 4
+  }
+ ]
+}
