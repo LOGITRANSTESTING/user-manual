@@ -26,4 +26,6 @@ pages/release_order.md
         pages/how_to_ng_cargo_release_revalidate.md
       pages/depot_assignment.md
         pages/how_to_depot_assignment.md
+      pages/forwarder_agent_update.md
+        pages/how_to_forwarder_agent_update.md
     pages/side_functions.md

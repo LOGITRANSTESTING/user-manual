@@ -1,0 +1,32 @@
+{
+ "source": "work/release_order/build/fau_t3.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1541,
+  906
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     600,
+     405,
+     970,
+     465
+    ],
+    "btn": [
+     905,
+     482,
+     975,
+     511
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}
