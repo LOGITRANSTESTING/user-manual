@@ -11,6 +11,6 @@ status: Waiting
 ![](../img/cs_02.png)
 If successfully validated, a success message is shown as given below.
 **Step 5** : Click on {img:../img/btn_process_cs.png}.
->> [Validation success and Process screenshot - placeholder]
+![](../img/cs_03.png)
 If successfully processed, a success message is shown as given below.
->> [Process success screenshot - placeholder]
+![](../img/cs_04.png)

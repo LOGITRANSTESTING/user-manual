@@ -1,0 +1,24 @@
+{
+ "source": "work/edi_outgoing/build/cs_validate_ok.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1562,
+  901
+ ],
+ "marks": [
+  {
+   "box": [
+    645,
+    56,
+    730,
+    85
+   ],
+   "n": 5,
+   "pos": "bottomleft"
+  }
+ ]
+}
