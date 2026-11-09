@@ -1,12 +1,12 @@
 {
- "source": "screenshots/edi_outgoing/arrival_departure_date_update/24.Select Record and click cancel arrival button.png",
- "crop_left": 0,
- "crop_right": 0,
+ "source": "work/edi_outgoing/build/adu_ct_cancel.png",
+ "crop_left": 10,
+ "crop_right": 56,
  "border": 0,
  "dimmed": false,
  "marked": true,
  "size": [
-  1582,
+  1516,
   893
  ],
  "marks": [

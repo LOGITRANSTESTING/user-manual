@@ -1,12 +1,12 @@
 {
- "source": "work/edi_outgoing/build/adu_c1.png",
- "crop_left": 10,
- "crop_right": 4,
+ "source": "work/edi_outgoing/build/adu_it_cancel_ok.png",
+ "crop_left": 14,
+ "crop_right": 0,
  "border": 21,
  "dimmed": false,
  "marked": false,
  "size": [
-  1558,
-  936
+  1560,
+  930
  ]
 }

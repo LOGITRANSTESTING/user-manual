@@ -9,7 +9,6 @@ status: Waiting
 **Step 3** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
 ![](../img/pnts_query_02.png)
 **Step 4** : Upon clicking {img:../img/btn_search.png}, BL records with matching information are returned.
-![](../img/pnts_query_03.png)
 **Step 5** : Click on {img:../img/btn_pnts_filelog.png} in the respective record.
 ![](../img/pnts_log_04.png)
 **Step 6** : Upon clicking {img:../img/btn_pnts_filelog.png}, User will be shown the File Log Details screen.

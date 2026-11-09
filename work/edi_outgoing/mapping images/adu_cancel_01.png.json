@@ -1,31 +1,31 @@
 {
- "source": "screenshots/edi_outgoing/arrival_departure_date_update/12.Select Another Record -Click Cancel arrival.png",
- "crop_left": 0,
+ "source": "work/edi_outgoing/build/adu_it_cancel.png",
+ "crop_left": 14,
  "crop_right": 0,
  "border": 0,
  "dimmed": false,
  "marked": true,
  "size": [
-  1544,
-  896
+  1518,
+  888
  ],
  "marks": [
   {
    "box": [
-    24,
-    293,
-    158,
-    325
+    26,
+    254,
+    161,
+    287
    ],
    "n": null,
    "kind": "tall"
   },
   {
    "box": [
-    1365,
-    105,
-    1485,
-    141
+    1367,
+    103,
+    1484,
+    131
    ],
    "n": null,
    "pos": "bottomright"

@@ -30,6 +30,7 @@ pages/edi_outgoing.md
       pages/pnts.md
         pages/pnts_how_to_view_file_log_details.md
         pages/pnts_how_to_view_response.md
+        pages/pnts_how_to_validate_check_list.md
         pages/pnts_how_to_process_pnts_irp_xml.md
       pages/jsd.md
         pages/jsd_how_to_add.md
@@ -46,6 +47,7 @@ pages/edi_outgoing.md
       pages/scac.md
         pages/scac_how_to_assign_update.md
       pages/adu.md
+        pages/adu_how_to_process_arrival_departure.md
         pages/adu_how_to_update_arrival_date.md
         pages/adu_how_to_cancel_arrival.md
         pages/adu_how_to_update_arrival_date_in_container_tab.md

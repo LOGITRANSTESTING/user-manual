@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/edi_outgoing/arrival_departure_date_update/2.Process.png",
+ "crop_left": 19,
+ "crop_right": 20,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  901
+ ],
+ "marks": [
+  {
+   "box": [
+    630,
+    192,
+    922,
+    244
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1404,
+    111,
+    1492,
+    138
+   ],
+   "n": null,
+   "pos": "bottomleft"
+  }
+ ]
+}
