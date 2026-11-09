@@ -1,0 +1,51 @@
+{
+ "source": "work/release_order/build/crg_t2.png",
+ "crop_left": 18,
+ "crop_right": 15,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  892
+ ],
+ "marks": [
+  {
+   "box": [
+    34,
+    63,
+    238,
+    88
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    33,
+    433,
+    57,
+    455
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1176,
+    63,
+    1406,
+    87
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1429,
+    62,
+    1512,
+    87
+   ],
+   "n": null,
+   "kind": "button"
+  }
+ ]
+}
