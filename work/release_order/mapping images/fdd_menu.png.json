@@ -1,0 +1,23 @@
+{
+ "source": "work/release_order/build/fdd_t2.png",
+ "crop_left": 0,
+ "crop_right": 4,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1517,
+  889
+ ],
+ "marks": [
+  {
+   "box": [
+    169,
+    384,
+    387,
+    416
+   ],
+   "n": null
+  }
+ ]
+}

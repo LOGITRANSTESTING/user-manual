@@ -1,0 +1,12 @@
+{
+ "source": "work/release_order/build/fdd_t4.png",
+ "crop_left": 3,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": false,
+ "size": [
+  1581,
+  932
+ ]
+}
