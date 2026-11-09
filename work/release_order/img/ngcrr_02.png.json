@@ -1,0 +1,32 @@
+{
+ "source": "work/release_order/build/ngcrr_t2.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1553,
+  990
+ ],
+ "marks": [
+  {
+   "box": [
+    14,
+    114,
+    214,
+    136
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    163,
+    505,
+    381,
+    537
+   ],
+   "n": 4
+  }
+ ]
+}

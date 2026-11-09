@@ -22,4 +22,6 @@ pages/release_order.md
         pages/how_to_cargo_release_generation.md
       pages/ng_cargo_release_query.md
         pages/how_to_ng_cargo_release_query.md
+      pages/ng_cargo_release_revalidate.md
+        pages/how_to_ng_cargo_release_revalidate.md
     pages/side_functions.md
