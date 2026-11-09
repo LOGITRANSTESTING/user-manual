@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/bl_modification/1.Access BL Modification.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1519,
+  857
+ ],
+ "marks": [
+  {
+   "box": [
+    421,
+    359,
+    641,
+    390
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

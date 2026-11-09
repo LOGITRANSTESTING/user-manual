@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/container_sequence/1.Access Container Sequence.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1515,
+  856
+ ],
+ "marks": [
+  {
+   "box": [
+    296,
+    377,
+    514,
+    408
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

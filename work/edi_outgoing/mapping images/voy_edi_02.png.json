@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/voyage_edi_comm_history_tw/2.Give mandatory data.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  941
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     11,
+     184,
+     1506,
+     292
+    ],
+    "btn": [
+     1354,
+     256,
+     1421,
+     285
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/joint_venture_details/1.Access joint venture details.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1718,
+  820
+ ],
+ "marks": [
+  {
+   "box": [
+    1541,
+    243,
+    1717,
+    283
+   ],
+   "n": null,
+   "pos": "left"
+  }
+ ]
+}

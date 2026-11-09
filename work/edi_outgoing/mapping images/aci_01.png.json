@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/aci_response_details/1.Click ACI Response Detail.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1729,
+  891
+ ],
+ "marks": [
+  {
+   "box": [
+    1565,
+    338,
+    1728,
+    377
+   ],
+   "n": null
+  }
+ ]
+}

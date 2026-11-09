@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/pnts_irp_xml_generation_be/14.clcik Process.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1509,
+  815
+ ],
+ "marks": [
+  {
+   "box": [
+    1378,
+    52,
+    1465,
+    80
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

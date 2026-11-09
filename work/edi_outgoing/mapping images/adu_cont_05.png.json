@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/edi_outgoing/arrival_departure_date_update/21.Enter data in Arrival date and apply.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1541,
+  896
+ ],
+ "marks": [
+  {
+   "box": [
+    22,
+    152,
+    361,
+    208
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    369,
+    171,
+    461,
+    203
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

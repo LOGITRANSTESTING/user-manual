@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/ams_web/1.Access AMS Web.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  857
+ ],
+ "marks": [
+  {
+   "box": [
+    419,
+    437,
+    638,
+    468
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

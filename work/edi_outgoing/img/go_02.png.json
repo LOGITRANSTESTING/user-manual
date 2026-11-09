@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/go_generation/4.submit button.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1557,
+  859
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     378,
+     310,
+     1208,
+     512
+    ],
+    "btn": [
+     1129,
+     523,
+     1208,
+     550
+    ]
+   },
+   "n": 3,
+   "type": "popup"
+  }
+ ]
+}

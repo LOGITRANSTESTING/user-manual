@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/joint_service_definition/4.click add button.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1550,
+  861
+ ],
+ "marks": [
+  {
+   "box": [
+    4,
+    92,
+    78,
+    126
+   ],
+   "n": 5
+  }
+ ]
+}

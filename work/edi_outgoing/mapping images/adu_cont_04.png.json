@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/arrival_departure_date_update/20.Select record.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1556,
+  894
+ ],
+ "marks": [
+  {
+   "box": [
+    21,
+    254,
+    76,
+    287
+   ],
+   "n": null,
+   "kind": "tall"
+  }
+ ]
+}

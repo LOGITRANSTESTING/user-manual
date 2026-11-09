@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/voyage_edi_comm_history_tw/1.Access Voyage EDI Communication History [TW].PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1520,
+  941
+ ],
+ "marks": [
+  {
+   "box": [
+    129,
+    104,
+    360,
+    135
+   ],
+   "n": null
+  }
+ ]
+}

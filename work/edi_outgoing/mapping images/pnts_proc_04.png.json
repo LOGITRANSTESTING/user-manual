@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/pnts_irp_xml_generation_be/11.Select records.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1511,
+  817
+ ],
+ "marks": [
+  {
+   "box": [
+    9,
+    126,
+    50,
+    194
+   ],
+   "n": null,
+   "kind": "tall"
+  }
+ ]
+}

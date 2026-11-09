@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/joint_service_definition/12.delete record.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1552,
+  860
+ ],
+ "marks": [
+  {
+   "box": [
+    43,
+    171,
+    66,
+    195
+   ],
+   "n": 5,
+   "pos": "topright"
+  }
+ ]
+}

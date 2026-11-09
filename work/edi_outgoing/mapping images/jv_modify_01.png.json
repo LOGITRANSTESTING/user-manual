@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/joint_venture_details/7.click edit icon.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1515,
+  815
+ ],
+ "marks": [
+  {
+   "box": [
+    21,
+    171,
+    44,
+    195
+   ],
+   "n": null
+  }
+ ]
+}

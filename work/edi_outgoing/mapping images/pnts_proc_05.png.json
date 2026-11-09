@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/pnts_irp_xml_generation_be/12.click checklict.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1511,
+  817
+ ],
+ "marks": [
+  {
+   "box": [
+    1269,
+    53,
+    1369,
+    81
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

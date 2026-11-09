@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/pnts_irp_xml_generation_be/6.click fetch file content icon.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1614,
+  860
+ ],
+ "marks": [
+  {
+   "box": [
+    1443,
+    106,
+    1468,
+    129
+   ],
+   "n": 7
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/vgm_remainder/1.Access VGM Remainder.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1515,
+  861
+ ],
+ "marks": [
+  {
+   "box": [
+    303,
+    310,
+    521,
+    340
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

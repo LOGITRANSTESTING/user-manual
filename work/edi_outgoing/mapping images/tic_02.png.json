@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/transhipment_import_compare/3.submit.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1515,
+  815
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     538,
+     362,
+     1018,
+     444
+    ],
+    "btn": [
+     847,
+     454,
+     927,
+     482
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

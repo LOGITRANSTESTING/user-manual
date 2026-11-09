@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/bl_modification/4.Select business type.PNG",
+ "crop_left": 12,
+ "crop_right": 12,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1537,
+  899
+ ],
+ "marks": [
+  {
+   "box": [
+    1001,
+    353,
+    1222,
+    380
+   ],
+   "n": 4
+  },
+  {
+   "box": [
+    1358,
+    59,
+    1424,
+    85
+   ],
+   "n": 5
+  }
+ ]
+}

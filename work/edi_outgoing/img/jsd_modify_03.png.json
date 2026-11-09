@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/joint_service_definition/10.click submit.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1556,
+  865
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     380,
+     344,
+     1204,
+     478
+    ],
+    "btn": [
+     1126,
+     490,
+     1209,
+     522
+    ]
+   },
+   "n": 7,
+   "type": "popup"
+  }
+ ]
+}

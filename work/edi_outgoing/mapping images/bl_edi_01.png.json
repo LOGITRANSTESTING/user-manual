@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/bl_edi_comm_history_tw/1.Access BL EDI Communication History [TW].PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1519,
+  891
+ ],
+ "marks": [
+  {
+   "box": [
+    133,
+    21,
+    364,
+    52
+   ],
+   "n": null
+  }
+ ]
+}

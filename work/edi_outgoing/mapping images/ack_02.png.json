@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/acknowledgement_status_my/2.Give the data.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1518,
+  853
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     390,
+     284,
+     1198,
+     356
+    ],
+    "btn": [
+     1122,
+     318,
+     1187,
+     345
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}

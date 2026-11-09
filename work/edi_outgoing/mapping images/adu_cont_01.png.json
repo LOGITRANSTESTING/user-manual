@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/arrival_departure_date_update/17.Navigate to container tab.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1533,
+  888
+ ],
+ "marks": [
+  {
+   "box": [
+    283,
+    58,
+    356,
+    94
+   ],
+   "n": null,
+   "pos": "bottomleft"
+  }
+ ]
+}

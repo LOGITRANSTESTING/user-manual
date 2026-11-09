@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/overview/02_sub.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1914,
+  830
+ ],
+ "marks": [
+  {
+   "box": [
+    1197,
+    421,
+    1427,
+    652
+   ],
+   "n": null,
+   "width": 4
+  }
+ ]
+}

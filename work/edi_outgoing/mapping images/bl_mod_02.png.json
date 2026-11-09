@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/bl_modification/2.BL Modification Screen displayed.PNG",
+ "crop_left": 12,
+ "crop_right": 11,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1495,
+  858
+ ],
+ "marks": [
+  {
+   "box": [
+    1358,
+    60,
+    1424,
+    86
+   ],
+   "n": null
+  }
+ ]
+}

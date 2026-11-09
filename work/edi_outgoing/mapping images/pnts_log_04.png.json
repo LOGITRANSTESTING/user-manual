@@ -1,0 +1,25 @@
+{
+ "source": "screenshots/edi_outgoing/pnts_irp_xml_generation_be/4.click file log details.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1518,
+  819
+ ],
+ "marks": [
+  {
+   "box": [
+    50,
+    134,
+    81,
+    163
+   ],
+   "n": null,
+   "kind": "line",
+   "pos": "bottomleft"
+  }
+ ]
+}

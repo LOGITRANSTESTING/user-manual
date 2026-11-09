@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/edi_references/1.Access EDI References.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1517,
+  861
+ ],
+ "marks": [
+  {
+   "box": [
+    424,
+    434,
+    642,
+    465
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

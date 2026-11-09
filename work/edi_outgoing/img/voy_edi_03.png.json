@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/edi_outgoing/voyage_edi_comm_history_tw/5.Regenerate the records.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1559,
+  930
+ ],
+ "marks": [
+  {
+   "box": [
+    12,
+    379,
+    43,
+    449
+   ],
+   "n": 5,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1117,
+    96,
+    1223,
+    127
+   ],
+   "n": 6
+  }
+ ]
+}

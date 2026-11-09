@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/vgm_remainder/2.Give Mandatory data.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1518,
+  859
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     11,
+     88,
+     1506,
+     220
+    ],
+    "btn": [
+     1355,
+     185,
+     1421,
+     212
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}

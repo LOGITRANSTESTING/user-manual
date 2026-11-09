@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/edi_references/2.Click add button.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  859
+ ],
+ "marks": [
+  {
+   "box": [
+    12,
+    95,
+    77,
+    122
+   ],
+   "n": null
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/joint_service_definition/8.Click edit.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1513,
+  820
+ ],
+ "marks": [
+  {
+   "box": [
+    21,
+    461,
+    45,
+    485
+   ],
+   "n": null
+  }
+ ]
+}

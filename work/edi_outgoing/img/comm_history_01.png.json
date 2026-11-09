@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/communication_history/1.Access communication history.PNG",
+ "crop_left": 0,
+ "crop_right": 3,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1559,
+  901
+ ],
+ "marks": [
+  {
+   "box": [
+    425,
+    396,
+    645,
+    427
+   ],
+   "n": 1,
+   "pos": "right"
+  }
+ ]
+}

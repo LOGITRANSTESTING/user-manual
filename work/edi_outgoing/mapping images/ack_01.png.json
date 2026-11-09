@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/acknowledgement_status_my/1.Access Acknowledgement status.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1718,
+  851
+ ],
+ "marks": [
+  {
+   "box": [
+    1525,
+    12,
+    1717,
+    50
+   ],
+   "n": null
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "source": "screenshots/edi_outgoing/scac_firms_customs_update/5.Select Record and apply.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1587,
+  938
+ ],
+ "marks": [
+  {
+   "box": [
+    15,
+    212,
+    68,
+    245
+   ],
+   "n": 6,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1429,
+    133,
+    1507,
+    160
+   ],
+   "n": 7,
+   "pos": "right"
+  }
+ ]
+}

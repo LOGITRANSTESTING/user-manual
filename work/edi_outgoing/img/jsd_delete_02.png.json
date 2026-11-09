@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/joint_service_definition/13.click yes.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1553,
+  859
+ ],
+ "marks": [
+  {
+   "box": [
+    561,
+    433,
+    756,
+    471
+   ],
+   "n": 7,
+   "pos": "left"
+  }
+ ]
+}

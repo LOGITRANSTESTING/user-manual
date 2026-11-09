@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/edi_outgoing/arrival_departure_date_update/1.Select Arrival-departure Date Update.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1758,
+  938
+ ],
+ "marks": [
+  {
+   "box": [
+    1498,
+    432,
+    1716,
+    473
+   ],
+   "n": 1
+  }
+ ]
+}

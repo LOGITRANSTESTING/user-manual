@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/edi_outgoing/bl_edi_comm_history_tw/5.Regenerate the record.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1557,
+  988
+ ],
+ "marks": [
+  {
+   "box": [
+    12,
+    256,
+    43,
+    326
+   ],
+   "n": 5,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1117,
+    152,
+    1223,
+    183
+   ],
+   "n": 6
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/joint_venture_details/5.click submit button.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1513,
+  819
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     428,
+     278,
+     1147,
+     559
+    ],
+    "btn": [
+     1071,
+     574,
+     1156,
+     607
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

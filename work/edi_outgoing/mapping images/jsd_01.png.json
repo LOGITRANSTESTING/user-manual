@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/joint_service_definition/1.Access Joint service definition screen.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1719,
+  815
+ ],
+ "marks": [
+  {
+   "box": [
+    1538,
+    148,
+    1718,
+    189
+   ],
+   "n": null,
+   "pos": "left"
+  }
+ ]
+}

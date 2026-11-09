@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/ar_web/1.Access AR Web.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1557,
+  901
+ ],
+ "marks": [
+  {
+   "box": [
+    420,
+    396,
+    640,
+    427
+   ],
+   "n": 1,
+   "pos": "right"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "source": "screenshots/edi_outgoing/arrival_departure_date_update/9.Select Record And click apply.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1574,
+  930
+ ],
+ "marks": [
+  {
+   "box": [
+    26,
+    254,
+    161,
+    287
+   ],
+   "n": 7,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    374,
+    172,
+    466,
+    204
+   ],
+   "n": 8,
+   "pos": "right"
+  }
+ ]
+}

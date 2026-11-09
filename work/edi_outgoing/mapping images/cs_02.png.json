@@ -1,0 +1,34 @@
+{
+ "source": "screenshots/edi_outgoing/container_sequence/4.validate the selected records.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1520,
+  859
+ ],
+ "marks": [
+  {
+   "box": [
+    54,
+    157,
+    98,
+    224
+   ],
+   "n": null,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    548,
+    56,
+    633,
+    85
+   ],
+   "n": null,
+   "pos": "bottomleft"
+  }
+ ]
+}

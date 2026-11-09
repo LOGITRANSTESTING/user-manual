@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/arrival_departure_date_update/4.Navigate to it number tab.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1539,
+  895
+ ],
+ "marks": [
+  {
+   "box": [
+    159,
+    64,
+    235,
+    98
+   ],
+   "n": null,
+   "pos": "bottomleft"
+  }
+ ]
+}

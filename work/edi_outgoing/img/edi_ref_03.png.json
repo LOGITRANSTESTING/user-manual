@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/edi_outgoing/edi_references/4.Process the record.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  902
+ ],
+ "marks": [
+  {
+   "box": [
+    12,
+    174,
+    1491,
+    206
+   ],
+   "n": 4
+  },
+  {
+   "box": [
+    1412,
+    57,
+    1497,
+    84
+   ],
+   "n": 5
+  }
+ ]
+}

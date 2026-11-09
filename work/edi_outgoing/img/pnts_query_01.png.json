@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/edi_outgoing/pnts_irp_xml_generation_be/1.Access PNTS IRP XML Generation screen.PNG",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1760,
+  859
+ ],
+ "marks": [
+  {
+   "box": [
+    1510,
+    104,
+    1716,
+    142
+   ],
+   "n": 1,
+   "pos": "left"
+  }
+ ]
+}

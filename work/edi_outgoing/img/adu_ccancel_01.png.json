@@ -1,0 +1,34 @@
+{
+ "source": "screenshots/edi_outgoing/arrival_departure_date_update/24.Select Record and click cancel arrival button.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1624,
+  935
+ ],
+ "marks": [
+  {
+   "box": [
+    22,
+    256,
+    77,
+    289
+   ],
+   "n": 6,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1364,
+    105,
+    1484,
+    141
+   ],
+   "n": 7,
+   "pos": "bottomright"
+  }
+ ]
+}
