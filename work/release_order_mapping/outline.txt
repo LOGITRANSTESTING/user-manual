@@ -1,8 +1,26 @@
 pages/release_order.md
+ pages/side_functions.md
+  pages/obl_marking.md
+  pages/side_cargo_release_query.md
+   pages/nxtport_response_log_details.md
+ pages/generated_menu_functions.md
   pages/cargo_release_transfer.md
-  pages/ero_revalidate.md
   pages/cargo_release_revalidate.md
-  pages/cargo_release_query.md
-  pages/cargo_release_reprint.md
-  pages/access_to_landlock_agent.md
   pages/cancel_cargo_release.md
+  pages/cargo_release_reprint.md
+  pages/ero_revalidate.md
+  pages/access_to_landlock_agent.md
+  pages/cargo_release_query.md
+ pages/generated_functions.md
+  pages/gf_access_to_landlock_agent.md
+  pages/gf_cancel_cargo_release.md
+  pages/gf_cargo_release_revalidate.md
+ pages/not_generated_menu_functions.md
+  pages/depot_assignment.md
+  pages/free_days_download.md
+  pages/forwarder_agent_update.md
+  pages/hold_container.md
+  pages/release_container.md
+  pages/ng_cargo_release_query.md
+ pages/not_generated_functions.md
+  pages/cargo_release_generation.md

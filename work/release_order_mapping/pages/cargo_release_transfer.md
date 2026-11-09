@@ -4,10 +4,7 @@ status: Waiting
 ---
 **Afsys**
 
->> {img:../img/afsys_crt_01.png}
->> {img:../img/afsys_crt_02.png}
->> {img:../img/afsys_crt_03.png}
->> {img:../img/afsys_crt_04.png}
+NIL
 
 **ILISCyber**
 
