@@ -1,0 +1,19 @@
+pages/edi_outgoing.md
+  pages/bl_edi_tw.md
+  pages/voy_edi_tw.md
+  pages/bl_modification.md
+  pages/communication_history.md
+  pages/edi_references.md
+  pages/ar_web.md
+  pages/ams_web.md
+  pages/vgm_reminder.md
+  pages/container_sequence.md
+  pages/acknowledgement_status.md
+  pages/transhipment_import_compare.md
+  pages/pnts_irp_xml.md
+  pages/joint_service_definition.md
+  pages/joint_venture_details.md
+  pages/go_generation.md
+  pages/aci_response_detail.md
+  pages/scac_firms_customs_update.md
+  pages/arrival_departure_date_update.md
