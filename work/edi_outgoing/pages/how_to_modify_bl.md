@@ -8,7 +8,7 @@ status: Waiting
 **Step 2** : Upon clicking "**BL Modification**" User will be shown the BL Modification screen.
 **Step 3** : Click on {img:../img/btn_edit.png}.
 ![](../img/bl_mod_02.png)
-**Step 4** : Select the required Business Type.
+**Step 4** : Modify the required details.
 **Step 5** : Click on {img:../img/btn_submit.png}.
 ![](../img/bl_mod_03.png)
 If successfully submitted, a success message is shown as given below.

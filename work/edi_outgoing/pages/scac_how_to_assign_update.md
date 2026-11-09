@@ -19,8 +19,7 @@ Upon clicking {img:../img/btn_scac_apply.png}, the entered "**SCAC (1)**" value 
 ![](../img/scac_assign_06.png)
 If successfully applied, a success message is shown as given below.
 ![](../img/scac_assign_07.png)
-**Step 8** : Either select all records available by clicking on {img:../img/chk_select_all.png}(select all checkbox) or select individual records by clicking on {img:../img/chk_single.png}(single select checkbox).
-**Step 9** : Click on {img:../img/btn_scac_process.png}.
+**Step 8** : Click on {img:../img/btn_scac_process.png}.
 ![](../img/scac_assign_08.png)
 If successfully processed, a success message is shown as given below.
 ![](../img/scac_assign_09.png)

@@ -3,7 +3,7 @@ title: How to Process VGM Reminder
 status: Waiting
 ---
 ## Steps
-**Step 1** : The user should drag the cursor to the record menu icon {icon:record_menu} in the respective record, click on it, and then select "**VGM Reminder**" from the menu.
+**Step 1** : The user should drag the cursor to the record menu icon {icon:record_menu} in the respective voyage, click on it, and then select "**VGM Reminder**" from the menu.
 ![](../img/vgm_01.png)
 **Step 2** : Upon clicking "**VGM Reminder**" User will be shown the VGM Reminder screen.
 **Step 3** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.

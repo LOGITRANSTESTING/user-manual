@@ -9,7 +9,6 @@ status: Waiting
 **Step 3** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
 ![](../img/jsd_02.png)
 **Step 4** : Upon clicking {img:../img/btn_search.png}, joint service definitions with matching information are returned.
-![](../img/jsd_03.png)
 **Step 5** : Click on {img:../img/btn_jsd_delete.png} in the respective record.
 ![](../img/jsd_delete_01.png)
 **Step 6** : Upon clicking {img:../img/btn_jsd_delete.png}, an alert is shown as given below.

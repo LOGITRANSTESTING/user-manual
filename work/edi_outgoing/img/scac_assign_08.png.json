@@ -1,25 +1,15 @@
 {
  "source": "screenshots/edi_outgoing/scac_firms_customs_update/8.Select Record and click process.png",
- "crop_left": 0,
- "crop_right": 0,
+ "crop_left": 10,
+ "crop_right": 15,
  "border": 21,
  "dimmed": false,
  "marked": true,
  "size": [
-  1583,
+  1558,
   930
  ],
  "marks": [
-  {
-   "box": [
-    21,
-    207,
-    74,
-    241
-   ],
-   "n": 8,
-   "kind": "tall"
-  },
   {
    "box": [
     1364,
@@ -27,7 +17,7 @@
     1449,
     84
    ],
-   "n": 9
+   "n": 8
   }
  ]
 }
