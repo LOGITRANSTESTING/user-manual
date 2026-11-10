@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/02 Invoice Generation Single - (TW)/01 Single Invoice - Credit Invoice/ILIS/7.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1902,
+  942
+ ],
+ "marks": [
+  {
+   "box": [
+    1514,
+    712,
+    1601,
+    741
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

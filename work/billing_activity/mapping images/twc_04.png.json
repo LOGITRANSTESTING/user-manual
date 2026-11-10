@@ -1,0 +1,32 @@
+{
+ "source": "work/billing_activity/build/twc_6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1905,
+  943
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     413,
+     289,
+     1579,
+     693
+    ],
+    "btn": [
+     1407,
+     713,
+     1506,
+     742
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}
