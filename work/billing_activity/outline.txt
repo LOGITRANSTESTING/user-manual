@@ -2,6 +2,9 @@ pages/billing_activity.md
   pages/content_section.md
     pages/query_parameters.md
     pages/result_grid.md
+    pages/group_functions.md
+      pages/credit_invoice.md
+        pages/how_to_generate_credit_invoice_batch.md
     pages/side_functions.md
       pages/single_invoice_sha.md
         pages/how_to_generate_cash_invoice_sha.md
@@ -16,3 +19,5 @@ pages/billing_activity.md
       pages/single_invoice_vn.md
         pages/how_to_generate_cash_invoice_vn.md
         pages/how_to_generate_credit_invoice_vn.md
+      pages/single_invoice_tr.md
+        pages/how_to_generate_credit_invoice_tr.md

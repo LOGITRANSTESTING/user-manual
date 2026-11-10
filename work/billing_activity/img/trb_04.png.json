@@ -1,0 +1,54 @@
+{
+ "source": "screenshots/Billing Activity/05 Invoice Generation - (TR)/02 Batch Invoice - Credit Invoice/ILIS/6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1953,
+  987
+ ],
+ "marks": [
+  {
+   "box": [
+    674,
+    239,
+    1187,
+    420
+   ],
+   "n": 8,
+   "kind": "tall",
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1547,
+    239,
+    1677,
+    420
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    211,
+    239,
+    247,
+    420
+   ],
+   "n": 9,
+   "kind": "tall",
+   "pos": "bottomleft"
+  },
+  {
+   "box": [
+    1504,
+    110,
+    1661,
+    137
+   ],
+   "n": 10
+  }
+ ]
+}

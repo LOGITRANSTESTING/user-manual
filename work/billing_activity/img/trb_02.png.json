@@ -1,0 +1,34 @@
+{
+ "source": "screenshots/Billing Activity/05 Invoice Generation - (TR)/02 Batch Invoice - Credit Invoice/ILIS/4.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1952,
+  984
+ ],
+ "marks": [
+  {
+   "box": [
+    211,
+    178,
+    255,
+    282
+   ],
+   "n": 3,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    340,
+    106,
+    558,
+    137
+   ],
+   "n": 4,
+   "pos": "bottomright"
+  }
+ ]
+}
