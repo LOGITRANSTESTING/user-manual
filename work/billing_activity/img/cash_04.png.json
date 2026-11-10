@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/01 Invoice Generation Single - (SHA)/01 Single Invoice - Cash Invoice/ILIS/6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1950,
+  986
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     410,
+     280,
+     1581,
+     698
+    ],
+    "btn": [
+     1516,
+     713,
+     1603,
+     742
+    ]
+   },
+   "n": 9,
+   "type": "popup"
+  }
+ ]
+}

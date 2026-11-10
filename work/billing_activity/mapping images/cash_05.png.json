@@ -1,0 +1,32 @@
+{
+ "source": "work/billing_activity/build/cash_07.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1911,
+  941
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     460,
+     333,
+     1535,
+     633
+    ],
+    "btn": [
+     1471,
+     651,
+     1538,
+     680
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}
