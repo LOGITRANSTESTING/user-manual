@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/06 Invoice Query/04 Invoice Query - Right Fax/ILIS/7.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1947,
+  983
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     626,
+     353,
+     1338,
+     608
+    ],
+    "btn": [
+     1258,
+     616,
+     1337,
+     644
+    ]
+   },
+   "n": 7,
+   "type": "popup"
+  }
+ ]
+}

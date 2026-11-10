@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/06 Invoice Query/01 Invoice Query - Reprint/ILIS/5.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1908,
+  941
+ ],
+ "marks": [
+  {
+   "box": [
+    218,
+    182,
+    244,
+    208
+   ],
+   "n": null
+  }
+ ]
+}

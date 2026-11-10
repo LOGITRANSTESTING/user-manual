@@ -21,3 +21,10 @@ pages/billing_activity.md
         pages/how_to_generate_credit_invoice_vn.md
       pages/single_invoice_tr.md
         pages/how_to_generate_credit_invoice_tr.md
+      pages/invoice_query.md
+        pages/how_to_reprint.md
+        pages/how_to_cancel.md
+        pages/how_to_revert_reversal_status.md
+        pages/how_to_right_fax.md
+        pages/how_to_bl_query.md
+        pages/how_to_reverse_bl_wise.md

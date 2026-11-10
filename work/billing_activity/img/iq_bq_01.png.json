@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/06 Invoice Query/05 Invoice Query - BL Query/ILIS/4.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1949,
+  984
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     209,
+     136,
+     1699,
+     204
+    ],
+    "btn": [
+     1547,
+     168,
+     1613,
+     196
+    ]
+   },
+   "n": 3,
+   "type": "query"
+  }
+ ]
+}

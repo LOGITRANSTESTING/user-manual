@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/06 Invoice Query/02 Invoice Query - Cancel/ILIS/5.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1950,
+  983
+ ],
+ "marks": [
+  {
+   "box": [
+    259,
+    182,
+    285,
+    213
+   ],
+   "n": 5,
+   "pos": "bottomright"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/06 Invoice Query/06 Invoice Query - Reverse BL Wise/ILIS/6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1952,
+  986
+ ],
+ "marks": [
+  {
+   "box": [
+    514,
+    234,
+    734,
+    267
+   ],
+   "n": 5
+  }
+ ]
+}
