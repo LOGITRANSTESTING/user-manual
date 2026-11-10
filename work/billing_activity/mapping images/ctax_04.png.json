@@ -1,0 +1,32 @@
+{
+ "source": "work/billing_activity/build/ctax_6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1907,
+  942
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     412,
+     306,
+     1596,
+     669
+    ],
+    "btn": [
+     1517,
+     692,
+     1604,
+     721
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

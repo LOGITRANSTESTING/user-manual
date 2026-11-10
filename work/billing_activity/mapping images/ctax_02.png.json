@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/01 Invoice Generation Single - (SHA)/03 Single Invoice - Credit -Tax Invoice/ILIS/4.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1910,
+  947
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     209,
+     139,
+     1699,
+     258
+    ],
+    "btn": [
+     1541,
+     216,
+     1608,
+     245
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}
