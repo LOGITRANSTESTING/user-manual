@@ -108,7 +108,8 @@ def main():
     if a.cmd == 'snap': print(json.dumps(I.snap(I.load(a.src), I.box_arg(a.box)))); return
     if a.cmd == 'grid': I.save(I.grid(I.load(a.src), a.step), a.dst); show(a.dst, a); return
     if a.cmd == 'mark':
-        spec = json.loads(Path(a.spec).read_text()) if Path(a.spec).exists() else json.loads(a.spec)
+        inline = a.spec.lstrip().startswith(('[', '{'))
+        spec = json.loads(a.spec) if inline else json.loads(Path(a.spec).read_text())
         for l in I.mark(a.src, a.dst, spec, coords=a.coords): print('step %s: %s at (%d,%d)' % (l[0], l[1], l[2], l[3]))
         show(a.dst, a); return
     if a.cmd == 'clear':

@@ -14,10 +14,11 @@ status: Waiting
 **Step 7** : Click on {img:../img/si_btn_credit_tax_inv.png}.
 ![](../img/ctax_03.png)
 **Step 8** : Upon clicking {img:../img/si_btn_credit_tax_inv.png}, the user is shown Credit / Tax Inv pop up screen.
-**Step 9** : Enter the details as given below and click on {img:../img/si_btn_process.png}.
+**Step 9** : Enter the details as given below and click on {img:../img/si_btn_check_list.png}.
+**Step 10** : If successfully validated, click on {img:../img/si_btn_process.png}.
 ![](../img/ctax_04.png)
-**Step 10** : Upon clicking {img:../img/si_btn_process.png}, the user is shown Tax Invoice pop up screen.
-**Step 11** : Enter the details as given below and click on {img:../img/si_btn_ok.png}.
+**Step 11** : Upon clicking {img:../img/si_btn_process.png}, the user is shown Tax Invoice pop up screen.
+**Step 12** : Enter the details as given below and click on {img:../img/si_btn_ok.png}.
 ![](../img/ctax_05.png)
 If successfully processed, an alert with the System Generated Invoice Number is shown as given below and pdf is displayed.
 ![](../img/ctax_06.png)

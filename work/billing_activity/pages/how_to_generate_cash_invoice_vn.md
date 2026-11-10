@@ -22,7 +22,7 @@ If successfully processed, an alert with the System Generated Receipt Voucher Nu
 **Step 11** : Upon clicking {img:../img/vn_btn_ok.png}, User will be shown the Tax Invoice Generation screen with the File Path auto populated.
 **Step 12** : Click on {img:../img/vn_rb_generate.png}(Generate radio button).
 **Step 13** : Either select all invoices available by clicking on {img:../img/vn_tig_cb_all.png}(select all checkbox) or select individual invoices by clicking on {img:../img/vn_tig_cb_single.png}(single select checkbox).
-**Step 14** : Click on {img:../img/vn_btn_process_tig.png}.
+**Step 14** : Enter the File Path and click on {img:../img/vn_btn_process_tig.png}.
 ![](../img/vncash_06.png)
 If successfully processed, a success message is shown as given below.
 ![](../img/vncash_07.png)
