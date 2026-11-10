@@ -1,0 +1,32 @@
+{
+ "source": "work/billing_activity/build/credit_6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1911,
+  940
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     412,
+     304,
+     1597,
+     673
+    ],
+    "btn": [
+     1407,
+     690,
+     1507,
+     719
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

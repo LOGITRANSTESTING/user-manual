@@ -5,3 +5,4 @@ pages/billing_activity.md
     pages/side_functions.md
       pages/single_invoice_sha.md
         pages/how_to_generate_cash_invoice_sha.md
+        pages/how_to_generate_credit_invoice_sha.md

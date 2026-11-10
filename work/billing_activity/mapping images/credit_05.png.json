@@ -1,0 +1,24 @@
+{
+ "source": "work/billing_activity/build/credit_7.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1909,
+  940
+ ],
+ "marks": [
+  {
+   "box": [
+    1515,
+    691,
+    1602,
+    720
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}
