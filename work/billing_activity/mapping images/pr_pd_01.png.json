@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/07 Print-Reprint/02 Print-Reprint - Invoice Printing Details/ILIS/5.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1908,
+  943
+ ],
+ "marks": [
+  {
+   "box": [
+    271,
+    219,
+    295,
+    250
+   ],
+   "n": null,
+   "pos": "bottomright"
+  }
+ ]
+}

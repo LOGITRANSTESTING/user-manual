@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/Billing Activity/07 Print-Reprint/04 Print-Reprint - Right Fax/ILIS/5.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1912,
+  946
+ ],
+ "marks": [
+  {
+   "box": [
+    209,
+    145,
+    258,
+    246
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1408,
+    106,
+    1501,
+    132
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

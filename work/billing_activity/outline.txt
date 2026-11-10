@@ -28,3 +28,8 @@ pages/billing_activity.md
         pages/how_to_right_fax.md
         pages/how_to_bl_query.md
         pages/how_to_reverse_bl_wise.md
+      pages/print_reprint.md
+        pages/how_to_view_pr.md
+        pages/how_to_view_invoice_printing_details.md
+        pages/how_to_print_pr.md
+        pages/how_to_right_fax_pr.md

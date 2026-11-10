@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/07 Print-Reprint/ILIS/3.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1915,
+  946
+ ],
+ "marks": [
+  {
+   "box": [
+    1782,
+    156,
+    1910,
+    194
+   ],
+   "n": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/07 Print-Reprint/ILIS/4.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1951,
+  986
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     210,
+     140,
+     1699,
+     466
+    ],
+    "btn": [
+     1547,
+     431,
+     1613,
+     459
+    ]
+   },
+   "n": 3,
+   "type": "query"
+  }
+ ]
+}
