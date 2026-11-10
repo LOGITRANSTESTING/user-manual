@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/09 Direct Invoice - (CN)/01 Direct Invoice - Cash Invoice/ILIS/6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1950,
+  982
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     410,
+     270,
+     1581,
+     698
+    ],
+    "btn": [
+     1516,
+     713,
+     1602,
+     741
+    ]
+   },
+   "n": 9,
+   "type": "popup"
+  }
+ ]
+}

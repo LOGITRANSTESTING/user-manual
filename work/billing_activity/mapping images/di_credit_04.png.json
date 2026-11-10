@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/09 Direct Invoice - (CN)/02 Direct Invoice - Credit Invoice/ILIS/7.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1907,
+  939
+ ],
+ "marks": [
+  {
+   "box": [
+    1518,
+    713,
+    1604,
+    741
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

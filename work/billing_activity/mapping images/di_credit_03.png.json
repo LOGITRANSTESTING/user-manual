@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/09 Direct Invoice - (CN)/02 Direct Invoice - Credit Invoice/ILIS/6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1906,
+  941
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     405,
+     272,
+     1590,
+     697
+    ],
+    "btn": [
+     1405,
+     710,
+     1503,
+     738
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

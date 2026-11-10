@@ -33,3 +33,6 @@ pages/billing_activity.md
         pages/how_to_view_invoice_printing_details.md
         pages/how_to_print_pr.md
         pages/how_to_right_fax_pr.md
+      pages/direct_invoice_cn.md
+        pages/how_to_generate_cash_invoice_di_cn.md
+        pages/how_to_generate_credit_invoice_di_cn.md
