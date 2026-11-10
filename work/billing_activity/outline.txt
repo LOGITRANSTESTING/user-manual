@@ -10,3 +10,6 @@ pages/billing_activity.md
       pages/single_invoice_tw.md
         pages/how_to_generate_credit_invoice_tw.md
         pages/how_to_generate_cash_invoice_tw.md
+      pages/single_invoice_hk.md
+        pages/how_to_generate_credit_invoice_hk.md
+        pages/how_to_generate_cash_invoice_hk.md
