@@ -1,0 +1,32 @@
+{
+ "source": "work/billing_activity/build/twcash_6.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1912,
+  942
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     413,
+     277,
+     1581,
+     699
+    ],
+    "btn": [
+     1518,
+     713,
+     1605,
+     742
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}
