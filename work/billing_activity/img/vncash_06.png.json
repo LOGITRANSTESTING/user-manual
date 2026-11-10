@@ -1,0 +1,45 @@
+{
+ "source": "screenshots/Billing Activity/04 Invoice Generation Single - (VN)/01 Single Invoice - Cash Invoice/ILIS/8.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1954,
+  983
+ ],
+ "marks": [
+  {
+   "box": [
+    343,
+    107,
+    431,
+    131
+   ],
+   "n": 12,
+   "pos": "bottomleft",
+   "kind": "line"
+  },
+  {
+   "box": [
+    212,
+    146,
+    257,
+    208
+   ],
+   "n": 13,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1461,
+    103,
+    1547,
+    134
+   ],
+   "n": 14,
+   "pos": "topright"
+  }
+ ]
+}
