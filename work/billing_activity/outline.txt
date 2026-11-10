@@ -36,3 +36,6 @@ pages/billing_activity.md
       pages/direct_invoice_cn.md
         pages/how_to_generate_cash_invoice_di_cn.md
         pages/how_to_generate_credit_invoice_di_cn.md
+      pages/direct_invoice_tw.md
+        pages/how_to_generate_cash_invoice_di_tw.md
+        pages/how_to_generate_credit_invoice_di_tw.md

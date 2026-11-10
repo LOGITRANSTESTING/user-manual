@@ -1,0 +1,53 @@
+{
+ "source": "screenshots/Billing Activity/10 Direct Invoice - (TW)/02 Direct Invoice - Credit Invoice/ILIS/4.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1952,
+  988
+ ],
+ "marks": [
+  {
+   "box": [
+    213,
+    112,
+    414,
+    134
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    317,
+    251,
+    398,
+    279
+   ],
+   "n": 4,
+   "pos": "right"
+  },
+  {
+   "box": [
+    319,
+    577,
+    400,
+    605
+   ],
+   "n": 4,
+   "pos": "right"
+  },
+  {
+   "box": [
+    1342,
+    110,
+    1431,
+    136
+   ],
+   "n": 5,
+   "pos": "topright"
+  }
+ ]
+}
