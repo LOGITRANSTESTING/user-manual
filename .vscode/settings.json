@@ -2,7 +2,9 @@
   // Let Copilot run the toolkit without an approval click each time.
   "chat.tools.terminal.autoApprove": {
     "/^python3? tools[\\\\/]ilis\\.py\\b/": true,
-    "/^py tools[\\\\/]ilis\\.py\\b/": true
+    "/^py tools[\\\\/]ilis\\.py\\b/": true,
+    "/^python3? scripts[\\\\/]add_keywords\\.py\\b/": true,
+    "/^py scripts[\\\\/]add_keywords\\.py\\b/": true
   },
   // Skills in .github/skills are loaded automatically (older VS Code versions need this switch).
   "chat.useAgentSkills": true,
