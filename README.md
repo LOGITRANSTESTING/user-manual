@@ -1,6 +1,6 @@
 # ILISCyber manual workspace (GitHub Copilot)
 
-Builds ILISCyber Dr.Explain user manuals and mapping documents with GitHub Copilot, in the house format. Copilot follows the two skills in `.github/skills/`. The work itself (cropping, borders, boxes and numbers, alerts, pop-ups, success bars, changed values, building the .gui) is done by the ready-made toolkit in `tools/`, so the results do not depend on Copilot writing code.
+Builds ILISCyber Dr.Explain user manuals and mapping documents with GitHub Copilot, in the house format. Copilot follows the skills in `.github/skills/`. The work itself (cropping, borders, boxes and numbers, alerts, pop-ups, success bars, changed values, building the .gui) is done by the ready-made toolkit in `tools/`, so the results do not depend on Copilot writing code.
 
 ## One-time setup (Windows)
 1. Install Python 3.10 or newer from python.org and tick "Add Python to PATH".
@@ -25,6 +25,7 @@ Builds ILISCyber Dr.Explain user manuals and mapping documents with GitHub Copil
 - Mapping document: ask for a mapping document. Copilot then uses `/iliscyber-mapping-document`.
 - Every image Copilot builds or marks opens as a preview in VS Code. Say what to change there and then.
 - To finish, say "generate". The `.gui` file appears in `output/`.
+- Index (keywords): type `/iliscyber-add-keywords` followed by one or more `.gui` files (user manuals and/or mapping documents). A copy named `<file>_keywords.gui` is written next to each original; the original is not changed.
 
 ## Quick tool reference
 `python tools/ilis.py -h` lists every command. The full reference is in `.github/skills/iliscyber-drexplain-manual/references/toolkit.md`.

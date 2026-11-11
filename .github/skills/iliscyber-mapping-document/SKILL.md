@@ -52,3 +52,6 @@ The same workspace rules apply as in the manual skill: no hand-written image/.gu
 3. New ILISCyber screenshots: no inline crops; `prep SRC DST --no-border` (grey side crop only), then `mark` with unnumbered boxes only (`"n": null`), coordinates as found on the original screenshot.
 4. Afsys screenshots: mark with unnumbered boxes on the original; no border.
 5. Write one page file per function (format above), outline.txt, project.json (`{"main": ..., "sub": ..., "kind": "mapping"}`), then `gui build work/<map> --out "output/<Main> - <Sub> Mapping.gui"`.
+
+## On demand
+- Index / keywords requested: use the `iliscyber-add-keywords` skill with the mapping rules (`python scripts/add_keywords.py "<file>" "<file without .gui>_keywords.gui" --mapping`; every page gets a keyword except Tabs / Functionalities pages). If the matching user manual is given too, run it on both and point out differing function names and pages present in only one file.
