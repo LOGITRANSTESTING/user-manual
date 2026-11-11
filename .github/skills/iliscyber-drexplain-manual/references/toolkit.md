@@ -62,3 +62,4 @@ Letters not in the set are drawn with Arial at the matched size and reported; te
 - `preview A.png B.png --out sheet.png [--labels "A|B"]` - one sheet to show options or a set of images.
 - `to-mapping SRC DST [--donor D]` - mapping-document style (see the mapping skill).
 - `gui info | page | export | build | widths | remove` - references/page-format.md.
+- `gui keywords SRC DST [--mapping]` (same as `python scripts/add_keywords.py SRC DST [--mapping]`) - Dr.Explain index mirroring the topic tree, house rules in the `iliscyber-add-keywords` skill. Never writes over SRC.

@@ -380,6 +380,89 @@ def widths(src, dst, target=MAXW):
     return stats
 
 
+# ------------------------------------------------------------------ index (keywords)
+KW_SEP = '-!$@@$$@~'   # Dr.Explain's separator between levels of a keyword path
+KW_SKIP_TREE = re.compile(r'^\s*(How to|Accessing|Invoicing via)\b', re.I)   # manual: page and everything under it
+KW_SKIP_PAGE = re.compile(r' - (Tabs|Functionalities)\s*$', re.I)            # both: the page only
+
+
+def _kw_xml(nodes):
+    if not nodes: return '<keywords/>'
+    return '<keywords>' + ''.join('<keyword><m_title><![CDATA[%s]]></m_title>%s</keyword>' % (_cdata(n['title']), _kw_xml(n['kids']))
+                                  for n in nodes) + '</keywords>'
+
+
+def add_keywords(src, dst, mapping=False):
+    """Index mirroring the topic tree: keyword = topic title, each topic linked to its own keyword (full path).
+    Cover gets none; manuals skip How to / Accessing / Invoicing via (and their sub-pages); both skip
+    '... - Tabs' / '... - Functionalities'. Existing keywords are replaced; everything else stays byte-for-byte."""
+    if Path(src).resolve() == Path(dst).resolve(): raise SystemExit('DST must differ from SRC - the original is never edited.')
+    s = Path(src).read_text(encoding='utf-8')
+    # drop existing topic links
+    s = re.sub(r'<keyword><!\[CDATA\[(?:(?!\]\]>).)*\]\]></keyword>', '', s, flags=re.S)
+    # topics in document order with their depth (descriptions are escaped, so these tags are structural only)
+    pages_at = s.index('<pages>')
+    topics = []; depth = 0
+    for m in re.finditer(r'<(module|index)>|</(module|index)>', s[pages_at:]):
+        if m.group(1):
+            pos = pages_at + m.start()
+            t = re.search(r'<m_title><!\[CDATA\[(.*?)\]\]></m_title>', s[pos:pos + 5000], re.S)
+            topics.append({'pos': pos, 'depth': depth, 'cover': m.group(1) == 'index',
+                           'title': t.group(1).replace(']]]]><![CDATA[>', ']]>') if t else ''})
+            depth += 1
+        else: depth -= 1
+    roots = []; stack = []   # stack of (topic depth, keyword node or None, skip subtree)
+    links = {}; skipped = []
+    for t in topics:
+        while stack and stack[-1][0] >= t['depth']: stack.pop()
+        if t['cover']: stack.append((t['depth'], None, False)); continue
+        if any(x[2] for x in stack): skipped.append(t['title']); stack.append((t['depth'], None, True)); continue
+        if not mapping and KW_SKIP_TREE.search(t['title']):
+            skipped.append(t['title']); stack.append((t['depth'], None, True)); continue
+        if KW_SKIP_PAGE.search(t['title']):
+            skipped.append(t['title']); stack.append((t['depth'], None, False)); continue
+        parent = next((x[1] for x in reversed(stack) if x[1] is not None), None)
+        sibs = parent['kids'] if parent else roots
+        node = next((n for n in sibs if n['title'] == t['title']), None)   # same title under same parent = one keyword
+        if node is None:
+            node = {'title': t['title'], 'kids': [], 'path': (parent['path'] + KW_SEP if parent else '') + t['title']}
+            sibs.append(node)
+        links[t['pos']] = node['path']
+        stack.append((t['depth'], node, False))
+    # insert links (from the end so positions stay valid)
+    for pos in sorted(links, reverse=True):
+        seg = s[pos:pos + 3000]
+        m = re.search(r'<output_epub>\d</output_epub>', seg) or re.search(r'(?=<page_state_flags>)', seg)
+        if not m: raise SystemExit('cannot place keyword link in topic at %d' % pos)
+        at = pos + m.end()
+        s = s[:at] + '<keyword><![CDATA[%s]]></keyword>' % _cdata(links[pos]) + s[at:]
+    # replace the project keyword tree (in the header, before <pages>)
+    head = s[:s.index('<pages>')]
+    m = re.search(r'<keywords/>|<keywords>', head)
+    if not m: raise SystemExit('no <keywords> block found in the project header')
+    if m.group() == '<keywords/>': end = m.end()
+    else:
+        d = 0
+        for tm in re.finditer(r'<keywords>|</keywords>|<keywords/>', s[m.start():]):
+            if tm.group() == '<keywords>': d += 1
+            elif tm.group() == '</keywords>': d -= 1
+            if d == 0: end = m.start() + tm.end(); break
+    s = s[:m.start()] + _kw_xml(roots) + s[end:]
+    Path(dst).write_text(s, encoding='utf-8', newline='')
+    ET.fromstring(s.encode('utf-8'))   # must parse
+
+    def tree(nodes, lvl=0):
+        return ''.join('%s- %s\n%s' % ('  ' * lvl, n['title'], tree(n['kids'], lvl + 1)) for n in nodes)
+    return tree(roots).rstrip('\n'), len(links), skipped
+
+
+def keywords_report(src, dst, mapping=False):
+    tree, n, skipped = add_keywords(src, dst, mapping)
+    return ('%s -> %s (%s rules)\nKeyword tree:\n%s\n%d topics linked; %d pages without keyword (besides the cover)%s'
+            % (src, dst, 'mapping' if mapping else 'user manual', tree, n, len(skipped),
+               (': ' + '; '.join(skipped)) if skipped else ''))
+
+
 def remove_pages(src, dst, pattern):
     """Remove every page whose title matches pattern (regex, case-insensitive), with its children.
     Works on the raw text, so everything else in the file stays byte-for-byte the same."""

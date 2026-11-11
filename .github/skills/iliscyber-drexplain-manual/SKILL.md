@@ -42,3 +42,4 @@ The user writes ILISCyber help manuals in Dr.Explain. You turn their screenshots
 - Clear a marked screenshot for reuse: `clear` (check the `_check.png` sheet; repair spots with `patch --donor` or ask).
 - Edit text in a screenshot (record, value, message): recipes `change_value`, `alert_from_screen`, `popup_text`, `success_bar`, or `write --replace`. Letters come from the letter library (`fonts`); teach new ones with `learn` from any screenshot that shows them. If a letter is missing the tool draws it with Arial and says so - mention it with the preview.
 - Mapping document requested: use the `iliscyber-mapping-document` skill instead.
+- Index / keywords requested (for a finished manual): use the `iliscyber-add-keywords` skill (`python scripts/add_keywords.py "<file>" "<file without .gui>_keywords.gui"`; user manual rules - no keywords for How to / Accessing / Invoicing via pages and their sub-pages, nor Tabs / Functionalities pages).
