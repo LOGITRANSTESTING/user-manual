@@ -1,0 +1,6 @@
+{
+ "main": "EMS",
+ "sub": "Import Depot Activity ",
+ "template": "work/import_depot_activity/source.gui",
+ "note": "template = the original .gui, so its cover and settings are kept"
+}

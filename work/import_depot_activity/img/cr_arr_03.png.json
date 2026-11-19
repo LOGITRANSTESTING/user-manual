@@ -1,0 +1,41 @@
+{
+ "source": "screenshots/Container Redelivery/03 Arrange/ILIS/3.png",
+ "crop_left": 8,
+ "crop_right": 10,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1558,
+  904
+ ],
+ "marks": [
+  {
+   "box": [
+    19,
+    247,
+    64,
+    423
+   ],
+   "n": 6
+  },
+  {
+   "box": [
+    22,
+    141,
+    762,
+    198
+   ],
+   "n": 7
+  },
+  {
+   "box": [
+    1433,
+    166,
+    1506,
+    195
+   ],
+   "n": 8
+  }
+ ]
+}
