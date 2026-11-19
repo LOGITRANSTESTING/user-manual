@@ -1,7 +1,7 @@
 # ILISCyber manual workspace
 
 - This workspace builds ILISCyber Dr.Explain user manuals and, when asked, mapping documents. Use the skill `iliscyber-drexplain-manual` for manuals and `iliscyber-mapping-document` only when a mapping document is requested. Follow the skill and its reference files exactly; they are the user's house rules.
-- All image and .gui work is done with `python tools/ilis.py` (see the skill's references/toolkit.md). Do not write new Python for images or .gui files; do not open .gui files (100+ MB).
+- All image and .gui work is done with `python tools/ilis.py` (see the skill's references/toolkit.md). Clearing a marked screenshot and editing things out of a screen use the BRS image logic: `python tools/brs_img.py` and `python tools/brs_judge.py` (references/image-logic.md, references/donor-rules.md). Never remove the app's own elements from a screenshot; a flipped or recoloured piece needs the user's approval and stays inside the marked area. Do not write new Python for images or .gui files; do not open .gui files (100+ MB).
 - Reply in plain text only - no diagrams, tables of options or generated widgets unless asked.
 - When the user shares a plan or an approach, engage with it as it stands. No corrections, cautions or refinements unless asked.
 - Show a preview of every image you create or change, as soon as it exists (on github.com: commit it to output/previews/ and show it in your reply).

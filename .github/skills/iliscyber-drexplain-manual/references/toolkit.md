@@ -32,8 +32,19 @@ All commands work on files. Previews open in VS Code automatically (add `--no-op
 ]
 ```
   `kind` (button / tall / line) is guessed from the box size when left out; the circle goes to the first free spot in the house order (references/screenshots.md); `pos` forces a spot (left, right, bottomleft, bottomright, topleft, topright). Buttons are padded on the left automatically so the circle clears the icon/text. The command prints where each number went.
-- `clear SRC DST` - removes border, old boxes, numbers and stubs; writes `DST_check.png` (before/after of each old number spot).
+- `clear SRC DST` - older inpainting clear. For reusing a marked screenshot use `brs_img.py unmark` instead (below).
 - `patch SRC DST --donor D --box B` - rebuilds a smudged spot from a similar unmarked screenshot (only when the match is reliable).
+
+## Clearing marked screenshots and editing things out: `python tools/brs_img.py` / `python tools/brs_judge.py`
+Same tools as the BRS workspace; rules in `image-logic.md` and `donor-rules.md`.
+- `brs_judge.py marks SRC` - are there marks at all? `scan DIR_OR_FILES` - unmarked / twin / NO TWIN per screenshot.
+- `brs_img.py unmark SRC DST [--donors F ...] [--inline F ...] [--blue] [--blue-box B] [--keep-border]` - removes the frame and marks, repairs every covered spot seamlessly; JSON report (`seamless`, `unresolved`, `guard_restored_px`) and `DST_check.png`.
+- `brs_judge.py judge MARKED --box B --donors F ...` - per-part donor check (EXACT / DIRTY). `gate MARKED RESULT [--twin T]` - 0 px changed outside the marks, no mark lines left.
+- `brs_img.py fill SRC DST --box B --donors F ...` - edit something out by copying the area from a neighbour shot. `rank SRC --donor-dir D` - best neighbours.
+- `brs_img.py copy SRC DST --from-box B --to x,y [--donor D]` - exact piece copy (boxes include the last row/column). `--flip/--recolor` need `--marks MARKED` and `--approved` (user's yes) - otherwise only `DST_proposal.png`.
+- `brs_img.py remove-rows SRC DST --box B --until Y` - delete grid rows, rows below move up.
+- `brs_img.py sheet FILES --out sheet.png [--labels ...]` - review sheet.
+- `BRS_DEBUG=1` prints why an element was not rebuilt.
 
 ## Building missing / changed images
 Blocks (used by recipes, some also as commands): `clear_marks`, `strip_border`, `dim`/`undim` (the app's pop-up dimming, measured 0.549), `copy_popup` (pop-up from a dimmed donor, aligned on the screen), `copy_region` (a region or a colour area from a donor; `align: auto` same screen, `bottom` same distance from the bottom, `none` + `offset`), `text_blocks`, `learn`, `replace_text` (erase the old text, write the new one at the same left edge/centre and baseline), `write`, `erase`, `paste`, `mark`, `border`, `save`.
@@ -51,7 +62,7 @@ Run: `python tools/ilis.py recipe run recipes/alert_from_screen.json --set scree
 It prints what it found (pop-up box, text blocks, learned letters, any letter drawn with Arial) and shows a preview. A request that fits no recipe: copy the closest recipe to `recipes/<new_name>.json`, change the steps (same blocks), run it, and keep it for next time.
 
 ## Letter library (`fonts/`)
-Real letters cut from the user's screenshots, one set per place in the app: `popup_message`, `popup_title` (bold, white on blue), `success_bar` (bold), `grid_cell`; add others as needed (`grid_header`, `field_value`, `menu_item`, `tab_title` ...). Never mix places in one font.
+Real letters cut from the user's screenshots, one set per place in the app: `popup_message`, `popup_title` (bold, white on blue), `success_bar` (bold), `grid_cell`; `menu_item` (function-menu letters); add others as needed (`grid_header`, `field_value`, `tab_title` ...). Never mix places in one font.
 - `fonts` lists what each set has.
 - `learn SRC --box B --text "exact text" --font grid_cell [--bold]` teaches letters from a text line you can read on a screenshot (box from `find --text`). Learn from any screenshot of the same place in the app before writing words that need new letters.
 - `replace_text` in recipes learns the old text automatically (`old_text`).
