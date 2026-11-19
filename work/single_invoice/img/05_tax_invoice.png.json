@@ -1,0 +1,23 @@
+{
+ "source": "work/single_invoice/build/05_tax_invoice_clean.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1953,
+  983
+ ],
+ "marks": [
+  {
+   "box": [
+    1471,
+    651,
+    1538,
+    681
+   ],
+   "n": 7
+  }
+ ]
+}

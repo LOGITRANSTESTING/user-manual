@@ -1,0 +1,23 @@
+{
+ "source": "work/single_invoice/build/01_billing_activity_clean.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1951,
+  989
+ ],
+ "marks": [
+  {
+   "box": [
+    1781,
+    67,
+    1908,
+    104
+   ],
+   "n": 1
+  }
+ ]
+}
