@@ -349,12 +349,26 @@ def build(project_dir, out, skip_titles=('trouble shooting', 'troubleshooting'))
     cover_uuid = re.search(r'<uuid><!\[CDATA\[(.*?)\]\]>', cover).group(1)
     head = re.sub(r'(<selected_node_guid><!\[CDATA\[).*?(\]\]>)', lambda m: m.group(1) + cover_uuid + m.group(2), head)
     head = re.sub(r'<nodes_count>\d+</nodes_count>', '<nodes_count>%d</nodes_count>' % count[0], head)
-    head = re.sub(r'<keywords>.*?</keywords>', '<keywords/>', head, flags=re.S)
+    head = _empty_keywords(head)
     doc = head + '<pages>' + cover + body + tail
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     Path(out).write_text(doc, encoding='utf-8', newline='')
     ET.fromstring(doc.encode('utf-8'))  # must parse
     return count[0], problems
+
+
+def _empty_keywords(head):
+    """Replace the project's keyword index with <keywords/>; keywords may be nested."""
+    start = head.find('<keywords>')
+    if start < 0: return head
+    depth, i = 0, start
+    for m in re.finditer(r'<keywords>|</keywords>', head[start:]):
+        depth += 1 if m.group() == '<keywords>' else -1
+        if depth == 0:
+            i = start + m.end(); break
+    else:
+        return head
+    return head[:start] + '<keywords/>' + head[i:]
 
 
 # ------------------------------------------------------------------ 1250 px widths

@@ -1,0 +1,42 @@
+{
+ "source": "screenshots/Container Redelivery/03 Arrange/ILIS/1.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1508,
+  853
+ ],
+ "marks": [
+  {
+   "box": [
+    275,
+    55,
+    357,
+    81
+   ],
+   "n": null,
+   "pos": "bottomleft"
+  },
+  {
+   "pair": {
+    "big": [
+     10,
+     123,
+     1498,
+     322
+    ],
+    "btn": [
+     1346,
+     286,
+     1413,
+     315
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}
