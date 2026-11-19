@@ -27,4 +27,4 @@ Builds ILISCyber Dr.Explain user manuals and mapping documents with GitHub Copil
 - To finish, say "generate". The `.gui` file appears in `output/`.
 
 ## Quick tool reference
-`python tools/ilis.py -h` lists every command. The full reference is in `.github/skills/iliscyber-drexplain-manual/references/toolkit.md`.
+`python tools/ilis.py -h` lists every command. Clearing marked screenshots uses the BRS image tools: `python tools/brs_img.py -h` and `python tools/brs_judge.py -h`. The full reference is in `.github/skills/iliscyber-drexplain-manual/references/toolkit.md`.
