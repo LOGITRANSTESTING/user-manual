@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 2/01 Invoice Generation Single - (VN)/01 Cash Invoice/01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1909,
+  942
+ ],
+ "marks": [
+  {
+   "box": [
+    1778,
+    60,
+    1909,
+    105
+   ],
+   "n": null
+  }
+ ]
+}
