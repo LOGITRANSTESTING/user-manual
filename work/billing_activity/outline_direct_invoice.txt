@@ -1,0 +1,12 @@
+  pages/direct_invoice_cn.md
+    pages/how_to_generate_direct_cash_invoice.md
+    pages/how_to_generate_direct_credit_invoice.md
+  pages/direct_invoice_tw.md
+    pages/how_to_generate_direct_cash_invoice_tw.md
+    pages/how_to_generate_direct_credit_invoice_tw.md
+  pages/direct_invoice_hk.md
+    pages/how_to_generate_direct_cash_invoice_hk.md
+    pages/how_to_generate_direct_credit_invoice_hk.md
+  pages/direct_invoice_vn.md
+    pages/how_to_generate_direct_cash_invoice_vn.md
+    pages/how_to_generate_direct_credit_invoice_vn.md
