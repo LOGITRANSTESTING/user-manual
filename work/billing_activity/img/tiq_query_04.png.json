@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 6/02 Tax Invoice Query - (CN)/01 Query Tax Invoice/04.png",
+ "crop_left": 200,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1752,
+  986
+ ],
+ "marks": [
+  {
+   "box": [
+    207,
+    332,
+    282,
+    371
+   ],
+   "n": 7
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 6/05 Debit Note Query - (VN)/01 Reprint Debit Note/03.png",
+ "crop_left": 198,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1710,
+  941
+ ],
+ "marks": [
+  {
+   "box": [
+    256,
+    178,
+    315,
+    214
+   ],
+   "n": null
+  }
+ ]
+}

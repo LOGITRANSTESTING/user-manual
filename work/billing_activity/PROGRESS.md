@@ -13,7 +13,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
 | 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Approved | Approved | Yes |
 | 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Approved | Yes |
-| 6 | Tax Invoice Query (CN), Tax Invoice Generation (CN)/(VN), Debit Note (VN), Debit Note Query | Tree proposed | - | No |
+| 6 | Tax Invoice Query (CN), Tax Invoice Generation (CN)/(VN), Debit Note (VN), Debit Note Query | Built, awaiting review | Mapping 2 built | No |
 | 7 | Government Receipt (TW), Government Receipt Query (TW), Detention Invoice Generation (CN), Add/Modify Local Charge | Files received | - | No |
 | 8 | Local Charge Calculation, Exchange Rate Revalidation, Cancel Shipment Collection, AR Un-Invoiced Query | Files received | - | No |
 
@@ -127,7 +127,7 @@ Part 5 sources were exported to `work/_src5/{unmarked,marked}` (deleted after ap
 ## Sources for Parts 6-8
 Uploaded by the user as GitHub pre-release assets (chat/web upload too large): releases `part6-sources`, `part7-sources`, `part8-sources` on this repo. Downloaded with `gh release download` to `/root/.copilot/uploads/partN` and exported to `work/_srcN/{unmarked,marked}` (not committed). Delete each release + export after that part is approved.
 
-## Part 6 tree (proposed, awaiting approval)
+## Part 6 tree (approved)
 ```
 Billing Activity Group Functions
   Debit Note - (VN)                              (row checkbox -> Billing Activity menu: Debit Note (VN))
@@ -147,3 +147,8 @@ Billing Activity Side Functions
     How to cancel Debit Note                     (dates -> Search -> cancel icon -> Yes -> record removed)
 ```
 Flow sheets: `output/previews/p6_*_flow.png`. Debit Note Query - Reprint / Cancel have no Afsys section in the source (mapping: ILISCyber only).
+- Part 6 built (manual + Mapping 2). Specs: `specs/{dn_gen,tiq_query,tiq_rev,tiq_cancel,tig_cn,tvn_gen,tvn_print,dnq_reprint,dnq_cancel}.json` + `fo_{dn,tiq,tig_cn,tig_vn,dnq}.json`; screenshots `screenshots/Billing Activity/Part 6/`. No built images.
+- New inline crops: icon_tax_invoice_query, icon_tax_invoice_generation (CN and VN identical), icon_debit_note_query, icon_view_doc, btn_process_tig, btn_process_dn, btn_submit_reason, btn_yes_alert, btn_yes_dn, btn_view_print. Reused: btn_search, btn_search_q, btn_submit, btn_ok_tax, icon_print, icon_cancel, chk_single, chk_select_all.
+- Manual: Debit Note - (VN) under Group Functions (after Batch Invoice - (TR)); the rest appended to Side Functions after Print/Re-Print - (TR). Tax invoice tab menu written as {icon:batch_menu}.
+- Mapping 2: source titles/tree kept (`tiq`, `tiq_rev`, `tiq_cancel`, `tig_vn`, `tig_vn_print`, `tig_cn`, `dn_vn`, `dnq_reprint`, `dnq_cancel`); tiles CN (`ilis_cn_*`) / VN (`ilis_vn_*`). Debit Note Query pages: ILISCyber only.
+- Review sheets: `output/previews/p6_<prefix>.png`, `p6_fo.png`, `p6_map_*_ilis.png`.

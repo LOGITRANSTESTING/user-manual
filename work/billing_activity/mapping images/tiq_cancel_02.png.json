@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 6/02 Tax Invoice Query - (CN)/03 Cancel Tax Invoice/02.png",
+ "crop_left": 201,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1710,
+  941
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     700,
+     137,
+     1205,
+     208
+    ],
+    "btn": [
+     1545,
+     255,
+     1617,
+     287
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}

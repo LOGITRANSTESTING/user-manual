@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 6/02 Tax Invoice Query - (CN)/02 Reverse Receipt and Tax Invoice/06.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1949,
+  985
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     738,
+     449,
+     1207,
+     523
+    ],
+    "btn": [
+     1132,
+     541,
+     1215,
+     571
+    ]
+   },
+   "n": 11,
+   "type": "popup"
+  }
+ ]
+}
