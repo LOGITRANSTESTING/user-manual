@@ -9,7 +9,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | Part | Functions | Manual | Mapping | Sources deleted |
 |---|---|---|---|---|
 | 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Drafted (7 How to pages + overview/default pages) - awaiting user review | Drafted | Yes |
-| 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | tree plan proposed | - | No |
+| 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Drafted (VN Cash/Credit, TR Single Credit, TR Batch Credit + overview pages, in outline) - awaiting user review | Not started - needs Part 2 marked file (Afsys images) re-uploaded | No |
 | 3-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & Reporting - Billing Activity Mapping.gui`. Previews: `output/previews/`.
@@ -53,5 +53,6 @@ Content Section
     Invoice Generation Single - (TR)
       How to generate Credit Invoice
 ```
-Part 2 sources exported to `work/_src2/{unmarked,marked}` (delete when Part 2 is done).
+Part 2 sources were exported to `work/_src2/{unmarked,marked}` but that folder is not in the repo (lost between sessions); re-upload the Part 2 marked file to build the mapping pages.
+- Overview pages: VN 02 = `edits/vn_cash_03.png` (drop-down removed); TR 02 = TR Credit shot 03; Batch Invoice - (TR) = batch menu shot (Batch 02) + Credit Invoice screen (Batch 03).
 - TR Single Step 5 adds: "VAT Grouping can be selected if needed." (no box) - user decision.
