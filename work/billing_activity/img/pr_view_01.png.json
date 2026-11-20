@@ -1,21 +1,21 @@
 {
  "source": "screenshots/Billing Activity/Part 4/03 Print Re-Print - (TR)/01 View/01.png",
- "crop_left": 0,
+ "crop_left": 202,
  "crop_right": 0,
  "border": 21,
  "dimmed": false,
  "marked": true,
  "size": [
-  1957,
+  1755,
   988
  ],
  "marks": [
   {
    "box": [
-    1779,
-    154,
-    1903,
-    196
+    1778,
+    153,
+    1914,
+    197
    ],
    "n": 1
   }
