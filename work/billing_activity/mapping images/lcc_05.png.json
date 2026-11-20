@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/Part 8/02 Local Charge Calculation/01 Calculate Local Charge/05.png",
+ "crop_left": 198,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1713,
+  946
+ ],
+ "marks": [
+  {
+   "box": [
+    1432,
+    103,
+    1597,
+    136
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

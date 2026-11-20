@@ -1,0 +1,31 @@
+{
+ "source": "screenshots/Billing Activity/Part 7/04 Detention Invoice Generation - (CN)/01 Generate Detention Invoice/02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1946,
+  987
+ ],
+ "marks": [
+  {
+   "box": [
+    442,
+    351,
+    634,
+    415
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    1394,
+    411,
+    1467,
+    446
+   ]
+  }
+ ]
+}

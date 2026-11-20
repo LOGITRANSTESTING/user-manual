@@ -1,0 +1,34 @@
+{
+ "source": "screenshots/Billing Activity/Part 6/01 Debit Note - (VN)/01 Generate Debit Note/02.png",
+ "crop_left": 198,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1751,
+  985
+ ],
+ "marks": [
+  {
+   "box": [
+    205,
+    142,
+    252,
+    230
+   ],
+   "n": 3,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    324,
+    69,
+    556,
+    108
+   ],
+   "n": 4,
+   "pos": "right"
+  }
+ ]
+}

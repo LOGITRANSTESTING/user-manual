@@ -1,0 +1,43 @@
+{
+ "source": "work/billing_activity/edits/cn_credittax_03.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1751,
+  982
+ ],
+ "marks": [
+  {
+   "box": [
+    205,
+    106,
+    540,
+    135
+   ],
+   "n": 5
+  },
+  {
+   "box": [
+    216,
+    415,
+    526,
+    550
+   ],
+   "kind": "tall",
+   "n": 6
+  },
+  {
+   "box": [
+    1537,
+    106,
+    1660,
+    133
+   ],
+   "n": 7,
+   "pos": "topright"
+  }
+ ]
+}

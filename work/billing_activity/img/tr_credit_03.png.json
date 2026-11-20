@@ -1,0 +1,43 @@
+{
+ "source": "screenshots/Billing Activity/Part 2/02 Invoice Generation - (TR)/01 Credit Invoice/03.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1751,
+  985
+ ],
+ "marks": [
+  {
+   "box": [
+    210,
+    106,
+    600,
+    136
+   ],
+   "n": 5
+  },
+  {
+   "box": [
+    215,
+    499,
+    509,
+    596
+   ],
+   "n": 6,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1527,
+    104,
+    1648,
+    136
+   ],
+   "n": 7,
+   "pos": "topright"
+  }
+ ]
+}

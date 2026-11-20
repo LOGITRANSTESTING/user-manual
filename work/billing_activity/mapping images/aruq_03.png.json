@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/Part 8/01 AR Un-Invoiced Query/01 Generate Credit Invoice/03.png",
+ "crop_left": 200,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1712,
+  943
+ ],
+ "marks": [
+  {
+   "box": [
+    209,
+    215,
+    254,
+    253
+   ],
+   "n": null,
+   "pos": "right"
+  }
+ ]
+}

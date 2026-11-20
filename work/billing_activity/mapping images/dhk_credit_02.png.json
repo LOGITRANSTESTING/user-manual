@@ -1,0 +1,42 @@
+{
+ "source": "screenshots/Billing Activity/Part 5/02 Direct Invoice - (HK)/02 Credit Invoice/02.png",
+ "crop_left": 198,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1707,
+  940
+ ],
+ "marks": [
+  {
+   "box": [
+    203,
+    318,
+    1125,
+    357
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    205,
+    640,
+    1123,
+    681
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1333,
+    104,
+    1430,
+    136
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

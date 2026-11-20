@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 1/03 Invoice Generation Single - (HK)/02 Cash Invoice/01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1911,
+  949
+ ],
+ "marks": [
+  {
+   "box": [
+    1777,
+    62,
+    1910,
+    107
+   ],
+   "n": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/Part 4/01 Direct Invoice - (CN)/01 Cash Invoice/03.png",
+ "crop_left": 201,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1712,
+  947
+ ],
+ "marks": [
+  {
+   "box": [
+    1440,
+    107,
+    1563,
+    137
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 4/03 Print Re-Print - (TR)/02 Invoice Printing Details/03.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1751,
+  985
+ ],
+ "marks": [
+  {
+   "box": [
+    255,
+    213,
+    307,
+    247
+   ],
+   "n": 5
+  }
+ ]
+}

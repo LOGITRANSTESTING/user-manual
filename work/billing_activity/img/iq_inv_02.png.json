@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 3/01 Invoice Query/01 Query by Invoice Number/02.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1751,
+  983
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     702,
+     139,
+     956,
+     201
+    ],
+    "btn": [
+     1544,
+     165,
+     1614,
+     197
+    ]
+   },
+   "n": 3,
+   "type": "query"
+  }
+ ]
+}

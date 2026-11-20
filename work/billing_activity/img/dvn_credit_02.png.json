@@ -1,0 +1,42 @@
+{
+ "source": "screenshots/Billing Activity/Part 5/03 Direct Invoice - (VN)/02 Credit Invoice/02.png",
+ "crop_left": 200,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1749,
+  987
+ ],
+ "marks": [
+  {
+   "box": [
+    209,
+    217,
+    1124,
+    254
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    206,
+    591,
+    1125,
+    632
+   ],
+   "n": 3
+  },
+  {
+   "box": [
+    1336,
+    104,
+    1432,
+    139
+   ],
+   "n": 4,
+   "pos": "topright"
+  }
+ ]
+}

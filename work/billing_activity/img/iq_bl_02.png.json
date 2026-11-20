@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 3/01 Invoice Query/02 Query by BL Number/02.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1750,
+  984
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     945,
+     140,
+     1205,
+     202
+    ],
+    "btn": [
+     1544,
+     166,
+     1614,
+     197
+    ]
+   },
+   "n": 3,
+   "type": "query"
+  }
+ ]
+}

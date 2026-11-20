@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 6/03 Tax Invoice Generation - (CN)/01 Generate Tax Invoice/01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1953,
+  985
+ ],
+ "marks": [
+  {
+   "box": [
+    1730,
+    474,
+    1910,
+    519
+   ],
+   "n": 1
+  }
+ ]
+}

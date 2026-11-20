@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/Part 6/05 Debit Note Query - (VN)/02 Cancel Debit Note/03.png",
+ "crop_left": 201,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1708,
+  942
+ ],
+ "marks": [
+  {
+   "box": [
+    313,
+    176,
+    371,
+    212
+   ],
+   "n": null,
+   "pos": "bottomright"
+  }
+ ]
+}

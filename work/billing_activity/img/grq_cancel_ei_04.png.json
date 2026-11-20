@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 7/03 Government Receipt Query - (TW)/02 Cancel E-Invoice/04.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1948,
+  982
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     794,
+     386,
+     1137,
+     558
+    ],
+    "btn": [
+     1059,
+     568,
+     1145,
+     601
+    ]
+   },
+   "n": 7,
+   "type": "popup"
+  }
+ ]
+}
