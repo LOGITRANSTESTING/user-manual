@@ -15,7 +15,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Approved | Yes |
 | 6 | Tax Invoice Query (CN), Tax Invoice Generation (CN)/(VN), Debit Note (VN), Debit Note Query | Approved | Approved | Yes |
 | 7 | Government Receipt (TW), Government Receipt Query (TW), Detention Invoice Generation (CN), Add/Modify Local Charge | Approved | Approved | Yes (user to delete `part7-sources` release) |
-| 8 | Local Charge Calculation, Exchange Rate Revalidation, Cancel Shipment Collection, AR Un-Invoiced Query | Built, awaiting approval | Built (Mapping 3), awaiting approval | No |
+| 8 | Local Charge Calculation, Exchange Rate Revalidation, Cancel Shipment Collection, AR Un-Invoiced Query | Approved | Approved | Yes (user to delete `part8-sources` release) |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
 
@@ -189,7 +189,7 @@ Flow sheets: `output/previews/p8_*_flow.png`. Source titles kept (no country suf
 - Side Functions: **Cancel Shipment Collection** -> How to cancel Shipment Collection (side icon, Booking Number + Submit, select charges, Credit Invoice, Check List, Process).
 - Mapping 3: append `lcc`, `err`, `csc`, `aruq` after `amlc` (source order). Source has stray text "am" after the last Local Charge Calculation image line - dropped.
 
-## Part 8 build
+## Part 8 build (approved - all 8 parts complete)
 - Part 8 built (manual + Mapping 3). Specs: `specs/{aruq,lcc,err,csc}.json` + `fo_{aruq,lcc,err,csc}.json`; screenshots `screenshots/Billing Activity/Part 8/`. No built images.
 - Manual: AR Un-Invoiced Query under Group Functions (after Debit Note); Local Charge Calculation + Exchange Rate Revalidation under Row Functions; Cancel Shipment Collection at the end of Side Functions.
 - New inline crops: `btn_calculate_lcc`, `btn_calculate_transfer`, `btn_process_err`, `btn_invoice_csc` (pop-up button is labelled "Invoice"), `btn_credit_invoice_csc`, `icon_cancel_shipment_collection`, `icon_invoice_doc`. Reused `btn_check_list`, `btn_process`, `btn_search(_q)`, `chk_single`, `icon_row_menu`.
