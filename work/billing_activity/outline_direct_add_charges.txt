@@ -1,4 +1,0 @@
-pages/direct_invoice_add_charges_cn.md
-pages/direct_invoice_add_charges_tw.md
-pages/direct_invoice_add_charges_hk.md
-pages/direct_invoice_add_charges_vn.md
