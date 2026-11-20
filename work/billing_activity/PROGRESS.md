@@ -8,8 +8,9 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 ## Status
 | Part | Functions | Manual | Mapping | Sources deleted |
 |---|---|---|---|---|
-| 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Drafted (7 How to pages + overview/default pages) - awaiting user review | Drafted | No (until user confirms Part 1) |
-| 2-8 | - | waiting for files | - | - |
+| 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Drafted (7 How to pages + overview/default pages) - awaiting user review | Drafted | Yes |
+| 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | tree plan proposed | - | No |
+| 3-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & Reporting - Billing Activity Mapping.gui`. Previews: `output/previews/`.
 
@@ -34,7 +35,7 @@ Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & 
 - Mapping: cover -> Billing Activity (empty) -> Invoice Generation Single - (XX) (empty) -> "Single Invoice - <X> Invoice" pages; Afsys = user's marked images as given; ILISCyber = main tile, sub tile, then the How to images (red boxes only).
 
 ## Open points for Part 1
-- Default pages wording uses "billing records" (Query Parameters / Result Grid) - confirm.
+- Default pages use "BL/Booking Number records" (confirmed).
 - Icons page added under Result Grid ("Icons - to be filled", result grid shot + blank space).
-- Function overview shot CN 02 (plain) shows the Settlement Type drop-down open - confirm keep/remove.
+- Function overview pages: only the expanded side icon shot (01). Billing Activity overview: only main, sub, query shots (confirmed).
 - After user confirms Part 1: delete Part 1 sources (uploads + `work/_src`), then wait for Part 2.
