@@ -9,7 +9,7 @@ status: Waiting
 **Step 3** : Enter the query fields with desirable input for querying data and click on {img:../img/btn_search.png}.
 ![](../img/tr_credit_02.png)
 **Step 4** : Upon clicking {img:../img/btn_search.png}, charges with matching information are returned.
-**Step 5** : Select the required Settlement Type and Charge Type.
+**Step 5** : Select the required Settlement Type and Charge Type. VAT Grouping can be selected if needed.
 **Step 6** : Either select all charges available by clicking on {img:../img/chk_select_all.png}(select all checkbox) or select individual charges by clicking on {img:../img/chk_single.png}(single select checkbox).
 **Step 7** : Click on {img:../img/btn_credit_invoice.png}.
 ![](../img/tr_credit_03.png)

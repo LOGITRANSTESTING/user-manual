@@ -54,3 +54,4 @@ Content Section
       How to generate Credit Invoice
 ```
 Part 2 sources exported to `work/_src2/{unmarked,marked}` (delete when Part 2 is done).
+- TR Single Step 5 adds: "VAT Grouping can be selected if needed." (no box) - user decision.
