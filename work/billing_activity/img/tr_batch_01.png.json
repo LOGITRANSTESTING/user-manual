@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 2/02 Invoice Generation - (TR)/02 Batch Credit Invoice/01.png",
+ "crop_left": 203,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1756,
+  557
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     210,
+     135,
+     1703,
+     512
+    ],
+    "btn": [
+     1546,
+     472,
+     1622,
+     507
+    ]
+   },
+   "n": 1,
+   "type": "query"
+  }
+ ]
+}

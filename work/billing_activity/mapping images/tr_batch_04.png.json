@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/Part 2/02 Invoice Generation - (TR)/02 Batch Credit Invoice/04.png",
+ "crop_left": 200,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1711,
+  945
+ ],
+ "marks": [
+  {
+   "box": [
+    1503,
+    109,
+    1663,
+    139
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}
