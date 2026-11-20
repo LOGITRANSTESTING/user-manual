@@ -33,6 +33,7 @@ Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & 
 - Duplicate Process shots are left out (HK Credit original 06 left out - approved).
 - When asking the user a question, ALWAYS show the flow (preview sheet of the related images).
 - Mapping: cover -> Billing Activity (empty) -> Invoice Generation Single - (XX) (empty) -> "Single Invoice - <X> Invoice" pages; Afsys = user's marked images as given; ILISCyber = main tile, sub tile, then the How to images (red boxes only).
+- Mapping ILISCyber order (user rule, every page): Billing & Reporting tile -> Billing Activity tile -> side icon shot (Single Invoice boxed; batch functions: query/batch menu) -> the screen -> remaining steps. Use the tiles of the same country user (CN/TW/HK: `ov_01/02`; VN/TR: `_tiles/`). Preview: `output/previews/mapping_ilis_order.png`.
 
 ## Open points for Part 1
 - Default pages use "BL/Booking Number records" (confirmed).
