@@ -9,7 +9,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | Part | Functions | Manual | Mapping | Sources deleted |
 |---|---|---|---|---|
 | 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Approved | Approved | Yes |
-| 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Drafted - awaiting user review | No (delete after mapping approved) |
+| 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
 | 3-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & Reporting - Billing Activity Mapping.gui`. Previews: `output/previews/`.
@@ -54,7 +54,7 @@ Content Section
     Invoice Generation Single - (TR)
       How to generate Credit Invoice
 ```
-Part 2 sources: `work/_src2/{unmarked,marked}` (exported from the uploads; not committed - re-upload if lost).
+Part 2 sources deleted after approval. Part 3: export uploads to `work/_src3/{unmarked,marked}`.
 - Part 2 mapping: tree follows the marked file (Invoice Generation Single - (VN) -> Cash/Credit; Invoice Generation - (TR) -> Single Invoice - Credit Invoice, Batch Invoice - Credit Invoice). Afsys lines kept exactly as given (incl. two images on one line). ILISCyber tiles: `screenshots/Billing Activity/Part 2/_tiles/{vn,tr}_{main,sub}.png`, boxes at the same positions as Part 1 `ov_01/ov_02`. Note: unmarked .gui image numbering differs from the marked one - match by similarity.
 - Overview pages: VN 02 = `edits/vn_cash_03.png` (drop-down removed); TR 02 = TR Credit shot 03; Batch Invoice - (TR) = batch menu shot (Batch 02) + Credit Invoice screen (Batch 03).
 - TR Single Step 5 adds: "VAT Grouping can be selected if needed." (no box) - user decision.
