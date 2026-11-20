@@ -14,7 +14,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Approved | Approved | Yes |
 | 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Approved | Yes |
 | 6 | Tax Invoice Query (CN), Tax Invoice Generation (CN)/(VN), Debit Note (VN), Debit Note Query | Approved | Approved | Yes |
-| 7 | Government Receipt (TW), Government Receipt Query (TW), Detention Invoice Generation (CN), Add/Modify Local Charge | Files received | - | No |
+| 7 | Government Receipt (TW), Government Receipt Query (TW), Detention Invoice Generation (CN), Add/Modify Local Charge | Tree proposed | - | No |
 | 8 | Local Charge Calculation, Exchange Rate Revalidation, Cancel Shipment Collection, AR Un-Invoiced Query | Files received | - | No |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
@@ -152,3 +152,22 @@ Flow sheets: `output/previews/p6_*_flow.png`. Debit Note Query - Reprint / Cance
 - Manual: Debit Note - (VN) under Group Functions (after Batch Invoice - (TR)); the rest appended to Side Functions after Print/Re-Print - (TR). Tax invoice tab menu written as {icon:batch_menu}.
 - Mapping 2: source titles/tree kept (`tiq`, `tiq_rev`, `tiq_cancel`, `tig_vn`, `tig_vn_print`, `tig_cn`, `dn_vn`, `dnq_reprint`, `dnq_cancel`); tiles CN (`ilis_cn_*`) / VN (`ilis_vn_*`). Debit Note Query pages: ILISCyber only.
 - Review sheets: `output/previews/p6_<prefix>.png`, `p6_fo.png`, `p6_map_*_ilis.png`.
+
+## Part 7 tree (proposed, awaiting approval)
+```
+Billing Activity Row Functions   (NEW section, after Group Functions; row menu icon in the result grid)
+  Add/Modify Local Charge
+    How to add/modify Local Charge               (BL Number -> Search -> row menu: Add/Modify Local Charges -> edit charge row -> Save -> alert -> BL details)
+Billing Activity Side Functions
+  Government Receipt - (TW)                      (side icon shot + Government Receipt screen)
+    How to generate Government Receipt           (Voyage -> Search -> select -> Process -> Local Receipt pop-up -> PDF)
+    How to view Charges                          (charges icon of a row -> Charges pop-up)
+  Government Receipt Query - (TW)
+    How to reprint E-Invoice                     (From/To Date -> Search -> row menu: Reprint E-Invoice -> success bar)
+    How to cancel E-Invoice                      (... row menu: Cancel E-Invoice -> Cancel Reason + Submit -> success bar -> status Cancelled)
+    How to print Private Receipt                 (... row menu: Reprint Private Receipt -> Charge Type/Print Charge + Submit -> success bar -> PDF)
+    How to cancel Private Receipt                (... row menu: Cancel Private Receipt -> success bar -> status Cancelled)
+  Detention Invoice Generation - (CN)
+    How to generate Detention Invoice            (side icon -> pop-up: Batch Reference -> Search -> select -> Submit -> alert)
+```
+Flow sheets: `output/previews/p7_*_flow.png`. Government Receipt Query From/To Date shots are partial screenshots (1506x854, no header) in the source - used as given.
