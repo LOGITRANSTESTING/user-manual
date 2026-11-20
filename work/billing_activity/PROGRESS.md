@@ -37,7 +37,7 @@ Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & 
 ## Open points for Part 1
 - Default pages use "BL/Booking Number records" (confirmed).
 - Icons page added under Result Grid ("Icons - to be filled", result grid shot + blank space).
-- Function overview pages: only the expanded side icon shot (01). Billing Activity overview: only main, sub, query shots (confirmed).
+- Function overview pages: expanded side icon shot (01) + the Single Invoice screen after clicking it (02; CN uses edits/cn_credittax_03 with drop-down removed). Billing Activity overview: only main, sub, query shots (confirmed).
 - After user confirms Part 1: delete Part 1 sources (uploads + `work/_src`), then wait for Part 2.
 
 ## Part 2 tree (approved)
