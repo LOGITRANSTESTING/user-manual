@@ -1,6 +1,0 @@
-{
- "main": "Billing &A Reporting",
- "sub": "Billing Activity",
- "template": "/root/.copilot/uploads/2026-11-20-009fd50c/Mapping_Billing_Activity_Final_with_marking_Part4.gui",
- "note": "template = the original .gui, so its cover and settings are kept"
-}

@@ -11,7 +11,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Approved | Approved | Yes |
 | 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
-| 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Review | Review | No |
+| 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Approved | Approved | Yes |
 | 5-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
@@ -56,7 +56,7 @@ Content Section
     Invoice Generation Single - (TR)
       How to generate Credit Invoice
 ```
-Part 2 and 3 sources deleted after approval. Part 4: export uploads to `work/_src4/{unmarked,marked}`.
+Part 2, 3 and 4 sources deleted after approval. Part 5: export uploads to `work/_src5/{unmarked,marked}`.
 - Part 2 mapping: tree follows the marked file (Invoice Generation Single - (VN) -> Cash/Credit; Invoice Generation - (TR) -> Single Invoice - Credit Invoice, Batch Invoice - Credit Invoice). Afsys lines kept exactly as given (incl. two images on one line). ILISCyber tiles: `screenshots/Billing Activity/Part 2/_tiles/{vn,tr}_{main,sub}.png`, boxes at the same positions as Part 1 `ov_01/ov_02`. Note: unmarked .gui image numbering differs from the marked one - match by similarity.
 - Overview pages: VN 02 = `edits/vn_cash_03.png` (drop-down removed); TR 02 = TR Credit shot 03; Batch Invoice - (TR) = batch menu shot (Batch 02) + Credit Invoice screen (Batch 03).
 - TR Single Step 5 adds: "VAT Grouping can be selected if needed." (no box) - user decision.
