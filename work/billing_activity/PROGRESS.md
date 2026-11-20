@@ -39,3 +39,18 @@ Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & 
 - Icons page added under Result Grid ("Icons - to be filled", result grid shot + blank space).
 - Function overview pages: only the expanded side icon shot (01). Billing Activity overview: only main, sub, query shots (confirmed).
 - After user confirms Part 1: delete Part 1 sources (uploads + `work/_src`), then wait for Part 2.
+
+## Part 2 tree (approved)
+```
+Content Section
+  Billing Activity Group Functions          (new; "This menu allows the user to perform functions on multiple records at a time.")
+    Batch Invoice - (TR)
+      How to generate Batch Credit Invoice  (batch menu -> Credit Invoice -> details + Apply -> Check List & Process)
+  Billing Activity Side Functions
+    Invoice Generation Single - (VN)
+      How to generate Cash Invoice          (ends with Tax Invoice Generation tab: Generate, select, File Path, Process)
+      How to generate Credit Invoice        (Check List/Process, then Tax Invoice Generation)
+    Invoice Generation Single - (TR)
+      How to generate Credit Invoice
+```
+Part 2 sources exported to `work/_src2/{unmarked,marked}` (delete when Part 2 is done).
