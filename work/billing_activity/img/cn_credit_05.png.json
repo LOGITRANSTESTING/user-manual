@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 1/01 Invoice Generation Single - (CN)/02 Credit Invoice/05.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1951,
+  982
+ ],
+ "marks": [
+  {
+   "box": [
+    1515,
+    691,
+    1602,
+    720
+   ],
+   "n": 10
+  }
+ ]
+}

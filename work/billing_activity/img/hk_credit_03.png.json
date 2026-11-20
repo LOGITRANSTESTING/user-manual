@@ -1,0 +1,43 @@
+{
+ "source": "screenshots/Billing Activity/Part 1/03 Invoice Generation Single - (HK)/01 Credit Invoice/03.png",
+ "crop_left": 198,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1756,
+  987
+ ],
+ "marks": [
+  {
+   "box": [
+    204,
+    107,
+    690,
+    136
+   ],
+   "n": 5
+  },
+  {
+   "box": [
+    215,
+    416,
+    526,
+    552
+   ],
+   "kind": "tall",
+   "n": 6
+  },
+  {
+   "box": [
+    1542,
+    107,
+    1659,
+    134
+   ],
+   "n": 7,
+   "pos": "topright"
+  }
+ ]
+}

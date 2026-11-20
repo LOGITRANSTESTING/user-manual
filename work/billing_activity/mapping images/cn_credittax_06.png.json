@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 1/01 Invoice Generation Single - (CN)/03 Credit Tax Invoice/05.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1914,
+  941
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     462,
+     334,
+     1536,
+     639
+    ],
+    "btn": [
+     1473,
+     654,
+     1540,
+     683
+    ]
+   },
+   "type": "popup",
+   "n": null
+  }
+ ]
+}

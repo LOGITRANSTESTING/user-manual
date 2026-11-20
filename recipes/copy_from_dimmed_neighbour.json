@@ -1,0 +1,43 @@
+{
+ "description": "Bring a region from a DIMMED neighbouring screenshot (pop-up/alert shot of the same screen) into an undimmed screenshot: undim the donor with factor 0.6 (measured on Billing Activity pop-up shots: 153/255; copy the recipe and change it if another screen measures differently), then paste the region at a fixed position. Used for: removing an open Settlement Type drop-down (Billing Activity Single Invoice) using the alert shot as donor.",
+ "inputs": {
+  "screen": "screenshot to complete",
+  "donor": "dimmed neighbouring screenshot of the same screen",
+  "region": "x0,y0,x1,y1 of the area in the DONOR",
+  "x": "target x of the region's top-left",
+  "y": "target y of the region's top-left",
+  "out": "output file"
+ },
+ "steps": [
+  {
+   "op": "load",
+   "file": "${screen}",
+   "as": "s"
+  },
+  {
+   "op": "load",
+   "file": "${donor}",
+   "as": "d"
+  },
+  {
+   "op": "undim",
+   "img": "d",
+   "factor": 0.5999
+  },
+  {
+   "op": "paste",
+   "img": "s",
+   "from": "d",
+   "region": "${region}",
+   "at": [
+    "${x}",
+    "${y}"
+   ]
+  },
+  {
+   "op": "save",
+   "img": "s",
+   "file": "${out}"
+  }
+ ]
+}

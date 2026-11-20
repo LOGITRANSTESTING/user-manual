@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 1/03 Invoice Generation Single - (HK)/01 Credit Invoice/04.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1949,
+  983
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     403,
+     280,
+     1600,
+     699
+    ],
+    "btn": [
+     1405,
+     711,
+     1504,
+     740
+    ]
+   },
+   "n": 9,
+   "type": "popup"
+  }
+ ]
+}
