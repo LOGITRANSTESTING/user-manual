@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 5/01 Direct Invoice - (TW)/01 Cash Invoice/04.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1904,
+  941
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     370,
+     341,
+     1563,
+     777
+    ],
+    "btn": [
+     1477,
+     787,
+     1569,
+     819
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

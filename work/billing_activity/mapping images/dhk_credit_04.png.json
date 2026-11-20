@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 5/02 Direct Invoice - (HK)/02 Credit Invoice/04.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1904,
+  940
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     404,
+     263,
+     1596,
+     699
+    ],
+    "btn": [
+     1403,
+     709,
+     1506,
+     742
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

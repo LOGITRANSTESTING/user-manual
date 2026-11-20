@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/Billing Activity/Part 5/02 Direct Invoice - (HK)/01 Cash Invoice/04.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1906,
+  942
+ ],
+ "marks": [
+  {
+   "box": [
+    1177,
+    291,
+    1264,
+    322
+   ],
+   "n": null,
+   "pos": "left"
+  },
+  {
+   "box": [
+    1322,
+    698,
+    1406,
+    732
+   ],
+   "n": null
+  }
+ ]
+}
