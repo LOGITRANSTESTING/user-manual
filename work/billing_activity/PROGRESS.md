@@ -11,7 +11,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Approved | Approved | Yes |
 | 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
-| 4 | Direct Invoice - (CN), E - Invoice Generation (IN), Print/Reprint (TR) | tree plan proposed | - | No |
+| 4 | Direct Invoice - (CN), E - Invoice Generation - (IN), Print/Re-Print - (TR) | Review | Review | No |
 | 5-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & Reporting - Billing Activity Mapping.gui`. Previews: `output/previews/`.
@@ -77,21 +77,23 @@ Part 3 sources exported to `work/_src3/{unmarked,marked}` (not committed). Flow 
 - Part 3 mapping: parent "Invoice Query" + 6 children (source titles), except user titles "Invoice Query - Revert Reversal Status (TR)" and "Invoice Query - Reverse BL Wise (HK)". ILISCyber tiles: TR (`_tiles/tr_*`), HK for Reverse BL Wise (`_tiles/hk_*`). Right Fax has no Afsys section in source.
 - Part 3 specs: `specs/iq_*.json`; inline icons icon_invoice_query, icon_print, icon_cancel, icon_row_menu, btn_submit, btn_yes.
 
-## Part 4 tree (proposed)
+## Part 4 tree (approved; E-Invoice section named "E - Invoice Generation - (IN)")
 ```
 Billing Activity Side Functions
   Direct Invoice - (CN)                          (CN user; side icon shot + Direct Invoice screen)
     How to generate Direct Cash Invoice          (side icon -> select charges -> Cash Invoice -> Cash Invoice pop-up -> Tax Invoice pop-up -> receipt alert)
     How to generate Direct Credit Invoice        (side icon -> select charges -> Credit Invoice -> pop-up -> Validate -> Process -> alert -> PDF)
-  E - Invoice Query - (IN)                       (IN user; side icon shot + E-Invoice Query screen)
+  E - Invoice Generation - (IN)                  (IN user; side icon shot + E-Invoice Query screen)
     How to print E - Invoice                     (query -> row menu "Printing" -> success)
     How to mark E - Invoice as Cancelled         (query -> row menu "Cancel Marking" -> pop-up -> Submit -> status Cancel)
-    How to update Customer Details of E - Invoice (ILIS shots stop at the result list - see open question)
+    (no How to for Update Customer Details - user decision; ILIS shots stop at the result list)
   Print/Re-Print - (TR)                          (TR user; side icon shot + Print/Re-Print screen)
     How to view Invoice                          (BL Number -> Search -> select -> View -> PDF)
     How to view Invoice Printing Details         (printing details icon -> pop-up)
     How to print Invoice                         (select all -> Print -> PDF)
     How to send Right Fax                        (select all -> Right Fax -> success)
 ```
-Open: source page "E - Invoice Generation - Printing" (2nd) has Afsys "Reversal within 24 Hrs" but ILIS shots identical to Printing. E-Invoice ILIS shots carry no red marks in the marked file.
+Decisions: the 2nd source page "E - Invoice Generation - Printing" (Afsys "Reversal within 24 Hrs", ILIS = copy of Printing) is skipped. Update Customer Details: mapping page only. E-Invoice ILIS shots had no red marks in the marked file - boxes placed by us.
 Part 4 sources exported to `work/_src4/{unmarked,marked}` (not committed). Flow sheets: `output/previews/p4_*_flow.png`.
+- Part 4 mapping: tree follows the marked file (Print/Reprint, E - Invoice Generation, Direct Invoice - (CN)), source titles. Tiles: TR (same as Part 3), IN (`_tiles/in_*`), CN (`_tiles/cn_*`). Direct Invoice - (CN) parent = the 2 source images as given (`img/src_di_*`). Mapping-only specs: `ein`, `ein_ucd`, `pr`.
+- Part 4 specs: `di_cash`, `di_credit`, `ein_print`, `ein_cancel`, `pr_view`, `pr_details`, `pr_print`, `pr_rightfax`; new inline icons icon_direct_invoice, btn_calculate, btn_add, btn_di_cash_invoice, btn_di_credit_invoice, icon_e_invoice_query, icon_print_reprint, btn_view, btn_print, btn_right_fax, icon_printing_details.

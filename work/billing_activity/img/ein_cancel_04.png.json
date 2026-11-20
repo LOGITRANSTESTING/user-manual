@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 4/02 E - Invoice Generation - (IN)/02 Cancel Marking/04.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1947,
+  983
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     737,
+     414,
+     1208,
+     537
+    ],
+    "btn": [
+     1041,
+     557,
+     1122,
+     586
+    ]
+   },
+   "n": 7,
+   "type": "popup"
+  }
+ ]
+}

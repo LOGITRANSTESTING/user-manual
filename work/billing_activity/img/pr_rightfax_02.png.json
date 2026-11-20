@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 4/03 Print Re-Print - (TR)/04 Right Fax/02.png",
+ "crop_left": 200,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1751,
+  986
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     703,
+     146,
+     956,
+     209
+    ],
+    "btn": [
+     1543,
+     429,
+     1617,
+     461
+    ]
+   },
+   "n": 3,
+   "type": "query"
+  }
+ ]
+}

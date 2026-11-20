@@ -1,0 +1,34 @@
+{
+ "source": "screenshots/Billing Activity/Part 4/03 Print Re-Print - (TR)/03 Print/03.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1755,
+  988
+ ],
+ "marks": [
+  {
+   "box": [
+    207,
+    142,
+    260,
+    246
+   ],
+   "n": 5,
+   "kind": "tall"
+  },
+  {
+   "box": [
+    1509,
+    103,
+    1584,
+    133
+   ],
+   "n": 6,
+   "pos": "topright"
+  }
+ ]
+}

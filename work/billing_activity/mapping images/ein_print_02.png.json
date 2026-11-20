@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 4/02 E - Invoice Generation - (IN)/01 Printing/02.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1708,
+  943
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     458,
+     142,
+     703,
+     200
+    ],
+    "btn": [
+     1544,
+     232,
+     1616,
+     264
+    ]
+   },
+   "n": null,
+   "type": "query"
+  }
+ ]
+}
