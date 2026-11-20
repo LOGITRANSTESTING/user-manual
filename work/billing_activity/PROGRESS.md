@@ -35,6 +35,6 @@ Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & 
 
 ## Open points for Part 1
 - Default pages wording uses "billing records" (Query Parameters / Result Grid) - confirm.
-- Result grid has icons: ask whether an "Icons - to be filled" page is wanted.
+- Icons page added under Result Grid ("Icons - to be filled", result grid shot + blank space).
 - Function overview shot CN 02 (plain) shows the Settlement Type drop-down open - confirm keep/remove.
 - After user confirms Part 1: delete Part 1 sources (uploads + `work/_src`), then wait for Part 2.
