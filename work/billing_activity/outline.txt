@@ -8,9 +8,15 @@ pages/billing_activity.md
         pages/how_to_generate_batch_credit_invoice_tr.md
       pages/debit_note_vn.md
         pages/how_to_generate_debit_note_vn.md
+      pages/ar_un_invoiced_query.md
+        pages/how_to_generate_credit_invoice_un_invoiced.md
     pages/row_functions.md
       pages/add_modify_local_charge.md
         pages/how_to_add_modify_local_charge.md
+      pages/local_charge_calculation.md
+        pages/how_to_calculate_local_charge.md
+      pages/exchange_rate_revalidation.md
+        pages/how_to_revalidate_exchange_rate.md
     pages/side_functions.md
       pages/invoice_generation_single_cn.md
         pages/how_to_generate_cash_invoice_cn.md
@@ -74,3 +80,5 @@ pages/billing_activity.md
         pages/how_to_cancel_private_receipt.md
       pages/detention_invoice_generation_cn.md
         pages/how_to_generate_detention_invoice_cn.md
+      pages/cancel_shipment_collection.md
+        pages/how_to_cancel_shipment_collection.md

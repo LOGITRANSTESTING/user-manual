@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/Part 8/04 Cancel Shipment Collection/01 Cancel Shipment Collection/04.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1948,
+  982
+ ],
+ "marks": [
+  {
+   "box": [
+    1405,
+    709,
+    1508,
+    743
+   ],
+   "n": 8,
+   "pos": "topright"
+  }
+ ]
+}

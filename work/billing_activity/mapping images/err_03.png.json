@@ -1,0 +1,43 @@
+{
+ "source": "screenshots/Billing Activity/Part 8/03 Exchange Rate Revalidation/01 Revalidate Exchange Rate/03.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1906,
+  944
+ ],
+ "marks": [
+  {
+   "box": [
+    627,
+    459,
+    692,
+    495
+   ],
+   "n": null,
+   "pos": "left"
+  },
+  {
+   "box": [
+    1075,
+    459,
+    1326,
+    497
+   ],
+   "n": null
+  },
+  {
+   "box": [
+    1261,
+    696,
+    1349,
+    725
+   ],
+   "n": null,
+   "pos": "topright"
+  }
+ ]
+}

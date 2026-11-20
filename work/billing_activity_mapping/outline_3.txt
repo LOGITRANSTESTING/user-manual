@@ -7,3 +7,7 @@ pages/billing_activity.md
     pages/grq_cancel_pr.md
   pages/dig_cn.md
   pages/amlc.md
+  pages/lcc.md
+  pages/err.md
+  pages/csc.md
+  pages/aruq.md
