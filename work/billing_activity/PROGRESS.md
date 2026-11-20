@@ -11,7 +11,8 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Approved | Approved | Yes |
 | 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
-| 4-8 | - | waiting for files | - | - |
+| 4 | Direct Invoice - (CN), E - Invoice Generation (IN), Print/Reprint (TR) | tree plan proposed | - | No |
+| 5-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & Reporting - Billing Activity Mapping.gui`. Previews: `output/previews/`.
 
@@ -75,3 +76,22 @@ Billing Activity Side Functions
 Part 3 sources exported to `work/_src3/{unmarked,marked}` (not committed). Flow sheets: `output/previews/p3_*_flow.png`.
 - Part 3 mapping: parent "Invoice Query" + 6 children (source titles), except user titles "Invoice Query - Revert Reversal Status (TR)" and "Invoice Query - Reverse BL Wise (HK)". ILISCyber tiles: TR (`_tiles/tr_*`), HK for Reverse BL Wise (`_tiles/hk_*`). Right Fax has no Afsys section in source.
 - Part 3 specs: `specs/iq_*.json`; inline icons icon_invoice_query, icon_print, icon_cancel, icon_row_menu, btn_submit, btn_yes.
+
+## Part 4 tree (proposed)
+```
+Billing Activity Side Functions
+  Direct Invoice - (CN)                          (CN user; side icon shot + Direct Invoice screen)
+    How to generate Direct Cash Invoice          (side icon -> select charges -> Cash Invoice -> Cash Invoice pop-up -> Tax Invoice pop-up -> receipt alert)
+    How to generate Direct Credit Invoice        (side icon -> select charges -> Credit Invoice -> pop-up -> Validate -> Process -> alert -> PDF)
+  E - Invoice Query - (IN)                       (IN user; side icon shot + E-Invoice Query screen)
+    How to print E - Invoice                     (query -> row menu "Printing" -> success)
+    How to mark E - Invoice as Cancelled         (query -> row menu "Cancel Marking" -> pop-up -> Submit -> status Cancel)
+    How to update Customer Details of E - Invoice (ILIS shots stop at the result list - see open question)
+  Print/Re-Print - (TR)                          (TR user; side icon shot + Print/Re-Print screen)
+    How to view Invoice                          (BL Number -> Search -> select -> View -> PDF)
+    How to view Invoice Printing Details         (printing details icon -> pop-up)
+    How to print Invoice                         (select all -> Print -> PDF)
+    How to send Right Fax                        (select all -> Right Fax -> success)
+```
+Open: source page "E - Invoice Generation - Printing" (2nd) has Afsys "Reversal within 24 Hrs" but ILIS shots identical to Printing. E-Invoice ILIS shots carry no red marks in the marked file.
+Part 4 sources exported to `work/_src4/{unmarked,marked}` (not committed). Flow sheets: `output/previews/p4_*_flow.png`.
