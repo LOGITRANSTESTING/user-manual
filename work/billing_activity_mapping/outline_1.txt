@@ -22,11 +22,3 @@ pages/billing_activity.md
     pages/iq_revert.md
     pages/iq_rightfax.md
     pages/iq_rbw.md
-  pages/pr.md
-    pages/pr_view.md
-    pages/pr_details.md
-    pages/pr_print.md
-    pages/pr_rightfax.md
-  pages/di.md
-    pages/di_cash.md
-    pages/di_credit.md

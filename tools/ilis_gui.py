@@ -305,7 +305,7 @@ NODE = ('<module><uuid><![CDATA[{uuid}]]></uuid><m_topic><![CDATA[new_topic]]></
 def _cdata(s): return s.replace(']]>', ']]]]><![CDATA[>')
 
 
-def build(project_dir, out, skip_titles=('trouble shooting', 'troubleshooting')):
+def build(project_dir, out, skip_titles=('trouble shooting', 'troubleshooting'), outline='outline.txt'):
     """project_dir: project.json {main, sub, template?} + outline.txt (indented list of page files)."""
     P = Path(project_dir)
     proj = json.loads((P / 'project.json').read_text(encoding='utf-8')) if (P / 'project.json').exists() else {}
@@ -320,7 +320,7 @@ def build(project_dir, out, skip_titles=('trouble shooting', 'troubleshooting'))
         head = head.replace('Main Module - Sub Module', '%s - %s' % (main, sub))
     # outline
     items = []
-    for l in (P / 'outline.txt').read_text(encoding='utf-8').splitlines():
+    for l in (P / outline).read_text(encoding='utf-8').splitlines():
         if not l.strip() or l.strip().startswith('#'): continue
         items.append((len(l) - len(l.lstrip(' ')), l.strip()))
     levels = sorted({d for d, _ in items}); lv = {d: n for n, d in enumerate(levels)}

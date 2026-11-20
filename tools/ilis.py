@@ -74,7 +74,7 @@ def main():
     p = sp.add_parser('preview'); p.add_argument('files', nargs='+'); p.add_argument('--out', required=True); p.add_argument('--labels')
     p = sp.add_parser('gui'); p.add_argument('action', choices=['info', 'page', 'export', 'build', 'widths', 'remove'])
     p.add_argument('src'); p.add_argument('dst', nargs='?'); p.add_argument('--title'); p.add_argument('--out'); p.add_argument('--text', type=int, default=80)
-    p.add_argument('--depth', type=int, default=99); p.add_argument('--match')
+    p.add_argument('--depth', type=int, default=99); p.add_argument('--match'); p.add_argument('--outline', default='outline.txt', help='outline file inside the project (build)')
     a = ap.parse_args()
     if not a.cmd: ap.print_help(); return
 
@@ -175,7 +175,7 @@ def main():
             f, n = U.export_page(a.src, a.title, a.out); print('exported', f, '' if n == 1 else '(%d pages share this title; first one exported)' % n); return
         if a.action == 'export': print('exported %d pages to %s' % (U.export_all(a.src, a.out), a.out)); return
         if a.action == 'build':
-            n, probs = U.build(a.src, a.out); print('built %s with %d topics' % (a.out, n)); print('\n'.join(probs))
+            n, probs = U.build(a.src, a.out, outline=a.outline); print('built %s with %d topics' % (a.out, n)); print('\n'.join(probs))
             print(U.info(a.out, 60)); return
         if a.action == 'widths': print(json.dumps(U.widths(a.src, a.dst))); return
         if a.action == 'remove': print('removed:', U.remove_pages(a.src, a.dst, a.match)); return
