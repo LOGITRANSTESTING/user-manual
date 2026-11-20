@@ -12,7 +12,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
 | 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Approved | Approved | Yes |
-| 5 | Direct Invoice - (TW) / (HK) / (VN) | Built, awaiting review (1 BUILT image) | Mapping 2 | No |
+| 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Mapping 2 | No |
 | 6-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
@@ -113,7 +113,7 @@ Billing Activity Side Functions
     How to generate Direct Cash Invoice          (... Calculate -> Cash Invoice -> pop-up + Process; NO result shot in source - open point)
     How to generate Direct Credit Invoice        (... Check List -> success -> Process -> alert -> Tax Invoice Generation tab: select, File Path, Generate -> success)
 ```
-Part 5 sources exported to `work/_src5/{unmarked,marked}` (not committed). Flow sheets (marked file ILIS shots): `output/previews/p5_*_flow.png`. Unmarked VN Cash has one extra shot (charges calculated, before Cash Invoice): `p5_vn_cash_unmarked_tail.png`.
+Part 5 sources were exported to `work/_src5/{unmarked,marked}` (deleted after approval). Flow sheets (marked file ILIS shots): `output/previews/p5_*_flow.png`. Unmarked VN Cash has one extra shot (charges calculated, before Cash Invoice): `p5_vn_cash_unmarked_tail.png`.
 - Part 5 built (manual + Mapping 2). Specs: `specs/d{tw,hk,vn}_{cash,credit}.json`, `fo_d{tw,hk,vn}.json`; screenshots `screenshots/Billing Activity/Part 5/`.
 - **BUILT image (user: build it, but flag it):** VN Cash result alert `img/dvn_cash_05_BUILT.png` (mapping: `ilis_dvn_cash_05_BUILT.png`). Source `edits/dvn_cash_05.png`: VN cash 03 screen + VN Credit alert as donor, title "Cash Invoice", text "System Generated Receipt Voucher Number:" / "SGN/DRCT/2026/000014" (placeholder number). Flag line in bold above it on the manual How to page and the mapping page. Replace with a real VN screenshot when available, then drop the `_BUILT` name and flag lines. Re-running `run.sh` on dvn_cash recreates `img/dvn_cash_05.png` - rename again.
 - New recipe `recipes/popup_text_clean_screen.json` (popup_text without `clear_marks`, which erases the red side icons). New crop `img/btn_submit_settle.png` (HK Submit, paper-plane icon).
