@@ -27,10 +27,6 @@ pages/billing_activity.md
     pages/pr_details.md
     pages/pr_print.md
     pages/pr_rightfax.md
-  pages/ein.md
-    pages/ein_ucd.md
-    pages/ein_print.md
-    pages/ein_cancel.md
   pages/di.md
     pages/di_cash.md
     pages/di_credit.md

@@ -33,9 +33,6 @@ pages/billing_activity.md
       pages/direct_invoice_cn.md
         pages/how_to_generate_direct_cash_invoice.md
         pages/how_to_generate_direct_credit_invoice.md
-      pages/e_invoice_generation_in.md
-        pages/how_to_print_e_invoice.md
-        pages/how_to_mark_e_invoice_as_cancelled.md
       pages/print_reprint_tr.md
         pages/how_to_view_invoice.md
         pages/how_to_view_invoice_printing_details.md

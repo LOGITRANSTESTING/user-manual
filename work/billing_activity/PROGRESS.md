@@ -11,7 +11,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Approved | Approved | Yes |
 | 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
-| 4 | Direct Invoice - (CN), E - Invoice Generation - (IN), Print/Re-Print - (TR) | Review | Review | No |
+| 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Review | Review | No |
 | 5-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & Reporting - Billing Activity Mapping.gui`. Previews: `output/previews/`.
@@ -97,3 +97,4 @@ Decisions: the 2nd source page "E - Invoice Generation - Printing" (Afsys "Rever
 Part 4 sources exported to `work/_src4/{unmarked,marked}` (not committed). Flow sheets: `output/previews/p4_*_flow.png`.
 - Part 4 mapping: tree follows the marked file (Print/Reprint, E - Invoice Generation, Direct Invoice - (CN)), source titles. Tiles: TR (same as Part 3), IN (`_tiles/in_*`), CN (`_tiles/cn_*`). Direct Invoice - (CN) parent = the 2 source images as given (`img/src_di_*`). Mapping-only specs: `ein`, `ein_ucd`, `pr`.
 - Part 4 specs: `di_cash`, `di_credit`, `ein_print`, `ein_cancel`, `pr_view`, `pr_details`, `pr_print`, `pr_rightfax`; new inline icons icon_direct_invoice, btn_calculate, btn_add, btn_di_cash_invoice, btn_di_credit_invoice, icon_e_invoice_query, icon_print_reprint, btn_view, btn_print, btn_right_fax, icon_printing_details.
+- E - Invoice Generation (IN) REMOVED from both documents (user decision, after Part 4 build). Do not add it back.
