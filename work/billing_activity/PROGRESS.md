@@ -12,7 +12,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
 | 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Approved | Approved | Yes |
-| 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Mapping 2 | No |
+| 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Approved | Yes |
 | 6-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
