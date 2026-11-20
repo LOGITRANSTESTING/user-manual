@@ -12,7 +12,8 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
 | 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Approved | Approved | Yes |
-| 5-8 | - | waiting for files | - | - |
+| 5 | Direct Invoice - (TW) / (HK) / (VN) | Tree proposed | - | No |
+| 6-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
 
@@ -98,3 +99,19 @@ Part 4 sources exported to `work/_src4/{unmarked,marked}` (not committed). Flow 
 - Part 4 mapping: tree follows the marked file (Print/Reprint, E - Invoice Generation, Direct Invoice - (CN)), source titles. Tiles: TR (same as Part 3), IN (`_tiles/in_*`), CN (`_tiles/cn_*`). Direct Invoice - (CN) parent = the 2 source images as given (`img/src_di_*`). Mapping-only specs: `ein`, `ein_ucd`, `pr`.
 - Part 4 specs: `di_cash`, `di_credit`, `ein_print`, `ein_cancel`, `pr_view`, `pr_details`, `pr_print`, `pr_rightfax`; new inline icons icon_direct_invoice, btn_calculate, btn_add, btn_di_cash_invoice, btn_di_credit_invoice, icon_e_invoice_query, icon_print_reprint, btn_view, btn_print, btn_right_fax, icon_printing_details.
 - E - Invoice Generation (IN) REMOVED from both documents (user decision, after Part 4 build). Do not add it back.
+
+## Part 5 tree (proposed, awaiting approval)
+```
+Billing Activity Side Functions
+  Direct Invoice - (TW)                          (TW user; side icon shot + Direct Invoice screen)
+    How to generate Direct Cash Invoice          (side icon -> Add charges -> Calculate -> Cash Invoice -> pop-up + Process -> alert (Invoice No. + Receipt) -> PDF)
+    How to generate Direct Credit Invoice        (side icon -> Add charges -> Calculate -> Credit Invoice -> pop-up + Check List -> success -> Process -> alert -> PDF)
+  Direct Invoice - (HK)                          (HK user)
+    How to generate Direct Cash Invoice          (... Calculate -> Cash Invoice -> Charge Settlement Details pop-up (Default) + Submit -> Cash Invoice pop-up + Process -> receipt alert)
+    How to generate Direct Credit Invoice        (... Credit Invoice -> pop-up + Check List -> success -> Process -> alert; no PDF)
+  Direct Invoice - (VN)                          (VN user)
+    How to generate Direct Cash Invoice          (... Calculate -> Cash Invoice -> pop-up + Process; NO result shot in source - open point)
+    How to generate Direct Credit Invoice        (... Check List -> success -> Process -> alert -> Tax Invoice Generation tab: select, File Path, Generate -> success)
+```
+Part 5 sources exported to `work/_src5/{unmarked,marked}` (not committed). Flow sheets (marked file ILIS shots): `output/previews/p5_*_flow.png`. Unmarked VN Cash has one extra shot (charges calculated, before Cash Invoice): `p5_vn_cash_unmarked_tail.png`.
+- Part 5 mapping (planned): Mapping 2 (Parts 4-6), tree as the marked file: Direct Invoice - (TW)/(HK)/(VN) -> Direct Invoice - Cash Invoice / Credit Invoice; parents = the 2 source images as given. Tiles: from each flow (TW/HK/VN user).
