@@ -1,5 +1,5 @@
 ---
-title: Invoice Query - Reversal BL Wise (HK)
+title: Invoice Query - Reverse BL Wise (HK)
 status: Waiting
 ---
 **Afsys**
