@@ -14,7 +14,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Approved | Approved | Yes |
 | 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Approved | Yes |
 | 6 | Tax Invoice Query (CN), Tax Invoice Generation (CN)/(VN), Debit Note (VN), Debit Note Query | Approved | Approved | Yes |
-| 7 | Government Receipt (TW), Government Receipt Query (TW), Detention Invoice Generation (CN), Add/Modify Local Charge | Tree proposed | - | No |
+| 7 | Government Receipt (TW), Government Receipt Query (TW), Detention Invoice Generation (CN), Add/Modify Local Charge | Approved | Approved | Yes (user to delete `part7-sources` release) |
 | 8 | Local Charge Calculation, Exchange Rate Revalidation, Cancel Shipment Collection, AR Un-Invoiced Query | Files received | - | No |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
