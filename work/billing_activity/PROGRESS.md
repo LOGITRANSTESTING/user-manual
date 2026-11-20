@@ -13,7 +13,9 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Approved | Approved | Yes |
 | 4 | Direct Invoice - (CN), Print/Re-Print - (TR) (E - Invoice Generation removed - user decision) | Approved | Approved | Yes |
 | 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Approved | Yes |
-| 6-8 | - | waiting for files | - | - |
+| 6 | Tax Invoice Query (CN), Tax Invoice Generation (CN)/(VN), Debit Note (VN), Debit Note Query | Tree proposed | - | No |
+| 7 | Government Receipt (TW), Government Receipt Query (TW), Detention Invoice Generation (CN), Add/Modify Local Charge | Files received | - | No |
+| 8 | Local Charge Calculation, Exchange Rate Revalidation, Cancel Shipment Collection, AR Un-Invoiced Query | Files received | - | No |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
 
@@ -121,3 +123,27 @@ Part 5 sources were exported to `work/_src5/{unmarked,marked}` (deleted after ap
 - New TW tiles: `mapping images/tw_main.png`, `tw_sub.png` (tile box only) -> `ilis_tw_main/sub.png`. HK/VN reuse existing tiles.
 - Mapping 2 outline: `dtw`, `dhk`, `dvn` (+ `_cash`, `_credit`) after `di`. Afsys lines kept as in the marked file (TW last image is a plain `![]` line).
 - Review sheets: `output/previews/p5_d*_{cash,credit}.png` (manual), `p5_map_d*_ilis.png` (mapping ILISCyber).
+
+## Sources for Parts 6-8
+Uploaded by the user as GitHub pre-release assets (chat/web upload too large): releases `part6-sources`, `part7-sources`, `part8-sources` on this repo. Downloaded with `gh release download` to `/root/.copilot/uploads/partN` and exported to `work/_srcN/{unmarked,marked}` (not committed). Delete each release + export after that part is approved.
+
+## Part 6 tree (proposed, awaiting approval)
+```
+Billing Activity Group Functions
+  Debit Note - (VN)                              (row checkbox -> Billing Activity menu: Debit Note (VN))
+    How to generate Debit Note                   (BL No + ETA -> Search -> select -> Debit Note (VN) -> select -> Process -> alert)
+Billing Activity Side Functions
+  Tax Invoice Query - (CN)                       (side icon shot + Tax Invoice Query screen)
+    How to query Tax Invoice                     (dates -> Search -> view icon -> details -> view icon -> Charge Details pop-up)
+    How to reverse Receipt and Tax Invoice       (... view -> menu: Receipt and Tax Invoice Reversal -> Yes -> Reason + Submit -> alert)
+    How to cancel Tax Invoice                    (... view -> menu: Cancel Tax Invoice -> Yes -> Reason + Submit -> alert)
+  Tax Invoice Generation - (CN)
+    How to generate Tax Invoice                  (Credit Customer, Settlement Amount, Received From, Settlement Type -> Search -> select -> Submit -> Tax Invoice pop-up OK -> alert -> PDF)
+  Tax Invoice Generation - (VN)
+    How to generate Tax Invoice                  (dates -> Search -> Generate radio -> select -> Process -> success bar)
+    How to view/print Tax Invoice                (dates -> Search -> View/Print/Regenerate radio -> select -> View/Print -> success bar)
+  Debit Note Query - (VN)                        (VN user; source title has no tag)
+    How to reprint Debit Note                    (dates -> Search -> print icon -> loading -> PDF)
+    How to cancel Debit Note                     (dates -> Search -> cancel icon -> Yes -> record removed)
+```
+Flow sheets: `output/previews/p6_*_flow.png`. Debit Note Query - Reprint / Cancel have no Afsys section in the source (mapping: ILISCyber only).
