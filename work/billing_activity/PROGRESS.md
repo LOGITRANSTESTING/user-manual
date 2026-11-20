@@ -125,7 +125,7 @@ Part 5 sources were exported to `work/_src5/{unmarked,marked}` (deleted after ap
 - Review sheets: `output/previews/p5_d*_{cash,credit}.png` (manual), `p5_map_d*_ilis.png` (mapping ILISCyber).
 
 ## Sources for Parts 6-8
-Uploaded by the user as GitHub pre-release assets (chat/web upload too large): releases `part6-sources`, `part7-sources`, `part8-sources` on this repo. Downloaded with `gh release download` to `/root/.copilot/uploads/partN` and exported to `work/_srcN/{unmarked,marked}` (not committed). Delete each release + export after that part is approved.
+Uploaded by the user as GitHub pre-release assets (chat/web upload too large): releases `part6-sources`, `part7-sources`, `part8-sources` on this repo. Downloaded with `gh release download` to `/root/.copilot/uploads/partN` and exported to `work/_srcN/{unmarked,marked}` (not committed). Delete the export after that part is approved. The agent cannot delete releases (HTTP 403) - the user deletes the `partN-sources` release on GitHub.
 
 ## Part 6 tree (approved)
 ```
