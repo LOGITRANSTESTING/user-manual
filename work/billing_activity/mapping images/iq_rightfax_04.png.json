@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 3/01 Invoice Query/06 Right Fax/04.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1905,
+  941
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     606,
+     305,
+     1357,
+     664
+    ],
+    "btn": [
+     1256,
+     613,
+     1339,
+     648
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

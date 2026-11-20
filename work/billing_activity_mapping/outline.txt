@@ -15,3 +15,10 @@ pages/billing_activity.md
   pages/invoice_generation_tr.md
     pages/tr_credit.md
     pages/tr_batch.md
+  pages/iq.md
+    pages/iq_bl.md
+    pages/iq_reprint.md
+    pages/iq_cancel.md
+    pages/iq_revert.md
+    pages/iq_rightfax.md
+    pages/iq_rbw.md

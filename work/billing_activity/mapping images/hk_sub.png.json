@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 3/_tiles/hk_sub.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1911,
+  944
+ ],
+ "marks": [
+  {
+   "box": [
+    482,
+    367,
+    710,
+    594
+   ],
+   "n": null
+  }
+ ]
+}

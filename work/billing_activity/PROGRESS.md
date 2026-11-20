@@ -10,7 +10,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 |---|---|---|---|---|
 | 1 | Invoice Generation Single - (CN) / (TW) / (HK) | Approved | Approved | Yes |
 | 2 | Invoice Generation Single - (VN), Invoice Generation - (TR) | Approved | Approved | Yes |
-| 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | tree plan proposed | - | No |
+| 3 | Invoice Query (+ Reprint, Cancel, Revert Reversal Status, Right Fax, BL Query, Reverse BL Wise) | Review | Review | No |
 | 4-8 | - | waiting for files | - | - |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, `output/Billing & Reporting - Billing Activity Mapping.gui`. Previews: `output/previews/`.
@@ -60,7 +60,7 @@ Part 2 sources deleted after approval. Part 3: export uploads to `work/_src3/{un
 - Overview pages: VN 02 = `edits/vn_cash_03.png` (drop-down removed); TR 02 = TR Credit shot 03; Batch Invoice - (TR) = batch menu shot (Batch 02) + Credit Invoice screen (Batch 03).
 - TR Single Step 5 adds: "VAT Grouping can be selected if needed." (no box) - user decision.
 
-## Part 3 tree (proposed)
+## Part 3 tree (approved; user tags: Revert Reversal Status (TR), Reverse BL Wise (HK))
 ```
 Billing Activity Side Functions
   Invoice Query                               (side icon shot + Invoice Query screen)
@@ -68,8 +68,10 @@ Billing Activity Side Functions
     How to query Invoice by BL Number         (BL Query)
     How to reprint Invoice                    (print icon -> PDF)
     How to cancel Invoice                     (cancel icon -> Reversal Date/Reason -> Submit -> alert -> PDF -> status Cancelled)
-    How to revert Reversal Status             (row menu -> Revert Reversal Status -> pop-up -> Submit -> success -> status Prepared)
+    How to revert Reversal Status - (TR)       (row menu -> Revert Reversal Status -> pop-up -> Submit -> success -> status Prepared)
     How to send Right Fax                     (row menu -> Right Fax -> recipients -> Submit -> success)
-    How to reverse Invoice BL Wise            (HK user; row menu -> Reverse BL Wise -> select BL, Reversal Reason -> Process -> Yes -> alert)
+    How to reverse Invoice BL Wise - (HK)      ( row menu -> Reverse BL Wise -> select BL, Reversal Reason -> Process -> Yes -> alert)
 ```
 Part 3 sources exported to `work/_src3/{unmarked,marked}` (not committed). Flow sheets: `output/previews/p3_*_flow.png`.
+- Part 3 mapping: parent "Invoice Query" + 6 children (source titles), except user titles "Invoice Query - Revert Reversal Status (TR)" and "Invoice Query - Reversal BL Wise (HK)". ILISCyber tiles: TR (`_tiles/tr_*`), HK for Reverse BL Wise (`_tiles/hk_*`). Right Fax has no Afsys section in source.
+- Part 3 specs: `specs/iq_*.json`; inline icons icon_invoice_query, icon_print, icon_cancel, icon_row_menu, btn_submit, btn_yes.

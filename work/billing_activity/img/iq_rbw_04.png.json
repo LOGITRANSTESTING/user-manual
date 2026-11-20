@@ -1,0 +1,42 @@
+{
+ "source": "screenshots/Billing Activity/Part 3/01 Invoice Query/07 Reverse BL Wise - (HK)/04.png",
+ "crop_left": 201,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1754,
+  987
+ ],
+ "marks": [
+  {
+   "box": [
+    210,
+    274,
+    261,
+    308
+   ],
+   "n": 7
+  },
+  {
+   "box": [
+    207,
+    766,
+    1704,
+    905
+   ],
+   "n": 8
+  },
+  {
+   "box": [
+    1601,
+    109,
+    1691,
+    139
+   ],
+   "n": 9,
+   "pos": "topright"
+  }
+ ]
+}

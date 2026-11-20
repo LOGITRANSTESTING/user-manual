@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 3/01 Invoice Query/05 Revert Reversal Status - (TR)/02.png",
+ "crop_left": 200,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1753,
+  988
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     702,
+     139,
+     956,
+     201
+    ],
+    "btn": [
+     1544,
+     165,
+     1614,
+     197
+    ]
+   },
+   "n": 3,
+   "type": "query"
+  }
+ ]
+}

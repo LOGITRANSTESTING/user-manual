@@ -1,0 +1,23 @@
+{
+ "source": "screenshots/Billing Activity/Part 3/01 Invoice Query/04 Cancel/03.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1709,
+  941
+ ],
+ "marks": [
+  {
+   "box": [
+    250,
+    178,
+    293,
+    211
+   ],
+   "n": null
+  }
+ ]
+}
