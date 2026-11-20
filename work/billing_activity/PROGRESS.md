@@ -15,7 +15,7 @@ After a part is finished, its source documents (uploads + `work/_src`) are delet
 | 5 | Direct Invoice - (TW) / (HK) / (VN) | Approved (1 BUILT image flagged: VN Cash alert) | Approved | Yes |
 | 6 | Tax Invoice Query (CN), Tax Invoice Generation (CN)/(VN), Debit Note (VN), Debit Note Query | Approved | Approved | Yes |
 | 7 | Government Receipt (TW), Government Receipt Query (TW), Detention Invoice Generation (CN), Add/Modify Local Charge | Approved | Approved | Yes (user to delete `part7-sources` release) |
-| 8 | Local Charge Calculation, Exchange Rate Revalidation, Cancel Shipment Collection, AR Un-Invoiced Query | Files received | - | No |
+| 8 | Local Charge Calculation, Exchange Rate Revalidation, Cancel Shipment Collection, AR Un-Invoiced Query | Tree proposed | - | No |
 
 Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by part group (user decision): `output/Billing & Reporting - Billing Activity Mapping 1 (Parts 1-3).gui`, `... Mapping 2 (Parts 4-6).gui`, later `... Mapping 3 (Parts 7-8).gui`. Previews: `output/previews/`.
 
@@ -180,3 +180,11 @@ Flow sheets: `output/previews/p7_*_flow.png`. Government Receipt Query From/To D
 - Print Private Receipt PDF: the red box found in the marked shot is the Yang Ming logo (false positive) - left unmarked.
 - Mapping 3: `outline_3.txt` (cover + Billing Activity); pages `gr_tw`, `grq_tw` (children `grq_reprint`, `grq_cancel_ei`, `grq_print_pr`, `grq_cancel_pr`), `dig_cn`, `amlc`. Source titles kept ("Government Receipt Query- (TW)"). Tiles TW / CN. `grq_tw` = the source's 2 ILISCyber parent images.
 - Previews: `p7_<prefix>.png`, `p7_fo.png`, `p7_map_*_ilis.png`.
+
+## Part 8 tree (proposed, awaiting approval)
+Flow sheets: `output/previews/p8_*_flow.png`. Source titles kept (no country suffix in the source).
+- Group Functions (tab menu "AR UnInvoice Query"): **AR Un-Invoiced Query** -> How to generate Credit Invoice for Un-Invoiced BL (From/To Date + Inv. Status, Search, single invoice icon, Credit Invoice, Check List, Process).
+- Row Functions: **Local Charge Calculation** -> How to calculate Local Charge (select charges, Calculate, result pop-up, then Calculate & Transfer, success message).
+- Row Functions: **Exchange Rate Revalidation** -> How to revalidate Exchange Rate (BL Number + ETD From/To, row menu, select currency, New Ex-Rate, Process).
+- Side Functions: **Cancel Shipment Collection** -> How to cancel Shipment Collection (side icon, Booking Number + Submit, select charges, Credit Invoice, Check List, Process).
+- Mapping 3: append `lcc`, `err`, `csc`, `aruq` after `amlc` (source order). Source has stray text "am" after the last Local Charge Calculation image line - dropped.
