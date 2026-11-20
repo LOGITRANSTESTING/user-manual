@@ -3,7 +3,7 @@
 ## 2. Step templates (copy the regular wording, swap names only; if a screen differs, TELL the user before writing)
 All: heading "Steps " bold+underline 14pt. Each step `**Step N** : text` (only "Step N " bold). UI names bold inside double quotes, EXCEPT the side icon name in the side-icon step, which has NO quotes (write `(Single Invoice side icon)`, never `("Single Invoice" side icon)`). Buttons/icons appear as small cropped images inline ("click on [Search]"). Sub-menus: "A" >> "B". Screens are named by function/header, never by a record number shown in the tab ("Add/Modify Local Charge screen", not the BL number). Always use on-screen labels for field names.
 
-**Query steps and query screenshots:** NEVER ask the user for a query screenshot. Write the query steps (`Enter the query fields ... click on [Search].` + `Upon clicking [Search], <records> ... are returned.`) and show a query screenshot ONLY when the user gives a query screenshot for that page. Otherwise the How to page starts directly at the access step and Step 1 is the menu / side icon step. Single functions (record menu) always start at the menu step. If a query screenshot is needed, the user will give it.
+**Query steps and query screenshots:** NEVER ask the user for a query screenshot. Write the query steps (`Enter the query fields ... click on [Search].` + `Upon clicking [Search], <records> ... are returned.`) and show a query screenshot ONLY when the user gives a query screenshot for that page. Otherwise the How to page starts directly at the access step and Step 1 is the menu / side icon step. EXCEPTION - single functions (record menu, template B) ALWAYS start with the fixed three-step opening (query, records returned, menu step), whether or not a query screenshot is given; the query screenshot is shown under Step 1 only when the user gives it.
 
 ### A. Top menu (batch function)
 ```
@@ -21,13 +21,18 @@ Then by what the next screenshot shows:
 - Actual screen (new tab, no dimming) -> `Step N : Upon clicking "<Function>" User will be shown the <Function> screen.`
 If the user did not select records (e.g. Copy From Master BL), drop the selection step and start from the menu.
 
-### B. Record menu (single functions; one record, red ☰ in the row) - ALWAYS starts at the menu step
+### B. Record menu (single functions; one record, red ☰ in the row) - ALWAYS starts with this fixed opening
 ```
-Step 1 : The user should drag the cursor to the record menu icon [icon] in the respective record, click on it, and then select "<Function>" from the menu.
+Step 1 : Enter the query fields with desirable input for querying data and click on [Search].
+   (query screenshot, when given: two-box / one-number rule - see "Query screens in How to pages")
+Step 2 : Upon clicking [Search], BL records with matching information are returned.
+Step 3 : Click on the menu icon [icon] of the required BL record and select "<Function>" from the menu.
    (screenshot: mark ONLY the chosen menu item, never the ☰ itself)
-Step 2 : Upon clicking "<Function>" User will be shown the <Function> screen.   (pop-up variant as above)
+Step 4 : Upon clicking "<Function>", User will be shown the <Function> screen.   (pop-up variant as above)
 ```
-Only if the user gives a query screenshot for the page, put the two query steps (enter query fields + Search, records returned) before the menu step and renumber.
+- Steps 1-3 are the default wording for every single function: copy them word for word, swapping only "<Function>" (the menu item text) and, when the records are not BL records, "BL records" / "BL record" (e.g. "Booking records" / "Booking record").
+- [Search] is the cropped Search button; [icon] is the row's record menu icon (☰).
+- Do not swap the query step for field-specific wording (e.g. "Enter the BL Number and click on ..."); keep the default sentence.
 
 ### C. Side icon (no query on the main screen; query is inside the function screen)
 ```
@@ -40,7 +45,7 @@ Step 4 : Upon clicking [Search], <records> with matching information are returne
 ```
 
 ### Combining templates
-Some functions use two access paths in sequence (e.g. Revert Reversal Status: side icon screen, then a record menu inside it). Write template C Steps 1-4, then continue with template B's menu step as Step 5 (`The user should drag the cursor to the record menu icon [icon] in the respective record, click on it, and then select "<Function>" from the menu.`), then the screen/pop-up step, and keep numbering on from there.
+Some functions use two access paths in sequence (e.g. Revert Reversal Status: side icon screen, then a record menu inside it). Write template C Steps 1-4, then continue with template B's menu step as Step 5 (`Click on the menu icon [icon] of the required <record> and select "<Function>" from the menu.`), then the screen/pop-up step, and keep numbering on from there.
 
 ### Any button that opens a pop-up or screen
 Use the same wording as the menu steps, swapping the button in:

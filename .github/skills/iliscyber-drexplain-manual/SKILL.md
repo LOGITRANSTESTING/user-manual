@@ -26,7 +26,7 @@ The user writes ILISCyber help manuals in Dr.Explain. You turn their screenshots
 - How a page is written as a file and built: `references/page-format.md`
 
 ## Workflow per function
-1. Ask which How to pages are needed. Never ask for a query screenshot; single functions start at the menu step. If an old manual is given, read its text with `gui info` / `gui page` (text only - never its images) and ask before reusing overview text, pre defined conditions, notes and page titles.
+1. Ask which How to pages are needed. Never ask for a query screenshot. Single functions always open with the fixed Steps 1-3 of template B (enter query fields + Search, BL records returned, record menu step) - see references/step-templates.md. If an old manual is given, read its text with `gui info` / `gui page` (text only - never its images) and ask before reusing overview text, pre defined conditions, notes and page titles.
 2. When the screenshots are in `screenshots/<function>/`: identify access type (top menu / record menu / side icon / combined) and screen type (direct result / pop-up / actual screen). Old manual images the user placed there with a new menu screenshot: list every mismatch first (references/screenshots.md).
 3. Draft the steps from the templates; write record-level checkbox steps automatically; put every unknown (clicked items not in the template, editable grids, how the result is shown) as numbered questions. Questions about box placement are asked with option images (`mark` each option, then one `preview` sheet).
 4. After the answers, per screenshot:

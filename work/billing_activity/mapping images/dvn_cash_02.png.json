@@ -12,12 +12,34 @@
  "marks": [
   {
    "box": [
+    311,
+    146,
+    397,
+    179
+   ],
+   "n": null,
+   "kind": "button",
+   "pos": "right"
+  },
+  {
+   "box": [
     204,
     217,
     1122,
     254
    ],
    "n": null
+  },
+  {
+   "box": [
+    313,
+    522,
+    399,
+    555
+   ],
+   "n": null,
+   "kind": "button",
+   "pos": "right"
   },
   {
    "box": [
