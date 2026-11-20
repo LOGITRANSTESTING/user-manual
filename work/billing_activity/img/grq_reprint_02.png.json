@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 7/03 Government Receipt Query - (TW)/01 Reprint E-Invoice/02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1548,
+  896
+ ],
+ "marks": [
+  {
+   "box": [
+    994,
+    88,
+    1496,
+    154
+   ],
+   "n": 3,
+   "pos": "left"
+  },
+  {
+   "box": [
+    1342,
+    178,
+    1413,
+    211
+   ]
+  }
+ ]
+}

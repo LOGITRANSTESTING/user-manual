@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity/Part 7/02 Government Receipt - (TW)/01 Generate Government Receipt/02.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1753,
+  991
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     210,
+     144,
+     707,
+     209
+    ],
+    "btn": [
+     1545,
+     169,
+     1614,
+     201
+    ]
+   },
+   "n": 3,
+   "type": "query"
+  }
+ ]
+}

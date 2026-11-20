@@ -22,7 +22,7 @@ Outputs: `output/Billing & Reporting - Billing Activity.gui`, Mapping split by p
 ## Projects
 - Manual: `work/billing_activity/` (`outline.txt`, `pages/`, `img/`, `specs/`, `edits/`)
 - Mapping: `work/billing_activity_mapping/` (Afsys images `img/afsys_*`, ILISCyber images `img/ilis_*` = copies of `work/billing_activity/mapping images/`)
-- Rebuild: `.venv/bin/python tools/ilis.py --no-open gui build work/billing_activity --out "output/Billing & Reporting - Billing Activity.gui"` ; mapping: one outline per document -> `gui build work/billing_activity_mapping --outline outline_N.txt --out "output/Billing & Reporting - Billing Activity Mapping N (Parts x-y).gui"` (`outline_1.txt` = Parts 1-3, `outline_2.txt` = Parts 4-6; each starts with `pages/billing_activity.md`)
+- Rebuild: `.venv/bin/python tools/ilis.py --no-open gui build work/billing_activity --out "output/Billing & Reporting - Billing Activity.gui"` ; mapping: one outline per document -> `gui build work/billing_activity_mapping --outline outline_N.txt --out "output/Billing & Reporting - Billing Activity Mapping N (Parts x-y).gui"` (`outline_1.txt` = Parts 1-3, `outline_2.txt` = Parts 4-6, `outline_3.txt` = Parts 7-8; each starts with `pages/billing_activity.md`)
 - Re-mark a page: `work/billing_activity/specs/run.sh specs/<prefix>.json "<screenshot dir>" <prefix> 01` (dir in `specs/<prefix>.dir.json`; `edits/<prefix>_NN.png` overrides the source shot). Writes the numbered manual image to `img/` and the unnumbered, borderless copy to `mapping images/`.
 
 ## User-approved rules (keep for all parts)
@@ -153,7 +153,7 @@ Flow sheets: `output/previews/p6_*_flow.png`. Debit Note Query - Reprint / Cance
 - Mapping 2: source titles/tree kept (`tiq`, `tiq_rev`, `tiq_cancel`, `tig_vn`, `tig_vn_print`, `tig_cn`, `dn_vn`, `dnq_reprint`, `dnq_cancel`); tiles CN (`ilis_cn_*`) / VN (`ilis_vn_*`). Debit Note Query pages: ILISCyber only.
 - Review sheets: `output/previews/p6_<prefix>.png`, `p6_fo.png`, `p6_map_*_ilis.png`.
 
-## Part 7 tree (proposed, awaiting approval)
+## Part 7 tree (approved)
 ```
 Billing Activity Row Functions   (NEW section, after Group Functions; row menu icon in the result grid)
   Add/Modify Local Charge
@@ -171,3 +171,12 @@ Billing Activity Side Functions
     How to generate Detention Invoice            (side icon -> pop-up: Batch Reference -> Search -> select -> Submit -> alert)
 ```
 Flow sheets: `output/previews/p7_*_flow.png`. Government Receipt Query From/To Date shots are partial screenshots (1506x854, no header) in the source - used as given.
+
+## Part 7 build
+- Part 7 built (manual + Mapping 3). Specs: `specs/{amlc,gr_gen,gr_chg,grq_reprint,grq_cancel_ei,grq_print_pr,grq_cancel_pr,dig_gen}.json` + `fo_{amlc,gr,grq,dig}.json`; screenshots `screenshots/Billing Activity/Part 7/`. No built images.
+- New manual section `row_functions.md` (Billing Activity Row Functions) between Group and Side Functions; Add/Modify Local Charge under it. Part 8 Local Charge Calculation / Exchange Rate Revalidation go here too.
+- New inline crops: `icon_government_receipt`, `icon_government_receipt_query`, `icon_detention_invoice_generation`, `icon_charges`, `btn_submit_dig`, `btn_save`. Reused `btn_process_dn`, `btn_submit_reason`, `icon_row_menu`, `btn_add`.
+- Query field + Search: only the field box is numbered (circle on the button otherwise covered it).
+- Print Private Receipt PDF: the red box found in the marked shot is the Yang Ming logo (false positive) - left unmarked.
+- Mapping 3: `outline_3.txt` (cover + Billing Activity); pages `gr_tw`, `grq_tw` (children `grq_reprint`, `grq_cancel_ei`, `grq_print_pr`, `grq_cancel_pr`), `dig_cn`, `amlc`. Source titles kept ("Government Receipt Query- (TW)"). Tiles TW / CN. `grq_tw` = the source's 2 ILISCyber parent images.
+- Previews: `p7_<prefix>.png`, `p7_fo.png`, `p7_map_*_ilis.png`.

@@ -1,0 +1,31 @@
+{
+ "source": "screenshots/Billing Activity/Part 7/01 Add Modify Local Charge/01 Add Modify Local Charge/01.png",
+ "crop_left": 200,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1751,
+  986
+ ],
+ "marks": [
+  {
+   "box": [
+    698,
+    137,
+    962,
+    210
+   ],
+   "n": 1
+  },
+  {
+   "box": [
+    1546,
+    471,
+    1617,
+    504
+   ]
+  }
+ ]
+}

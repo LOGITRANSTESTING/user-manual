@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity/Part 7/03 Government Receipt Query - (TW)/03 Print Private Receipt/03.png",
+ "crop_left": 199,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1751,
+  987
+ ],
+ "marks": [
+  {
+   "box": [
+    345,
+    268,
+    568,
+    303
+   ],
+   "n": 5,
+   "pos": "right"
+  }
+ ]
+}
