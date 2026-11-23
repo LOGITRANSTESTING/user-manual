@@ -21,4 +21,3 @@ status: Waiting
 ![](../img/ilis_iq_revert_03.png)
 ![](../img/ilis_iq_revert_04.png)
 ![](../img/ilis_iq_revert_05.png)
-![](../img/ilis_iq_revert_06.png)
