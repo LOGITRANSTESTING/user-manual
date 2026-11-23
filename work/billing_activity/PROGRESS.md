@@ -195,3 +195,15 @@ Flow sheets: `output/previews/p8_*_flow.png`. Source titles kept (no country suf
 - New inline crops: `btn_calculate_lcc`, `btn_calculate_transfer`, `btn_process_err`, `btn_invoice_csc` (pop-up button is labelled "Invoice"), `btn_credit_invoice_csc`, `icon_cancel_shipment_collection`, `icon_invoice_doc`. Reused `btn_check_list`, `btn_process`, `btn_search(_q)`, `chk_single`, `icon_row_menu`.
 - Mapping 3: `lcc` (CN tiles), `err`, `csc`, `aruq` (TR tiles) appended to `outline_3.txt`. Source line pairs kept (`lcc` 05+06, `aruq` 03+04). Stray "am" text in the source dropped. Cancel Shipment Collection / AR Un-Invoiced Query: ILISCyber only (as in source).
 - Previews: `p8_<prefix>.png`, `p8_fo.png`, `p8_map_*_ilis.png`.
+
+## Mapping images re-synced to the "Usermanualsources" release manual
+- Every ILISCyber image in the 3 mapping documents was red-box checked against the matching image in the release manual (Billing.Reporting.-.Billing.Activity.gui).
+- 54 `billing_activity_mapping/img/ilis_*` files were stale: they still held old copies from before the manual re-mark PRs. They were re-copied from `billing_activity/mapping images/`. This includes the renamed `ilis_dig_cn_02` (= dig_gen_02) and `ilis_gr_tw_02` (= gr_gen_02).
+- The release edited 3 boxes. The mapping images already matched these, so they were copied back into `mapping images/`:
+  - iq_inv_02: the query-panel pair box was removed.
+  - tr_batch_01: the inner ETD box was removed.
+  - gr_chg_01: the box was tightened to the Charges icon.
+  NOTE: `specs/iq_inv.json`, `specs/tr_batch.json` and `specs/gr_chg.json` still produce the old boxes. Don't re-run those specs without updating them.
+- The release dropped the iq_revert_06 shot, so `ilis_iq_revert_06` was removed from `pages/iq_revert.md`.
+- The only remaining differences from the release are the manual's left padding on button boxes (for the number circles), which is expected.
+- Rebuilt Mapping 1/2/3 .gui files. Previews: output/previews/fix_map_1..6.png.
