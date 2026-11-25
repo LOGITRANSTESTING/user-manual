@@ -42,3 +42,8 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 ### Query & Reversal – Reprint
 - Page `how_to_reprint_proforma_invoice.md` (Steps 1–3 + PDF result). Shots 01/02 reused from Right Fax as is; 03 = proforma PDF.
 - Print icon marked (spec q_rp02: box 64,128,116,161, at 111,172). Inline icon `icon_reprint.png`.
+
+### Query & Reversal – Cancel
+- Page `how_to_cancel_proforma_invoice.md` (Steps 1–4 + success). 01/02 reused from Right Fax; 03 = confirmation alert (unmarked); 04 = Cancelled status + built bar "Proforma Invoice Reversed Successfully" (glyphs spliced from Batch 04 / Right Fax 03 bars; script /tmp/pf/cxbar.py).
+- Cancel icon marked (spec q_cx02: box 117,128,168,161, at 163,172). Inline icon `icon_cancel_pf.png`.
+- Right Fax 03: cleaned Grand Total remnant row above the bar.

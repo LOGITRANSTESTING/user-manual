@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity IN/04 Proforma Invoice Query & Reversal/03 Cancel/01.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1557,
+  904
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     8,
+     86,
+     1504,
+     154
+    ],
+    "btn": [
+     1351,
+     117,
+     1419,
+     147
+    ]
+   },
+   "n": 1,
+   "type": "query"
+  }
+ ]
+}

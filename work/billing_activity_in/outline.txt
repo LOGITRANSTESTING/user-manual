@@ -10,3 +10,4 @@ pages/proforma_invoice_generation_batch.md
 pages/proforma_invoice_query_reversal.md
   pages/how_to_send_right_fax_pfq.md
   pages/how_to_reprint_proforma_invoice.md
+  pages/how_to_cancel_proforma_invoice.md
