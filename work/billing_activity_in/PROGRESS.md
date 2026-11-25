@@ -38,3 +38,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - How-tos: How to send Right Fax, How to reprint Proforma Invoice, How to cancel Proforma Invoice.
 - Right Fax: Steps 1-3 (query+Search, results, Right Fax icon = first row icon marked, number placed below the cell). Success bar "Right Fax Generated Successfully" built (user request): bar + ✕ from Batch 04, text from the TR Print/Re-Print Right Fax shot (same font/size).
 - All marked images must be `prep` → `mark` (house border); Batch images were re-done that way.
+
+### Query & Reversal – Reprint
+- Page `how_to_reprint_proforma_invoice.md` (Steps 1–3 + PDF result). Shots 01/02 reused from Right Fax as is; 03 = proforma PDF.
+- Print icon marked (spec q_rp02: box 64,128,116,161, at 111,172). Inline icon `icon_reprint.png`.
