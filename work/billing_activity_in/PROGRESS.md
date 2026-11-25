@@ -7,7 +7,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 |---|---|---|
 | Invoice Generation Single - (IN) › Cash Invoice | done (confirmed) | done |
 | Invoice Generation Single - (IN) › Credit Invoice | done (confirmed) | done |
-| Proforma Invoice Generation - Single | pending | pending |
+| Proforma Invoice Generation - Single | done | done |
 | Proforma Invoice Generation - Batch | pending | pending |
 | Proforma Invoice Query & Reversal (+ sub-functions) | pending | pending |
 
@@ -22,3 +22,8 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Manual project: `work/billing_activity_in/` (specs/ = mark specs in original coords)
 - Mapping project: `work/billing_activity_in_mapping/`
 - Not built yet. Planned outputs: `output/Billing & Reporting - Billing Activity (IN).gui` and `output/Billing & Reporting - Billing Activity Mapping (IN).gui` (names to confirm).
+
+## Proforma Invoice Generation - Single
+- Steps 1-8 (Step 7 Customer Name, Step 8 Check List & Process), alert, then "Upon clicking Ok, the Proforma Invoice pdf is displayed".
+- Broken glyphs (mojibake arrows/calendar/clock/refresh icons, alert title "â€‹") fixed: 01 query panel copied from Single Invoice 01 (offset -1,0, exact match); 02-04 arrows pasted from Single Invoice 03/04/05 (copy_from_neighbour_offset); 04 title re-centred. Originals in `raw/`.
+- Afsys shots were blurry: unsharp mask tuned per image to the existing Afsys mapping images' edge strength (grad99 ~760); red boxes kept as given. Originals in `Afsys/raw/`.
