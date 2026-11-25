@@ -1,0 +1,3 @@
+pages/invoice_generation_single_in.md
+  pages/how_to_generate_cash_invoice_in.md
+  pages/how_to_generate_credit_invoice_in.md
