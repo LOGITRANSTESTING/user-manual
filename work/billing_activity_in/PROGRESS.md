@@ -8,7 +8,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | Invoice Generation Single - (IN) › Cash Invoice | done (confirmed) | done |
 | Invoice Generation Single - (IN) › Credit Invoice | done (confirmed) | done |
 | Proforma Invoice Generation - Single | done | done |
-| Proforma Invoice Generation - Batch (+ How to view Address / Charges) | done (awaiting review) | pending (Afsys shots) |
+| Proforma Invoice Generation - Batch (+ How to view Address / Charges) | done (awaiting review) | done |
 | Proforma Invoice Query & Reversal (+ sub-functions) | pending | pending |
 
 ## Decisions (from user)

@@ -3,3 +3,4 @@ pages/billing_activity.md
     pages/in_cash.md
     pages/in_credit.md
   pages/in_pf_single.md
+  pages/in_pf_batch.md
