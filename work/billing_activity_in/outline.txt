@@ -7,3 +7,5 @@ pages/proforma_invoice_generation_batch.md
   pages/how_to_generate_batch_proforma_invoice.md
     pages/how_to_view_address_pf_batch.md
     pages/how_to_view_charges_pf_batch.md
+pages/proforma_invoice_query_reversal.md
+  pages/how_to_send_right_fax_pfq.md

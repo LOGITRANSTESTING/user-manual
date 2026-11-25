@@ -33,3 +33,8 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Steps 1-9: query+Search, select BLs, Billing Activity menu > Proforma Invoice, Invoice Date/Credit Customer/Due Date, Apply, success message, Check List & Process, result pop-up.
 - Address: pin icon of the first row marked; Charges: money-bag icon of the first row marked (separate shots, boxes = whole icon cell so the number does not cover the icon).
 - Glyph fixes (date pickers, ▼, refresh, success-bar ✕, pop-up close ✕ with hover glow removed, "â€‹" title prefix): /tmp scripts; donors = Proforma Single 01 (fixed), Single cash 03/04, Container Redelivery 02/3 (success ✕). Originals in `raw/` and `04 Address and Charges/raw/`.
+
+## Proforma Invoice Query & Reversal
+- How-tos: How to send Right Fax, How to reprint Proforma Invoice, How to cancel Proforma Invoice.
+- Right Fax: Steps 1-3 (query+Search, results, Right Fax icon = first row icon marked, number placed below the cell). Success bar "Right Fax Generated Successfully" built (user request): bar + ✕ from Batch 04, text from the TR Print/Re-Print Right Fax shot (same font/size).
+- All marked images must be `prep` → `mark` (house border); Batch images were re-done that way.

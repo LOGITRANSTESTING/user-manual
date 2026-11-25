@@ -1,5 +1,14 @@
 {
+ "source": "screenshots/Billing Activity IN/03 Proforma Invoice Generation - Batch/02.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
  "marked": true,
+ "size": [
+  1559,
+  902
+ ],
  "marks": [
   {
    "box": [
