@@ -6,3 +6,4 @@ pages/billing_activity.md
   pages/in_pf_batch.md
   pages/in_pf_query.md
     pages/in_pfq_reprint.md
+    pages/in_pfq_reversal.md
