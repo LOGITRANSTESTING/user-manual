@@ -49,4 +49,4 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Right Fax 03: cleaned Grand Total remnant row above the bar.
 
 ### Mapping – Query & Reversal
-- Parent `in_pf_query.md`; each sub-function on its own child page. Reprint: `in_pfq_reprint.md` (Afsys 01–06). Reversal: `in_pfq_reversal.md` (Afsys 01–05, ILIS cancel 01–04). Right Fax Afsys pending.
+- Parent `in_pf_query.md`; each sub-function on its own child page. Reprint: `in_pfq_reprint.md` (Afsys 01–06). Reversal: `in_pfq_reversal.md` (Afsys 01–05, ILIS cancel 01–04). Right Fax: `in_pfq_rightfax.md` (Afsys 01–05, ILIS rightfax 01–03).
