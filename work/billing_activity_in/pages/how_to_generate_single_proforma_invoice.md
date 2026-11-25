@@ -16,3 +16,5 @@ status: Waiting
 ![](../img/in_pf_single_03.png)
 If successfully processed, an alert is shown as given below.
 ![](../img/in_pf_single_04.png)
+Upon clicking Ok, the Proforma Invoice pdf is displayed as given below.
+![](../img/in_pf_single_05.png)
