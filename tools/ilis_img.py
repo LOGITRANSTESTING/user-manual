@@ -195,6 +195,7 @@ def draw_circle(d, cx, cy, n, r=14):
 def mark(src, dst, spec, coords='raw', r=14, report=True):
     """spec: list of entries
        {"box":[x0,y0,x1,y1], "n":5, "kind":"button|tall|line", "pos":"left|right|bottomleft|bottomright|topleft|topright"}
+       {"box":[...], "n":5, "at":[x,y]}              explicit circle centre (same coords as box)
        {"box":[...], "n":null}                       unnumbered context box
        {"pair":{"big":[...],"btn":[...]}, "n":3, "type":"query|popup"}   two-box / one-number rule
        coords='raw' -> coordinates are on the ORIGINAL screenshot; converted using the prep sidecar."""
@@ -236,7 +237,9 @@ def mark(src, dst, spec, coords='raw', r=14, report=True):
             circles.append((cx, cy, n)); log.append((n, 'pair-' + e.get('type', 'query'), cx, cy)); continue
         box = e['box']; kind = e['kind']
         cands, P = candidates(box, kind)
-        if e.get('pos'):
+        if e.get('at'):
+            cx, cy = e['at'][0] + off_x, e['at'][1] + off_y; chosen = 'at'
+        elif e.get('pos'):
             k = e['pos']; cx, cy = P[k]; chosen = k
         else:
             chosen = None

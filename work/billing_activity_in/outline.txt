@@ -1,0 +1,13 @@
+pages/invoice_generation_single_in.md
+  pages/how_to_generate_cash_invoice_in.md
+  pages/how_to_generate_credit_invoice_in.md
+pages/proforma_invoice_generation_single.md
+  pages/how_to_generate_single_proforma_invoice.md
+pages/proforma_invoice_generation_batch.md
+  pages/how_to_generate_batch_proforma_invoice.md
+    pages/how_to_view_address_pf_batch.md
+    pages/how_to_view_charges_pf_batch.md
+pages/proforma_invoice_query_reversal.md
+  pages/how_to_send_right_fax_pfq.md
+  pages/how_to_reprint_proforma_invoice.md
+  pages/how_to_cancel_proforma_invoice.md
