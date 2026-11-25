@@ -1,3 +1,5 @@
 pages/invoice_generation_single_in.md
   pages/how_to_generate_cash_invoice_in.md
   pages/how_to_generate_credit_invoice_in.md
+pages/proforma_invoice_generation_single.md
+  pages/how_to_generate_single_proforma_invoice.md
