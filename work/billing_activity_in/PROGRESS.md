@@ -17,7 +17,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | E Invoice Operations › How to print E - Invoice | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | done (awaiting review) |
 | Credit Invoice - IT (Batch Function) › How to apply Credit Invoice | done (awaiting review) | pending (Afsys to come) |
-| Credit Invoice - IT (Batch Function) › 3 more How-tos | pending (screenshots to come) | pending |
+| Credit Invoice - IT (Batch Function) › How to Check List & Process Invoice | done (awaiting review) | pending (Afsys to come) |
 
 ## Decisions (from user)
 - One function at a time; user supplies ILISCyber then Afsys screenshots.
@@ -86,3 +86,4 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 ## Credit Invoice - IT (Batch Function)
 - Top-level parent `credit_invoice_it_batch.md` (after E Invoice Operations). Shots in `screenshots/Billing Activity IN/06 Credit Invoice - IT (Batch Function)/`.
 - How to apply Credit Invoice (`specs/ci_apply.json`, `img/in_ci_apply_01..04`): mirrors Proforma Batch steps 1-8 (query pair n1, checkboxes n3 tall, menu icon n4, Credit Invoice option n5 (blue already), fields Invoice Date/Credit Customer/Due Date/AR Group n7, Apply n8), success bar unmarked. User: no Address / Charges How-tos for this function; remaining How-tos to follow.
+- How to Check List & Process Invoice (`specs/ci_proc.json`, `img/in_ci_proc_01..02`): Steps 1-5 reuse in_ci_apply_01/02; Step 6 refers to How to apply; Check List & Process n7 bottomleft; result pop-up (Invoice generated successfully) unmarked.

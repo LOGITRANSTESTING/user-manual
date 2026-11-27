@@ -20,3 +20,4 @@ pages/e_invoice_operations.md
   pages/how_to_update_e_invoice_customer_details.md
 pages/credit_invoice_it_batch.md
   pages/how_to_apply_credit_invoice_it.md
+  pages/how_to_check_list_process_credit_invoice_it.md
