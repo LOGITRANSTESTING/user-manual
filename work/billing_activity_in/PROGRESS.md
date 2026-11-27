@@ -15,7 +15,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | E Invoice Operations › How to update Customer Details of E - Invoice | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to request E - Invoice Cancellation within 24 hrs | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to print E - Invoice | done (awaiting review) | pending (Afsys to come) |
-| E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | pending (Afsys to come) |
+| E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | done (awaiting review) |
 | Credit Invoice - IT (Batch Function) | pending | pending |
 
 ## Decisions (from user)
@@ -77,3 +77,4 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Parent `in_ein.md` (empty); one child per menu option, title "E Invoice Operations - <option>". Afsys shots (no red boxes, used as given) in `screenshots/Billing Activity IN/05 E Invoice Operations/Afsys/<prefix>_NN.png` -> `img/afsys_in_ein_<prefix>_NN.png`. ILISCyber = ilis_ov_01/02 + `mapping images/in_ein_<prefix>_*` -> `img/ilis_in_ein_<prefix>_*`.
 - Cancel Marking: `in_ein_cx.md` (Afsys 01-03: Single Function list, Cancel Marking pop-up, success alert).
 - Cancel Request 24 hrs: `in_ein_cr.md` (Afsys 01-03: Single Function list, Generate Cancel Request pop-up, success alert).
+- Reversal within 24 hrs: `in_ein_rv.md` (Afsys 01-02: Single Function list, success alert). Helper used: /tmp/einmap.sh (copies Afsys + ILIS mapping images, writes page, inserts in outline).
