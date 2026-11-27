@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity IN/05 E Invoice Operations/04.png",
+ "crop_left": 9,
+ "crop_right": 8,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1496,
+  879
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     540,
+     415,
+     1012,
+     540
+    ],
+    "btn": [
+     844,
+     556,
+     928,
+     588
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

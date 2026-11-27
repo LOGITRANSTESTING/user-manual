@@ -11,3 +11,13 @@ pages/proforma_invoice_query_reversal.md
   pages/how_to_send_right_fax_pfq.md
   pages/how_to_reprint_proforma_invoice.md
   pages/how_to_cancel_proforma_invoice.md
+pages/e_invoice_operations.md
+  pages/how_to_mark_e_invoice_cancelled.md
+  pages/how_to_request_e_invoice_cancellation_24hrs.md
+  pages/how_to_print_e_invoice.md
+  pages/how_to_regenerate_e_invoice_csv.md
+  pages/how_to_reverse_e_invoice_24hrs.md
+  pages/how_to_update_e_invoice_customer_details.md
+pages/credit_invoice_it_batch.md
+  pages/how_to_apply_credit_invoice_it.md
+  pages/how_to_check_list_process_credit_invoice_it.md

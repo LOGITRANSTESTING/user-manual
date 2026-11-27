@@ -1,0 +1,33 @@
+{
+ "source": "screenshots/Billing Activity IN/06 Credit Invoice - IT (Batch Function)/03.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1551,
+  900
+ ],
+ "marks": [
+  {
+   "box": [
+    18,
+    110,
+    1196,
+    166
+   ],
+   "n": 7
+  },
+  {
+   "box": [
+    1413,
+    132,
+    1487,
+    162
+   ],
+   "n": 8,
+   "pos": "bottomleft"
+  }
+ ]
+}

@@ -72,9 +72,10 @@ def main():
     p.add_argument('--set', action='append', default=[], help='name=value')
     sp.add_parser('fonts')
     p = sp.add_parser('preview'); p.add_argument('files', nargs='+'); p.add_argument('--out', required=True); p.add_argument('--labels')
-    p = sp.add_parser('gui'); p.add_argument('action', choices=['info', 'page', 'export', 'build', 'widths', 'remove'])
+    p = sp.add_parser('gui'); p.add_argument('action', choices=['info', 'page', 'export', 'build', 'widths', 'remove', 'insert'])
     p.add_argument('src'); p.add_argument('dst', nargs='?'); p.add_argument('--title'); p.add_argument('--out'); p.add_argument('--text', type=int, default=80)
     p.add_argument('--depth', type=int, default=99); p.add_argument('--match'); p.add_argument('--outline', default='outline.txt', help='outline file inside the project (build)')
+    p.add_argument('--donor', help='.gui to take pages from (insert)'); p.add_argument('--parent', help='page to append them under (insert)')
     a = ap.parse_args()
     if not a.cmd: ap.print_help(); return
 
@@ -179,6 +180,7 @@ def main():
             print(U.info(a.out, 60)); return
         if a.action == 'widths': print(json.dumps(U.widths(a.src, a.dst))); return
         if a.action == 'remove': print('removed:', U.remove_pages(a.src, a.dst, a.match)); return
+        if a.action == 'insert': print('inserted:', U.insert_pages(a.src, a.dst, a.donor, a.parent, a.match)); return
 
 
 if __name__ == '__main__':
