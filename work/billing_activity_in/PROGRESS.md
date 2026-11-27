@@ -9,7 +9,9 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | Invoice Generation Single - (IN) › Credit Invoice | done (confirmed) | done |
 | Proforma Invoice Generation - Single | done | done |
 | Proforma Invoice Generation - Batch (+ How to view Address / Charges) | done (awaiting review) | done |
-| Proforma Invoice Query & Reversal (+ sub-functions) | pending | pending |
+| Proforma Invoice Query & Reversal (+ sub-functions) | done | done |
+| E Invoice Operations › How to mark E - Invoice as Cancelled | done (awaiting review) | pending (Afsys to come) |
+| Credit Invoice - IT (Batch Function) | pending | pending |
 
 ## Decisions (from user)
 - One function at a time; user supplies ILISCyber then Afsys screenshots.
@@ -50,3 +52,10 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 
 ### Mapping – Query & Reversal
 - Parent `in_pf_query.md`; each sub-function on its own child page. Reprint: `in_pfq_reprint.md` (Afsys 01–06). Reversal: `in_pfq_reversal.md` (Afsys 01–05, ILIS cancel 01–04). Right Fax: `in_pfq_rightfax.md` (Afsys 01–05, ILIS rightfax 01–03).
+
+## E Invoice Operations
+- Screenshots: `screenshots/Billing Activity IN/05 E Invoice Operations/` (originals of edited shots in `raw/`). Spec `specs/ein_cx.json`, images `img/in_ein_cx_01..05`.
+- Flow (mirrors main manual How to cancel E-Invoice): 1 side icon, 3 query pair (BL Number box unnumbered), 5 row menu Cancel Marking, 7 pop-up pair + Submit, success unmarked.
+- 02 edited (user request): BL Number N651100284 typed (glyphs transplanted from the grid BL cell of raw/03).
+- 03 edited (user request, match pop-up shot): Total Records 101 -> 1, rows 2+ cleared (menu + shadow kept), scrollbar thumb removed, Status Printed -> Prepared.
+- Inline: icon_e_invoice_query, btn_submit_ein (cropped), icon_row_menu (from main manual).

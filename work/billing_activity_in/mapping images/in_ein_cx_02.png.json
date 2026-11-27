@@ -1,0 +1,41 @@
+{
+ "source": "screenshots/Billing Activity IN/05 E Invoice Operations/02.png",
+ "crop_left": 202,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1710,
+  951
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     212,
+     143,
+     1702,
+     277
+    ],
+    "btn": [
+     1547,
+     239,
+     1618,
+     270
+    ]
+   },
+   "n": null,
+   "type": "query"
+  },
+  {
+   "box": [
+    466,
+    174,
+    704,
+    204
+   ],
+   "n": null
+  }
+ ]
+}
