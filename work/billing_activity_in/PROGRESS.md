@@ -14,7 +14,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | E Invoice Operations › How to regenerate E - Invoice Request CSV | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to update Customer Details of E - Invoice | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to request E - Invoice Cancellation within 24 hrs | done (awaiting review) | done (awaiting review) |
-| E Invoice Operations › How to print E - Invoice | done (awaiting review) | pending (Afsys to come) |
+| E Invoice Operations › How to print E - Invoice | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | done (awaiting review) |
 | Credit Invoice - IT (Batch Function) | pending | pending |
 
@@ -80,3 +80,4 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Reversal within 24 hrs: `in_ein_rv.md` (Afsys 01-02: Single Function list, success alert). Helper used: /tmp/einmap.sh (copies Afsys + ILIS mapping images, writes page, inserts in outline).
 - Update Customer Details: `in_ein_ucd.md` (Afsys 01-03: Single Function list, Update customer details pop-up, "Updating Master also ?" alert).
 - Regenerate E-Invoice Request CSV: `in_ein_rg.md` (Afsys 01-03: Single Function list, Notes pop-up, success alert). Afsys has an extra Notes step not present in ILISCyber.
+- Printing: `in_ein_pr.md` (Afsys 01-02: Single Function list, tax invoice PDF). All six E Invoice Operations mapping pages done.
