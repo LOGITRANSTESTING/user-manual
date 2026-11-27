@@ -58,4 +58,6 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Flow (mirrors main manual How to cancel E-Invoice): 1 side icon, 3 query pair (BL Number box unnumbered), 5 row menu Cancel Marking, 7 pop-up pair + Submit, success unmarked.
 - 02 edited (user request): BL Number N651100284 typed (glyphs transplanted from the grid BL cell of raw/03).
 - 03 edited (user request, match pop-up shot): Total Records 101 -> 1, rows 2+ cleared (menu + shadow kept), scrollbar thumb removed, Status Printed -> Prepared.
+- 02: Invoice From/To Date cleared (empty date fields copied from 01 On Board From/To Date, same width).
+- 03: Cancel Marking option given the blue hover fill (204,230,255) as in the main mapping menu shots (amlc_02, grq_cancel_ei_03).
 - Inline: icon_e_invoice_query, btn_submit_ein (cropped), icon_row_menu (from main manual).
