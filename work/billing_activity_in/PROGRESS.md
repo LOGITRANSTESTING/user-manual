@@ -16,8 +16,8 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | E Invoice Operations › How to request E - Invoice Cancellation within 24 hrs | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to print E - Invoice | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | done (awaiting review) |
-| Credit Invoice - IT (Batch Function) › How to apply Credit Invoice | done (awaiting review) | pending (Afsys to come) |
-| Credit Invoice - IT (Batch Function) › How to Check List & Process Invoice | done (awaiting review) | pending (Afsys to come) |
+| Credit Invoice - IT (Batch Function) › How to apply Credit Invoice | done (awaiting review) | done (single page in_ci.md) |
+| Credit Invoice - IT (Batch Function) › How to Check List & Process Invoice | done (awaiting review) | done (single page in_ci.md) |
 
 ## Decisions (from user)
 - One function at a time; user supplies ILISCyber then Afsys screenshots.
@@ -87,3 +87,8 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Top-level parent `credit_invoice_it_batch.md` (after E Invoice Operations). Shots in `screenshots/Billing Activity IN/06 Credit Invoice - IT (Batch Function)/`.
 - How to apply Credit Invoice (`specs/ci_apply.json`, `img/in_ci_apply_01..04`): mirrors Proforma Batch steps 1-8 (query pair n1, checkboxes n3 tall, menu icon n4, Credit Invoice option n5 (blue already), fields Invoice Date/Credit Customer/Due Date/AR Group n7, Apply n8), success bar unmarked. User: no Address / Charges How-tos for this function; remaining How-tos to follow.
 - How to Check List & Process Invoice (`specs/ci_proc.json`, `img/in_ci_proc_01..02`): Steps 1-5 reuse in_ci_apply_01/02; Step 6 refers to How to apply; Check List & Process n7 bottomleft; result pop-up (Invoice generated successfully) unmarked.
+
+### Mapping – Credit Invoice - IT (Batch Function)
+- User: only one mapping page showing how the credit invoice is generated: `in_ci.md` (top level, after E Invoice Operations).
+- Afsys (`screenshots/.../06 Credit Invoice - IT (Batch Function)/Afsys/`, originals in `raw/`): 01 AFSYS+ Import Documentation boxed; 02 Imports Cash/Credit Invoice boxed; 03 Batch Credit Invoice with first-row Select tick pasted (from user's tick crop) + Checklist boxed; 04 checklist Notepad as given; 05 same tick + Process button re-inked to enabled + Process boxed; 06 Invoice generated status as given.
+- ILISCyber: ilis_ov_01/02 + mapping copies of in_ci_apply_01..04 and in_ci_proc_01..02 (ilis_in_ci_01..06).
