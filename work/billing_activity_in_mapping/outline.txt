@@ -10,3 +10,4 @@ pages/billing_activity.md
     pages/in_pfq_reversal.md
   pages/in_ein.md
     pages/in_ein_cx.md
+    pages/in_ein_cr.md
