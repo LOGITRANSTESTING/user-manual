@@ -64,4 +64,4 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - 03: Cancel Marking option given the blue hover fill (204,230,255) as in the main mapping menu shots (amlc_02, grq_cancel_ei_03).
 - Inline: icon_e_invoice_query, btn_submit_ein (cropped), icon_row_menu (from main manual).
 - Regenerate CSV (`specs/ein_rg.json`, `img/in_ein_rg_01..04`): 01/02 = same shots as Cancel Marking; 03 = `rg_03.png` (user shot: red box removed + tooltip over logo removed using the clean Cancel menu shot; option given blue fill); 04 success unmarked. Each menu option gets its own How to (user).
-- Query shot 02 (both how-tos): number 3 circle starts 2 px below the Search button, overlapping the red box edge (`at` [1582,280], user: circle top on the Search box bottom line); pair split into big box (no number) + tight Search box (kind line) because the pair rule ignores `at`.
+- Query shot 02 (both how-tos): number 3 circle starts 2 px below the Search button, overlapping the red box edge (`at` [1582,276], user: circle overlaps the Search box bottom edge); pair split into big box (no number) + tight Search box (kind line) because the pair rule ignores `at`.
