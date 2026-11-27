@@ -12,7 +12,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | Proforma Invoice Query & Reversal (+ sub-functions) | done | done |
 | E Invoice Operations › How to mark E - Invoice as Cancelled | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to regenerate E - Invoice Request CSV | done (awaiting review) | pending (Afsys to come) |
-| E Invoice Operations › How to update Customer Details of E - Invoice | done (awaiting review) | pending (Afsys to come) |
+| E Invoice Operations › How to update Customer Details of E - Invoice | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to request E - Invoice Cancellation within 24 hrs | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to print E - Invoice | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | done (awaiting review) |
@@ -78,3 +78,4 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Cancel Marking: `in_ein_cx.md` (Afsys 01-03: Single Function list, Cancel Marking pop-up, success alert).
 - Cancel Request 24 hrs: `in_ein_cr.md` (Afsys 01-03: Single Function list, Generate Cancel Request pop-up, success alert).
 - Reversal within 24 hrs: `in_ein_rv.md` (Afsys 01-02: Single Function list, success alert). Helper used: /tmp/einmap.sh (copies Afsys + ILIS mapping images, writes page, inserts in outline).
+- Update Customer Details: `in_ein_ucd.md` (Afsys 01-03: Single Function list, Update customer details pop-up, "Updating Master also ?" alert).
