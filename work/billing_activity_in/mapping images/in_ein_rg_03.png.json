@@ -1,0 +1,25 @@
+{
+ "source": "screenshots/Billing Activity IN/05 E Invoice Operations/rg_03.png",
+ "crop_left": 4,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": false,
+ "marked": true,
+ "size": [
+  1516,
+  884
+ ],
+ "marks": [
+  {
+   "box": [
+    230,
+    293,
+    450,
+    325
+   ],
+   "n": null,
+   "kind": "line",
+   "pos": "right"
+  }
+ ]
+}

@@ -11,6 +11,8 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | Proforma Invoice Generation - Batch (+ How to view Address / Charges) | done (awaiting review) | done |
 | Proforma Invoice Query & Reversal (+ sub-functions) | done | done |
 | E Invoice Operations › How to mark E - Invoice as Cancelled | done (awaiting review) | pending (Afsys to come) |
+| E Invoice Operations › How to regenerate E - Invoice Request CSV | done (awaiting review) | pending (Afsys to come) |
+| E Invoice Operations › other menu options (Cancel Request 24 hrs, Printing, Reversal within 24 hrs, Update Customer Details) | pending (UCD shots received) | pending |
 | Credit Invoice - IT (Batch Function) | pending | pending |
 
 ## Decisions (from user)
@@ -61,3 +63,4 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - 02: Invoice From/To Date cleared (empty date fields copied from 01 On Board From/To Date, same width).
 - 03: Cancel Marking option given the blue hover fill (204,230,255) as in the main mapping menu shots (amlc_02, grq_cancel_ei_03).
 - Inline: icon_e_invoice_query, btn_submit_ein (cropped), icon_row_menu (from main manual).
+- Regenerate CSV (`specs/ein_rg.json`, `img/in_ein_rg_01..04`): 01/02 = same shots as Cancel Marking; 03 = `rg_03.png` (user shot: red box removed + tooltip over logo removed using the clean Cancel menu shot; option given blue fill); 04 success unmarked. Each menu option gets its own How to (user).
