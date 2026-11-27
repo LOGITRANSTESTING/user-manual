@@ -86,3 +86,4 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 ## Credit Invoice - IT (Batch Function)
 - Top-level parent `credit_invoice_it_batch.md` (after E Invoice Operations). Shots in `screenshots/Billing Activity IN/06 Credit Invoice - IT (Batch Function)/`.
 - How to apply Credit Invoice (`specs/ci_apply.json`, `img/in_ci_apply_01..04`): mirrors Proforma Batch steps 1-8 (query pair n1, checkboxes n3 tall, menu icon n4, Credit Invoice option n5 (blue already), fields Invoice Date/Credit Customer/Due Date/AR Group n7, Apply n8), success bar unmarked. User: 3 more How-tos to follow.
+- How to view Address (`specs/ci_addr.json`, `img/in_ci_addr_01..02`): child of How to apply Credit Invoice (as in Proforma Batch). 01 pin icon of first row n1; 02 Address pop-up unmarked. Shots in `06 .../05 Address and Charges/`.
