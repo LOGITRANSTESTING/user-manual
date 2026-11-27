@@ -10,13 +10,12 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | Proforma Invoice Generation - Single | done | done |
 | Proforma Invoice Generation - Batch (+ How to view Address / Charges) | done (awaiting review) | done |
 | Proforma Invoice Query & Reversal (+ sub-functions) | done | done |
-| E Invoice Operations › How to mark E - Invoice as Cancelled | done (awaiting review) | pending (Afsys to come) |
+| E Invoice Operations › How to mark E - Invoice as Cancelled | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to regenerate E - Invoice Request CSV | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to update Customer Details of E - Invoice | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to request E - Invoice Cancellation within 24 hrs | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to print E - Invoice | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | pending (Afsys to come) |
-| E Invoice Operations › other menu options (Cancel Request 24 hrs, Printing, Reversal within 24 hrs, Update Customer Details) | pending (UCD shots received) | pending |
 | Credit Invoice - IT (Batch Function) | pending | pending |
 
 ## Decisions (from user)
@@ -73,3 +72,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Reversal within 24 hrs (`specs/ein_rv.json`, `img/in_ein_rv_01..04`): 01/02 = same shots as Cancel Marking; 03 = `rv_03.png` (blue highlight already in user shot) n5; 04 success "Reversal option done for this invoice ..." unmarked. 
 - Printing (`specs/ein_pr.json`, `img/in_ein_pr_01..04`): 01/02 = same shots as Cancel Marking; 03 = `pr_03.png` (blue highlight already in user shot) n5; 04 = tax invoice PDF unmarked. All six menu options now have a How to.
 - Query shot 02 (both how-tos): number 3 circle starts 2 px below the Search button, overlapping the red box edge (`at` [1582,276], user: circle overlaps the Search box bottom edge); pair split into big box (no number) + tight Search box (kind line) because the pair rule ignores `at`.
+
+### Mapping – E Invoice Operations
+- Parent `in_ein.md` (empty); one child per menu option, title "E Invoice Operations - <option>". Afsys shots (no red boxes, used as given) in `screenshots/Billing Activity IN/05 E Invoice Operations/Afsys/<prefix>_NN.png` -> `img/afsys_in_ein_<prefix>_NN.png`. ILISCyber = ilis_ov_01/02 + `mapping images/in_ein_<prefix>_*` -> `img/ilis_in_ein_<prefix>_*`.
+- Cancel Marking: `in_ein_cx.md` (Afsys 01-03: Single Function list, Cancel Marking pop-up, success alert).
