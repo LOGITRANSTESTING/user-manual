@@ -14,6 +14,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | E Invoice Operations › How to regenerate E - Invoice Request CSV | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to update Customer Details of E - Invoice | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to request E - Invoice Cancellation within 24 hrs | done (awaiting review) | pending (Afsys to come) |
+| E Invoice Operations › How to print E - Invoice | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | pending (Afsys to come) |
 | E Invoice Operations › other menu options (Cancel Request 24 hrs, Printing, Reversal within 24 hrs, Update Customer Details) | pending (UCD shots received) | pending |
 | Credit Invoice - IT (Batch Function) | pending | pending |
@@ -69,5 +70,6 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Regenerate CSV (`specs/ein_rg.json`, `img/in_ein_rg_01..04`): 01/02 = same shots as Cancel Marking; 03 = `rg_03.png` (user shot: red box removed + tooltip over logo removed using the clean Cancel menu shot; option given blue fill); 04 success unmarked. Each menu option gets its own How to (user).
 - Update Customer Details (`specs/ein_ucd.json`, `img/in_ein_ucd_01..06`): 01/02 = same shots as Cancel Marking; 03 = `ucd_03.png` (blue highlight already in user shot) n5; 04 pop-up pair n7 (Submit); 05 Alert "Updating Master also ?" Yes n9 topright (inline `btn_yes_ucd.png`); 06 success unmarked. 
 - Cancel Request 24 hrs (`specs/ein_cr.json`, `img/in_ein_cr_01..05`): 01/02 = same shots as Cancel Marking; 03 = `cr_03.png` (raw in `raw/cr_03.png`: grey focus outline removed, blue fill added) n5; 04 pop-up pair n7 (Submit); 05 success "Generate cancel request CSV successfully." unmarked.
-- Reversal within 24 hrs (`specs/ein_rv.json`, `img/in_ein_rv_01..04`): 01/02 = same shots as Cancel Marking; 03 = `rv_03.png` (blue highlight already in user shot) n5; 04 success "Reversal option done for this invoice ..." unmarked. Only Printing remains.
+- Reversal within 24 hrs (`specs/ein_rv.json`, `img/in_ein_rv_01..04`): 01/02 = same shots as Cancel Marking; 03 = `rv_03.png` (blue highlight already in user shot) n5; 04 success "Reversal option done for this invoice ..." unmarked. 
+- Printing (`specs/ein_pr.json`, `img/in_ein_pr_01..04`): 01/02 = same shots as Cancel Marking; 03 = `pr_03.png` (blue highlight already in user shot) n5; 04 = tax invoice PDF unmarked. All six menu options now have a How to.
 - Query shot 02 (both how-tos): number 3 circle starts 2 px below the Search button, overlapping the red box edge (`at` [1582,276], user: circle overlaps the Search box bottom edge); pair split into big box (no number) + tight Search box (kind line) because the pair rule ignores `at`.
