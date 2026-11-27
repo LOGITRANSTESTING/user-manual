@@ -16,7 +16,8 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 | E Invoice Operations › How to request E - Invoice Cancellation within 24 hrs | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to print E - Invoice | done (awaiting review) | done (awaiting review) |
 | E Invoice Operations › How to reverse E - Invoice within 24 hrs | done (awaiting review) | done (awaiting review) |
-| Credit Invoice - IT (Batch Function) | pending | pending |
+| Credit Invoice - IT (Batch Function) › How to apply Credit Invoice | done (awaiting review) | pending (Afsys to come) |
+| Credit Invoice - IT (Batch Function) › 3 more How-tos | pending (screenshots to come) | pending |
 
 ## Decisions (from user)
 - One function at a time; user supplies ILISCyber then Afsys screenshots.
@@ -81,3 +82,7 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - Update Customer Details: `in_ein_ucd.md` (Afsys 01-03: Single Function list, Update customer details pop-up, "Updating Master also ?" alert).
 - Regenerate E-Invoice Request CSV: `in_ein_rg.md` (Afsys 01-03: Single Function list, Notes pop-up, success alert). Afsys has an extra Notes step not present in ILISCyber.
 - Printing: `in_ein_pr.md` (Afsys 01-02: Single Function list, tax invoice PDF). All six E Invoice Operations mapping pages done.
+
+## Credit Invoice - IT (Batch Function)
+- Top-level parent `credit_invoice_it_batch.md` (after E Invoice Operations). Shots in `screenshots/Billing Activity IN/06 Credit Invoice - IT (Batch Function)/`.
+- How to apply Credit Invoice (`specs/ci_apply.json`, `img/in_ci_apply_01..04`): mirrors Proforma Batch steps 1-8 (query pair n1, checkboxes n3 tall, menu icon n4, Credit Invoice option n5 (blue already), fields Invoice Date/Credit Customer/Due Date/AR Group n7, Apply n8), success bar unmarked. User: 3 more How-tos to follow.

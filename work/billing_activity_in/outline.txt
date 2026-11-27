@@ -18,3 +18,5 @@ pages/e_invoice_operations.md
   pages/how_to_regenerate_e_invoice_csv.md
   pages/how_to_reverse_e_invoice_24hrs.md
   pages/how_to_update_e_invoice_customer_details.md
+pages/credit_invoice_it_batch.md
+  pages/how_to_apply_credit_invoice_it.md
