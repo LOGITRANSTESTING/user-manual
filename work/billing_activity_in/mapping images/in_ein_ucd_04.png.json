@@ -1,0 +1,32 @@
+{
+ "source": "screenshots/Billing Activity IN/05 E Invoice Operations/ucd_04.png",
+ "crop_left": 5,
+ "crop_right": 0,
+ "border": 0,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1507,
+  885
+ ],
+ "marks": [
+  {
+   "pair": {
+    "big": [
+     540,
+     318,
+     1005,
+     660
+    ],
+    "btn": [
+     840,
+     677,
+     924,
+     709
+    ]
+   },
+   "n": null,
+   "type": "popup"
+  }
+ ]
+}

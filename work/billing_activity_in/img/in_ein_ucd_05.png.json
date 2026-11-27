@@ -1,0 +1,24 @@
+{
+ "source": "screenshots/Billing Activity IN/05 E Invoice Operations/ucd_05.png",
+ "crop_left": 0,
+ "crop_right": 0,
+ "border": 21,
+ "dimmed": true,
+ "marked": true,
+ "size": [
+  1553,
+  914
+ ],
+ "marks": [
+  {
+   "box": [
+    585,
+    504,
+    750,
+    537
+   ],
+   "n": 9,
+   "pos": "topright"
+  }
+ ]
+}

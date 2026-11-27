@@ -14,3 +14,4 @@ pages/proforma_invoice_query_reversal.md
 pages/e_invoice_operations.md
   pages/how_to_mark_e_invoice_cancelled.md
   pages/how_to_regenerate_e_invoice_csv.md
+  pages/how_to_update_e_invoice_customer_details.md
