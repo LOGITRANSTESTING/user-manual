@@ -1,6 +1,6 @@
 # Billing Activity (IN) — progress
 
-Separate manual + mapping documents holding only the IN functions (not merged into the main Billing Activity .gui).
+Separate manual + mapping documents holding only the IN functions. The manual is also merged into the release manual (see "Merge into the release manual").
 
 ## Scope
 | Function | Manual | Mapping |
@@ -92,3 +92,9 @@ Separate manual + mapping documents holding only the IN functions (not merged in
 - User: only one mapping page showing how the credit invoice is generated: `in_ci.md` (top level, after E Invoice Operations).
 - Afsys (`screenshots/.../06 Credit Invoice - IT (Batch Function)/Afsys/`, originals in `raw/`): 01 AFSYS+ Import Documentation boxed; 02 Imports Cash/Credit Invoice boxed; 03 Batch Credit Invoice with first-row Select tick pasted (from user's tick crop) + Checklist boxed; 04 checklist Notepad as given; 05 same tick + Process button re-inked to enabled + Process boxed; 06 Invoice generated status as given.
 - ILISCyber: ilis_ov_01/02 + mapping copies of in_ci_apply_01..04 and in_ci_proc_01..02 (ilis_in_ci_01..06).
+
+## Merge into the release manual
+- User: merge this manual into the release manual (release `Usermanualsources`, asset `Billing.Reporting.-.Billing.Activity.gui`; `gh release download Usermanualsources`).
+- `work/billing_activity_in/merge.sh <release .gui>` rebuilds the IN manual and writes `output/Billing & Reporting - Billing Activity (with IN).gui` using `ilis.py gui insert` (raw-text insert; release content otherwise byte-for-byte, help_ids renumbered, nodes_count updated).
+- Placement (user): Group Functions end <- Proforma Invoice Generation - Batch, Credit Invoice - IT (Batch Function); Side Functions end <- Invoice Generation Single - (IN), Proforma Invoice Generation - Single, Proforma Invoice Query & Reversal, E Invoice Operations.
+- Re-run merge.sh after any IN page change (e.g. definitions).

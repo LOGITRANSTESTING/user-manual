@@ -417,3 +417,40 @@ def remove_pages(src, dst, pattern):
     Path(dst).write_text(s, encoding='utf-8', newline='')
     ET.fromstring(s.encode('utf-8'))
     return removed
+
+
+def _module_spans(s):
+    """(start, end, title, depth) for every <module> in raw .gui text."""
+    out, stack = [], []
+    for m in re.finditer(r'<module>|</module>', s):
+        if m.group() == '<module>': stack.append(m.start())
+        else:
+            st = stack.pop()
+            t = re.match(r'<module>.*?<m_title><!\[CDATA\[(.*?)\]\]></m_title>', s[st:m.end()], re.S)
+            out.append((st, m.end(), t.group(1) if t else '', len(stack)))
+    return sorted(out)
+
+
+def insert_pages(src, dst, donor, parent, pattern):
+    """Append the donor's pages whose title matches pattern (topmost matches, donor order, with children)
+    as the last children of the page titled parent in src. Raw text: everything else stays byte-for-byte."""
+    s = Path(src).read_text(encoding='utf-8'); d = Path(donor).read_text(encoding='utf-8')
+    rx = re.compile(pattern, re.I); picked, end = [], -1
+    for st, en, t, _ in _module_spans(d):
+        if st >= end and rx.search(t): picked.append(d[st:en]); end = en
+    if not picked: raise SystemExit('no donor page matches %r' % pattern)
+    hits = [(st, en) for st, en, t, _ in _module_spans(s) if t == parent]
+    if len(hits) != 1: raise SystemExit('%d pages titled %r in %s' % (len(hits), parent, src))
+    st, en = hits[0]; mod = s[st:en]
+    hid = [max(int(x) for x in re.findall(r'<help_id>(\d+)</help_id>', s))]
+
+    def renum(m): hid[0] += 1; return '<help_id>%d</help_id>' % hid[0]
+    add = ''.join(re.sub(r'<help_id>\d+</help_id>', renum, p) for p in picked)
+    if mod.endswith('<pages/></module>'): mod = mod[:-len('<pages/></module>')] + '<pages>' + add + '</pages></module>'
+    elif mod.endswith('</pages></module>'): mod = mod[:-len('</pages></module>')] + add + '</pages></module>'
+    else: raise SystemExit('unexpected end of page %r' % parent)
+    s = s[:st] + mod + s[en:]
+    s = re.sub(r'<nodes_count>\d+</nodes_count>', '<nodes_count>%d</nodes_count>' % (len(re.findall(r'<module>', s)) + 1), s, count=1)
+    Path(dst).write_text(s, encoding='utf-8', newline='')
+    ET.fromstring(s.encode('utf-8'))
+    return [re.search(r'<m_title><!\[CDATA\[(.*?)\]\]>', p).group(1) for p in picked]
